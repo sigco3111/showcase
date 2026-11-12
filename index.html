@@ -7,14 +7,17 @@
 <meta name="description" content="sigco3111의 대표 저장소와 공개 프로젝트 모음">
 <style>
   :root {
-    --ink: #251f21;
-    --ink-2: #585254;
-    --hairline: #eae9ea;
-    --bg: #fbfaf9;
-    --orig: #2e7d52;
-    --orig-bg: #eef6f1;
-    --fork: #7a4fa3;
-    --fork-bg: #f5f0fa;
+    --ink: #232a35;
+    --ink-2: #5b6470;
+    --hairline: #e6e7ea;
+    --bg: #f4f4f2;
+    --night: #1d2547;
+    --night-2: #2a3462;
+    --orig: #1e9e5f;
+    --orig-bg: #e4f6ec;
+    --fork: #6d5bd0;
+    --fork-bg: #efecfc;
+    --amber: #f2b544;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -23,66 +26,99 @@
     color: var(--ink);
     line-height: 1.6;
   }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 48px 20px 64px; }
-  header { margin-bottom: 40px; }
-  h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
-  .sub { color: var(--ink-2); margin-top: 6px; font-size: 15px; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 40px 20px 64px; }
+
+  /* --- 히어로: 복셀 나이트 씬 --- */
+  .hero {
+    position: relative; overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0 rgba(29,37,71,.18);
+    margin-bottom: 36px;
+    min-height: 250px;
+    display: flex; align-items: center;
+    background: var(--night) url('1-hero-scene.png') right center / cover no-repeat;
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(90deg, rgba(17,22,45,.82) 0%, rgba(17,22,45,.55) 38%, rgba(17,22,45,0) 62%);
+  }
+  .hero-inner { position: relative; padding: 40px 36px; max-width: 62%; }
+  .hero .eyebrow {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 12px; font-weight: 700; letter-spacing: .18em;
+    color: #63e6a4; text-transform: uppercase; margin-bottom: 10px;
+  }
+  .hero .eyebrow::before { content: ''; width: 8px; height: 8px; background: #63e6a4; box-shadow: 2px 2px 0 rgba(99,230,164,.4); }
+  .hero h1 { font-size: 42px; font-weight: 800; letter-spacing: -0.02em; color: #fff; text-shadow: 2px 2px 0 rgba(17,22,45,.6); }
+  .hero .sub { color: rgba(235,240,255,.85); margin-top: 8px; font-size: 15px; }
+  .hero .voxel-strip { display: flex; gap: 6px; margin-top: 16px; }
+  .hero .voxel-strip i { width: 10px; height: 10px; display: block; }
+  .hero .voxel-strip i:nth-child(1) { background: #3ecf82; box-shadow: 2px 2px 0 rgba(62,207,130,.4); }
+  .hero .voxel-strip i:nth-child(2) { background: #8f7ff0; box-shadow: 2px 2px 0 rgba(143,127,240,.4); }
+  .hero .voxel-strip i:nth-child(3) { background: #f2b544; box-shadow: 2px 2px 0 rgba(242,181,68,.4); }
+  .hero .voxel-strip i:nth-child(4) { background: #5f8fff; box-shadow: 2px 2px 0 rgba(95,143,255,.4); }
+  .hero .voxel-strip i:nth-child(5) { background: rgba(255,255,255,.35); }
+
   .section-label {
     display: flex; align-items: center; gap: 8px;
-    font-size: 17px; font-weight: 700;
-    margin: 36px 0 16px; padding-bottom: 8px;
-    border-bottom: 2px solid;
+    font-size: 18px; font-weight: 800;
+    margin: 36px 0 16px; padding-bottom: 10px;
+    border-bottom: 3px solid;
   }
   .section-label.orig { color: var(--orig); border-color: var(--orig); }
   .section-label.fork { color: var(--fork); border-color: var(--fork); }
   .section-label.exp { color: var(--ink-2); border-color: var(--hairline); }
-  .section-label .dot { width: 12px; height: 12px; border-radius: 50%; }
-  .section-label.orig .dot { background: var(--orig); }
-  .section-label.fork .dot { background: var(--fork); }
-  .section-label.exp .dot { background: var(--ink-2); }
+  .section-label .dot { width: 13px; height: 13px; border-radius: 2px; }
+  .section-label.orig .dot { background: var(--orig); box-shadow: 3px 3px 0 rgba(30,158,95,.35); }
+  .section-label.fork .dot { background: var(--fork); box-shadow: 3px 3px 0 rgba(109,91,208,.35); }
+  .section-label.exp .dot { background: var(--ink-2); box-shadow: 3px 3px 0 rgba(91,100,112,.3); }
   .section-label .count { font-size: 13px; font-weight: 400; color: var(--ink-2); }
   .section-desc { font-size: 13px; color: var(--ink-2); margin: -8px 0 16px; }
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 16px;
+    gap: 18px;
   }
   .card {
     background: #fff;
     border: 1px solid var(--hairline);
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
     display: flex; flex-direction: column;
   }
+  .card.orig { box-shadow: 5px 5px 0 rgba(30,158,95,.18); }
+  .card.fork { box-shadow: 5px 5px 0 rgba(109,91,208,.20); }
   .card .thumb {
     aspect-ratio: 16 / 9;
     background: var(--orig-bg);
     display: flex; align-items: center; justify-content: center;
     color: var(--ink-2); font-size: 13px;
     position: relative; overflow: hidden; min-height: 0;
+    border-bottom: 3px solid var(--orig);
   }
-  .card.fork .thumb { background: var(--fork-bg); }
+  .card.fork .thumb { background: var(--fork-bg); border-bottom-color: var(--fork); }
   .card .thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
   .card .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
   .card .name { font-weight: 700; font-size: 16px; word-break: break-all; }
   .card .badges { display: flex; gap: 6px; flex-wrap: wrap; }
   .badge {
-    font-size: 11px; padding: 2px 8px; border-radius: 999px;
-    border: 1px solid var(--hairline); color: var(--ink-2);
+    font-size: 11px; padding: 2px 8px; border-radius: 4px;
+    border: 1px solid var(--hairline); color: var(--ink-2); background: #fff;
   }
-  .badge.kind-orig { color: var(--orig); border-color: var(--orig); }
-  .badge.kind-fork { color: var(--fork); border-color: var(--fork); }
+  .badge.kind-orig { color: var(--orig); border-color: var(--orig); background: var(--orig-bg); font-weight: 600; }
+  .badge.kind-fork { color: var(--fork); border-color: var(--fork); background: var(--fork-bg); font-weight: 600; }
   .card .desc { font-size: 13px; color: var(--ink-2); flex: 1; }
   .card .links { display: flex; gap: 8px; margin-top: 4px; }
   .card .links a {
     font-size: 13px; font-weight: 600; text-decoration: none;
-    padding: 6px 12px; border-radius: 6px; border: 1px solid var(--hairline);
+    padding: 6px 12px; border-radius: 5px; border: 1px solid var(--hairline);
     color: var(--ink);
   }
-  .card .links a.demo { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .card .links a.demo { background: var(--night); color: #fff; border-color: var(--night); box-shadow: 3px 3px 0 rgba(29,37,71,.30); }
   .exp-list {
-    background: #fff; border: 1px solid var(--hairline); border-radius: 12px;
+    background: #fff; border: 1px solid var(--hairline); border-radius: 8px;
     overflow: hidden;
+    box-shadow: 5px 5px 0 rgba(29,37,71,.10);
   }
   .exp-row {
     display: flex; align-items: baseline; gap: 10px;
@@ -99,7 +135,7 @@
   .exp-row .exp-live { font-size: 12px; color: var(--ink-2); text-decoration: none; flex-shrink: 0; }
   .exp-row .exp-live:hover { text-decoration: underline; }
   .empty {
-    border: 1px dashed var(--hairline); border-radius: 12px;
+    border: 1px dashed var(--hairline); border-radius: 8px;
     padding: 24px 20px; text-align: center; color: var(--ink-2);
     background: #fff; font-size: 14px; margin-bottom: 8px;
   }
@@ -109,68 +145,99 @@
   /* --- 검색/필터 툴바 --- */
   .toolbar {
     position: sticky; top: 0; z-index: 50;
-    background: rgba(251,250,249,.92); backdrop-filter: blur(8px);
+    background: rgba(244,244,242,.93); backdrop-filter: blur(8px);
     padding: 12px 0 10px; margin: -8px 0 8px;
     border-bottom: 1px solid var(--hairline);
   }
   .search-box {
     display: flex; align-items: center; gap: 8px;
-    background: #fff; border: 1px solid var(--hairline); border-radius: 10px;
+    background: #fff; border: 1px solid var(--hairline); border-radius: 8px;
     padding: 10px 14px; transition: border-color .15s, box-shadow .15s;
   }
-  .search-box:focus-within { border-color: var(--ink); box-shadow: 0 0 0 3px rgba(37,31,33,.06); }
+  .search-box:focus-within { border-color: var(--night); box-shadow: 4px 4px 0 rgba(29,37,71,.15); }
   .search-icon { font-size: 14px; opacity: .55; }
   #q {
     border: none; outline: none; flex: 1; font-size: 15px;
     font-family: inherit; background: transparent; color: var(--ink);
   }
   .filters { display: flex; align-items: center; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
-  .kind-filter { display: flex; gap: 0; border: 1px solid var(--hairline); border-radius: 999px; overflow: hidden; background: #fff; flex-shrink: 0; }
+  .kind-filter { display: flex; gap: 0; border: 1px solid var(--hairline); border-radius: 8px; overflow: hidden; background: #fff; flex-shrink: 0; }
   .kind-filter button {
     border: none; background: transparent; padding: 6px 14px; font-size: 13px;
     font-family: inherit; color: var(--ink-2); cursor: pointer; transition: background .15s, color .15s;
   }
-  .kind-filter button.on { background: var(--ink); color: #fff; }
+  .kind-filter button.on { background: var(--night); color: #fff; }
   .chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; flex: 1; }
   .chip {
     border: 1px solid var(--hairline); background: #fff; border-radius: 999px;
     padding: 5px 12px; font-size: 12px; font-family: inherit; color: var(--ink-2);
     cursor: pointer; white-space: nowrap; transition: all .15s;
   }
-  .chip.on { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .chip.on { background: var(--night); border-color: var(--night); color: #fff; box-shadow: 2px 2px 0 rgba(29,37,71,.3); }
   .result-count { margin-top: 8px; font-size: 12px; color: var(--ink-2); }
   /* --- 카드/행 폴리시 --- */
   .card { transition: transform .18s ease, box-shadow .18s ease; }
-  .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(37,31,33,.09); }
+  .card.orig:hover { transform: translate(-2px,-3px); box-shadow: 7px 8px 0 rgba(30,158,95,.26); }
+  .card.fork:hover { transform: translate(-2px,-3px); box-shadow: 7px 8px 0 rgba(109,91,208,.28); }
   .card .thumb img { transition: transform .3s ease; }
   .card:hover .thumb img { transform: scale(1.03); }
-  .card .links a { transition: background .15s, color .15s, border-color .15s; }
+  .card .links a { transition: background .15s, color .15s, border-color .15s, box-shadow .15s, transform .15s; }
   .card .links a:hover { border-color: var(--ink); }
-  .card .links a.demo:hover { background: #000; }
+  .card .links a.demo:hover { background: var(--night-2); transform: translate(-1px,-1px); box-shadow: 4px 4px 0 rgba(29,37,71,.36); }
   .exp-row { transition: background .12s; }
-  .exp-row:hover { background: #faf7f5; }
+  .exp-row:hover { background: #f2f4fa; }
   /* --- 맨 위로 --- */
   #toTop {
     position: fixed; right: 24px; bottom: 24px; z-index: 60;
-    width: 44px; height: 44px; border-radius: 50%;
+    width: 44px; height: 44px; border-radius: 8px;
     border: 1px solid var(--hairline); background: #fff; color: var(--ink);
-    font-size: 18px; cursor: pointer; box-shadow: 0 4px 14px rgba(37,31,33,.12);
+    font-size: 18px; cursor: pointer; box-shadow: 3px 3px 0 rgba(29,37,71,.2);
     opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s;
     transform: translateY(6px);
   }
   #toTop.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
-  #toTop:hover { border-color: var(--ink); }
+  #toTop:hover { border-color: var(--night); }
+
+
+  /* --- 파티클 히어로 FX --- */
+  .hero .fx-canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; }
+  .hero-inner { z-index: 2; }
+  html.motion.fx .hero h1 .fx-title { color: transparent; text-shadow: none; }
+  /* --- 스크롤 모션 (prefers-reduced-motion 시 JS가 활성화하지 않음) --- */
+  html.motion .card, html.motion .exp-row, html.motion .section-label { opacity: 0; }
+  html.motion .card.in, html.motion .exp-row.in, html.motion .section-label.in {
+    opacity: 1;
+    animation: rise .55s cubic-bezier(.22,1,.36,1) both;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(26px) scale(.985); }
+    to { opacity: 1; transform: none; }
+  }
+  html.motion .section-label.in .dot { animation: dotpop .5s cubic-bezier(.34,1.56,.64,1) both; }
+  @keyframes dotpop {
+    from { transform: scale(0) rotate(-20deg); }
+    to { transform: scale(1) rotate(0); }
+  }
   @media (max-width: 640px) {
     .filters { flex-direction: column; align-items: stretch; }
     .chips { order: 2; }
+    .hero { min-height: 0; background-position: 72% center; }
+    .hero-inner { padding: 28px 22px; max-width: 100%; }
+    .hero::before { background: linear-gradient(90deg, rgba(17,22,45,.78) 0%, rgba(17,22,45,.45) 100%); }
+    .hero h1 { font-size: 26px; }
   }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>대표 저장소</h1>
-    <p class="sub">sigco3111의 대표 프로젝트와 공개 저장소 모음</p>
+  <header class="hero">
+    <canvas class="fx-canvas" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="eyebrow">sigco3111 · github</div>
+      <h1><span class="fx-title">대표 저장소</span></h1>
+      <p class="sub">sigco3111의 대표 프로젝트와 공개 저장소 모음</p>
+      <div class="voxel-strip" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
   </header>
   <div class="toolbar">
     <div class="search-box">
@@ -327,5 +394,182 @@ toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smoot
 
 render();
 </script>
+
+<script>
+// 스크롤 리빌 + 히어로 패럴랙스. prefers-reduced-motion이면 아무것도 하지 않아 콘텐츠가 즉시 그대로 보임.
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  document.documentElement.classList.add('motion');
+
+  var io = new IntersectionObserver(function (entries) {
+    var hit = entries.filter(function (e) { return e.isIntersecting; });
+    hit.forEach(function (e, i) {
+      var el = e.target;
+      el.style.animationDelay = Math.min(i * 45, 360) + 'ms';
+      el.classList.add('in');
+      io.unobserve(el);
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -6% 0px' });
+
+  function setupReveals() {
+    document.querySelectorAll('.card:not(.in), .exp-row:not(.in), .section-label:not(.in)').forEach(function (el) {
+      io.observe(el);
+    });
+  }
+
+  // render()가 필터링으로 DOM을 다시 그릴 때마다 새 요소에 리빌 적용
+  if (typeof render === 'function') {
+    var _render = render;
+    render = function () { _render(); window.requestAnimationFrame(setupReveals); };
+  }
+  setupReveals();
+
+  // 히어로 패럴랙스 (가볍게)
+  var hero = document.querySelector('.hero');
+  if (hero) {
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(function () {
+        var y = Math.min(window.scrollY * 0.22, 70);
+        hero.style.backgroundPosition = 'right calc(50% + ' + y + 'px)';
+        ticking = false;
+      });
+    }, { passive: true });
+  }
+})();
+</script>
+
+<script>
+// 파티클 히어로: 제목이 빛나는 파티클로 모핑 + 야경 별/잔광 + 마우스 반발 (instinct-nexus 스타일, 2D 캔버스 경량 구현)
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var hero = document.querySelector('.hero');
+  var canvas = hero && hero.querySelector('.fx-canvas');
+  var titleEl = hero && hero.querySelector('.hero h1');
+  if (!hero || !canvas || !titleEl) return;
+
+  var ctx = canvas.getContext('2d');
+  var DPR = Math.min(window.devicePixelRatio || 1, 2);
+  var W = 0, H = 0, particles = [], stars = [], mouse = { x: -9999, y: -9999 };
+  var PALETTE = ['#8ff5c0', '#63e6a4', '#b7a8ff', '#8f7ff0', '#ffd98a', '#9fc0ff', '#ffffff'];
+
+  function sampleText() {
+    var r = titleEl.getBoundingClientRect();
+    var hr = hero.getBoundingClientRect();
+    var off = document.createElement('canvas');
+    var cs = getComputedStyle(titleEl);
+    off.width = Math.max(1, Math.ceil(r.width));
+    off.height = Math.max(1, Math.ceil(r.height));
+    var o = off.getContext('2d');
+    o.font = cs.fontWeight + ' ' + cs.fontSize + ' ' + cs.fontFamily;
+    o.textBaseline = 'middle';
+    o.fillStyle = '#fff';
+    o.fillText(titleEl.textContent, 0, off.height / 2);
+    var data = o.getImageData(0, 0, off.width, off.height).data;
+    var pts = [];
+    var step = Math.max(2, Math.round(off.width / 300));
+    for (var y = 0; y < off.height; y += step)
+      for (var x = 0; x < off.width; x += step)
+        if (data[(y * off.width + x) * 4 + 3] > 128)
+          pts.push({ x: r.left - hr.left + x, y: r.top - hr.top + y });
+    return pts;
+  }
+
+  function build() {
+    W = hero.clientWidth; H = hero.clientHeight;
+    canvas.width = W * DPR; canvas.height = H * DPR;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    var pts = sampleText();
+    particles = pts.map(function (p, i) {
+      return {
+        x: Math.random() * W, y: Math.random() * H,
+        vx: 0, vy: 0, tx: p.x, ty: p.y,
+        c: PALETTE[i % PALETTE.length],
+        s: 1.5 + Math.random() * 1.6,
+        tw: Math.random() * Math.PI * 2
+      };
+    });
+    stars = [];
+    for (var i = 0; i < 140; i++) stars.push({
+      x: Math.random() * W, y: Math.random() * H,
+      s: .5 + Math.random() * 1.2, tw: Math.random() * Math.PI * 2,
+      vx: (Math.random() - .5) * .06, vy: (Math.random() - .5) * .04
+    });
+    document.documentElement.classList.add('fx');
+  }
+
+  var t0 = performance.now(), running = true, raf = null;
+  function frame(now) {
+    if (!running) return;
+    var t = (now - t0) / 1000;
+    ctx.clearRect(0, 0, W, H);
+    // 별 잔광
+    ctx.globalCompositeOperation = 'lighter';
+    for (var i = 0; i < stars.length; i++) {
+      var st = stars[i];
+      st.x += st.vx; st.y += st.vy;
+      if (st.x < 0) st.x = W; if (st.x > W) st.x = 0;
+      if (st.y < 0) st.y = H; if (st.y > H) st.y = 0;
+      var a = .25 + .35 * (0.5 + 0.5 * Math.sin(t * 1.7 + st.tw));
+      ctx.globalAlpha = a;
+      ctx.fillStyle = '#cfe0ff';
+      ctx.fillRect(st.x, st.y, st.s, st.s);
+    }
+    // 제목 파티클
+    for (var j = 0; j < particles.length; j++) {
+      var p = particles[j];
+      var dx = p.tx - p.x, dy = p.ty - p.y;
+      p.vx += dx * .012; p.vy += dy * .012;
+      var mdx = p.x - mouse.x, mdy = p.y - mouse.y, md2 = mdx * mdx + mdy * mdy;
+      if (md2 < 8100) {
+        var md = Math.sqrt(md2) || 1, f = (90 - md) / 90 * 2.4;
+        p.vx += mdx / md * f; p.vy += mdy / md * f;
+      }
+      p.vx *= .88; p.vy *= .88;
+      p.x += p.vx; p.y += p.vy;
+      var tw = .6 + .4 * Math.sin(t * 2.2 + p.tw);
+      ctx.globalAlpha = tw * .22;
+      ctx.fillStyle = p.c;
+      ctx.fillRect(p.x - 1.6, p.y - 1.6, p.s + 3.2, p.s + 3.2);
+      ctx.globalAlpha = tw;
+      ctx.fillRect(p.x, p.y, p.s, p.s);
+    }
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = 'source-over';
+    raf = requestAnimationFrame(frame);
+  }
+
+  hero.addEventListener('pointermove', function (e) {
+    var r = hero.getBoundingClientRect();
+    mouse.x = e.clientX - r.left; mouse.y = e.clientY - r.top;
+  });
+  hero.addEventListener('pointerleave', function () { mouse.x = -9999; mouse.y = -9999; });
+
+  var vis = new IntersectionObserver(function (es) {
+    es.forEach(function (e) {
+      if (e.isIntersecting && !running) { running = true; raf = requestAnimationFrame(frame); }
+      else if (!e.isIntersecting && running) { running = false; cancelAnimationFrame(raf); }
+    });
+  });
+  vis.observe(hero);
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden && running) { running = false; cancelAnimationFrame(raf); }
+    else if (!document.hidden && !running) { running = true; raf = requestAnimationFrame(frame); }
+  });
+
+  var rto;
+  window.addEventListener('resize', function () { clearTimeout(rto); rto = setTimeout(build, 180); });
+
+  // 폰트 준비 후 빌드 (샘플링 정확도)
+  function start() {
+    build();
+    if (running && !raf) raf = requestAnimationFrame(frame);
+  }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(start);
+  else start();
+})();
+</script>
 </body>
-  </html>
+</html>
