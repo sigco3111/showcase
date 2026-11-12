@@ -49,7 +49,7 @@
     color: #63e6a4; text-transform: uppercase; margin-bottom: 10px;
   }
   .hero .eyebrow::before { content: ''; width: 8px; height: 8px; background: #63e6a4; box-shadow: 2px 2px 0 rgba(99,230,164,.4); }
-  .hero h1 { font-size: 42px; font-weight: 800; letter-spacing: -0.02em; color: #fff; text-shadow: 2px 2px 0 rgba(17,22,45,.6); }
+  .hero h1 { font-size: 42px; font-weight: 800; letter-spacing: -0.02em; color: #d9f2e4; text-shadow: 2px 2px 0 rgba(17,22,45,.6); }
   .hero .sub { color: rgba(235,240,255,.85); margin-top: 8px; font-size: 15px; }
   .hero .voxel-strip { display: flex; gap: 6px; margin-top: 16px; }
   .hero .voxel-strip i { width: 10px; height: 10px; display: block; }
@@ -453,7 +453,7 @@ render();
   var ctx = canvas.getContext('2d');
   var DPR = Math.min(window.devicePixelRatio || 1, 2);
   var W = 0, H = 0, particles = [], stars = [], mouse = { x: -9999, y: -9999 };
-  var PALETTE = ['#8ff5c0', '#63e6a4', '#b7a8ff', '#8f7ff0', '#ffd98a', '#9fc0ff', '#ffffff'];
+  var PALETTE = ['#c9f0da', '#a5e3c2', '#7fd4a6', '#8fd8b4', '#b9e9cf', '#6cc596', '#dcf7e8'];
 
   function sampleText() {
     var r = titleEl.getBoundingClientRect();
@@ -529,11 +529,11 @@ render();
       }
       p.vx *= .88; p.vy *= .88;
       p.x += p.vx; p.y += p.vy;
-      var tw = .6 + .4 * Math.sin(t * 2.2 + p.tw);
-      ctx.globalAlpha = tw * .22;
+      var tw = .72 + .28 * Math.sin(t * 1.8 + p.tw);
+      ctx.globalAlpha = tw * .13;
       ctx.fillStyle = p.c;
       ctx.fillRect(p.x - 1.6, p.y - 1.6, p.s + 3.2, p.s + 3.2);
-      ctx.globalAlpha = tw;
+      ctx.globalAlpha = tw * .92;
       ctx.fillRect(p.x, p.y, p.s, p.s);
     }
     ctx.globalAlpha = 1;
