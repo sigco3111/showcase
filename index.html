@@ -271,8 +271,8 @@ function render() {
   const filtering = isFiltering();
 
   let out = '';
-  if (originals.length || !filtering) out += featuredSection('orig', '대표', originals);
-  if (forks.length || !filtering) out += featuredSection('fork', '포크', forks);
+  if (originals.length || !filtering) out += featuredSection('orig', '대표 원작', originals);
+  if (forks.length || !filtering) out += featuredSection('fork', '대표 포크', forks);
   if (experiments.length) {
     out += `<h2 class="section-label exp"><span class="dot"></span>실험<span class="count">${experiments.length}개</span></h2>
      <p class="section-desc">대표로 선정하지 않은 나머지 공개 프로젝트입니다.</p>
@@ -288,7 +288,7 @@ function render() {
 
   document.getElementById('resultCount').textContent = filtering
     ? `전체 ${REPOS.length}개 중 ${filtered.length}개 표시`
-    : `전체 ${REPOS.length}개 · 대표 ${originals.length + forks.length} · 실험 ${experiments.length}`;
+    : `전체 ${REPOS.length}개 · 대표 원작 ${originals.length} · 대표 포크 ${forks.length} · 실험 ${experiments.length}`;
 
   const reset = document.getElementById('resetFilters');
   if (reset) reset.addEventListener('click', e => { e.preventDefault(); resetAll(); });
