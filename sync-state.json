@@ -1,0 +1,3373 @@
+{
+ "synced_at": "2026-11-12T11:05:00+09:00",
+ "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
+ "entries": {
+  "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
+   "repo": "shape-legion",
+   "name": "도형 군단",
+   "featured": true,
+   "live": "https://sigco3111.github.io/shape-legion/",
+   "screenshot": "https://github.com/sigco3111/shape-legion/raw/HEAD/docs/screenshots/04-battle.webp",
+   "type": "original",
+   "desc": "🟢 [원작] (2D게임) 도형 병력을 그려 배치하고 자동으로 싸우는 수천 명 규모 웹 전략 게임 — 10개 스테이지, 지형, 업그레이드, 지휘관 기술, 레트로 픽셀 CRT UI",
+   "category": "2D게임"
+  },
+  "41576f2e-9097-81e6-a17d-e4411dab9c76": {
+   "repo": "bulssi-seoyak",
+   "name": "불씨의 서약 (이전·수정 배포본)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/bulssi-seoyak/",
+   "screenshot": "https://github.com/sigco3111/bulssi-seoyak/raw/HEAD/screenshots/title.png",
+   "type": "fork",
+   "desc": "꺼진 종의 계곡을 무대로 한 Three.js 3D 액션 RPG — 원작자 허락 조건 안에서 v16을 이전·배포하고 음악·효과음을 교체 (원작 readasesang-lab.vercel.app/v16)",
+   "category": "3D"
+  },
+  "41576f2e-9097-8036-be30-d37cb3a48b77": {
+   "repo": "saltline-ko",
+   "name": "saltline-ko",
+   "featured": true,
+   "live": "https://sigco3111.github.io/saltline-ko/",
+   "screenshot": "https://github.com/sigco3111/saltline-ko/raw/HEAD/docs/screenshots/05-title-hd.webp",
+   "type": "fork",
+   "desc": "컨테이너 야적장과 창고에서 업링크 중계기 세 개를 차단하는 Three.js 1인칭 슈터 한글화 (원본 realskyrin/fps3ademo-saltline, Claude 아티팩트 Saltline 기반, 원본 라이선스 미표기)",
+   "category": "3D"
+  },
+  "41576f2e-9097-800d-9888-d331b41a11b4": {
+   "repo": "tilt-labyrinth-ko",
+   "name": "나무판 미로 · Tilt Labyrinth 木盘迷宫 한글화",
+   "featured": true,
+   "live": "https://sigco3111.github.io/tilt-labyrinth-ko/",
+   "screenshot": "https://github.com/sigco3111/tilt-labyrinth-ko/raw/HEAD/docs/screenshots/01-title.png",
+   "type": "fork",
+   "desc": "나무 미로판을 기울여 구슬을 굴리는 3D 퍼즐 한글화 (원작 majiayu000/blog, MIT, 텍스처 Poly Haven CC0)",
+   "category": "3D"
+  },
+  "41576f2e-9097-8035-af1e-f13ccb3ee7d6": {
+   "repo": "qingyun-sword-flight-ko",
+   "name": "청운종 검 비행 — 한글화 버전",
+   "featured": false,
+   "live": "https://sigco3111.github.io/qingyun-sword-flight-ko/",
+   "desc": "청운종(青雲宗) : 검을 타고 하늘을 날며 영기를 모으는 3D 비행 게임 한글화 (원작 hahaliu1029/fable5.2demo, Apache-2.0)",
+   "category": "3D"
+  },
+  "41476f2e-9097-8168-8e29-ccf4d748e853": {
+   "repo": "return-investor",
+   "name": "리턴: 회귀 투자자",
+   "featured": false,
+   "live": null,
+   "desc": "회귀·진로·투자 선택을 다루는 비주얼 노벨형 투자 게임",
+   "category": "2D게임"
+  },
+  "41476f2e-9097-81b6-8f6f-c3a31a4ae9d3": {
+   "repo": "gostop2026",
+   "name": "맞고2026 : 패담",
+   "featured": true,
+   "live": "https://sigco3111.github.io/gostop2026/",
+   "screenshot": "https://github.com/sigco3111/gostop2026/raw/HEAD/docs/screenshots/title.webp",
+   "type": "original",
+   "desc": "12인의 오리지널 고수와 겨루는 싱글 맞고",
+   "category": "2D게임"
+  },
+  "41476f2e-9097-8189-9e92-d5e1333bdeae": {
+   "repo": "boom-critters",
+   "name": "붐 크리터스",
+   "featured": true,
+   "live": "https://sigco3111.github.io/boom-critters/",
+   "screenshot": "https://github.com/sigco3111/boom-critters/raw/HEAD/docs/screenshots/02-battle.png",
+   "type": "original",
+   "desc": "싱글플레이 턴제 포격 웹게임 (HTML5 Canvas, 웜즈·포트리스 스타일)",
+   "category": "2D게임"
+  },
+  "41476f2e-9097-810d-9868-fc411906c822": {
+   "repo": "script-to-motion",
+   "name": "스크립트 투 모션",
+   "featured": false,
+   "live": null,
+   "desc": "대본·주제로 내레이션 모션그래픽 영상을 만드는 에이전트 스킬 (원작 kstost/script-to-motion, MIT)",
+   "category": "자동화"
+  },
+  "41276f2e-9097-81ff-8255-ed45e3f9a380": {
+   "repo": "assets-3d-quaternius",
+   "name": "3D 에셋 (Quaternius)",
+   "featured": false,
+   "live": null,
+   "desc": "Quaternius CC0 로우폴리 3D 팩 수집 저장소",
+   "category": "기타"
+  },
+  "41176f2e-9097-8104-a0ce-ca6aeeafa268": {
+   "repo": "order-of-powers",
+   "name": "권력의 질서",
+   "featured": true,
+   "live": "https://sigco3111.github.io/order-of-powers/",
+   "screenshot": "https://github.com/sigco3111/order-of-powers/raw/HEAD/docs/screenshots/01-title.png",
+   "type": "original",
+   "desc": "(전략 보드게임) 세계 질서를 둘러싼 강대국 경쟁 · 카드 기획과 지역 영향력 확대",
+   "category": "2D게임"
+  },
+  "41176f2e-9097-8145-91b8-d54cd6fb4f0e": {
+   "repo": "cheonha-sambun",
+   "name": "천하삼분 - 오리지널 삼국지 전술 RPG",
+   "featured": true,
+   "live": "https://sigco3111.github.io/cheonha-sambun/",
+   "screenshot": "https://github.com/sigco3111/cheonha-sambun/raw/HEAD/docs/screenshots/title.png",
+   "type": "original",
+   "desc": "(전술 RPG) 오리지널 삼국지 전술 RPG · HTML5 Canvas 턴제 전술 · 첫 플레이어블 v0.1",
+   "category": "2D게임"
+  },
+  "41176f2e-9097-8177-8d86-c480454aae2e": {
+   "repo": "cokacmotion",
+   "name": "cokacmotion",
+   "featured": false,
+   "live": "https://sigco3111.github.io/cokacmotion/",
+   "desc": "(데모 모음) 웹 그래픽 영상 표현 기법 166편 데모 모음 - 기법별 구현 노트·소스·스틸을 갖춘 Claude Code 스킬(aimotion) (원작: kstost/cokacmotion, MIT)",
+   "category": "시각화"
+  },
+  "41076f2e-9097-81cc-9703-f590cb5c6e97": {
+   "repo": "abandon-all-hope-game",
+   "name": "모든 희망을 버려라",
+   "featured": true,
+   "live": "https://sigco3111.github.io/abandon-all-hope-game/",
+   "screenshot": "https://github.com/sigco3111/abandon-all-hope-game/raw/HEAD/screenshots/screenshot-title.png",
+   "type": "fork",
+   "desc": "(슈터) 3D 1인칭 좀비 생존 슈터 — 웨이브마다 업그레이드를 골라 생존하는 Three.js 브라우저 게임",
+   "category": "3D"
+  },
+  "40f76f2e-9097-81fb-b768-f29999329584": {
+   "repo": "fortune-duo",
+   "name": "포춘 듀오",
+   "featured": true,
+   "live": "https://sigco3111.github.io/fortune-duo/",
+   "screenshot": "https://github.com/sigco3111/fortune-duo/raw/HEAD/docs/screenshot.png",
+   "type": "original",
+   "desc": "(디펜스) AI 파트너와 함께하는 2인 협동 랜덤 합성 디펜스 - 소환·합성·도박·정예 성장(초월)으로 성문 방어",
+   "category": "3D"
+  },
+  "40e76f2e-9097-81a1-a21c-d41d449221da": {
+   "repo": "castellan",
+   "name": "Castellan (캐스텔런) — 한글화 포크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/castellan/",
+   "screenshot": "https://github.com/user-attachments/assets/c6622790-dcf5-4d04-8cdc-7d54aae3c19a",
+   "type": "fork",
+   "desc": "(시뮬레이션) 땅을 깎고 성을 쌓은 뒤 그 안에 하루를 흘려보내 보는 성 건설·정착 시뮬레이션 비공식 한글 포크 (원본 otakuch/castellan, MIT)",
+   "category": "3D"
+  },
+  "40e76f2e-9097-815f-afcd-f4dd1c1226c8": {
+   "repo": "scam-with-your-friends-web",
+   "name": "Scam With Your Friends — Web 한글판 (비공식)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/scam-with-your-friends-web/",
+   "screenshot": "https://github.com/sigco3111/scam-with-your-friends-web/raw/HEAD/docs/screenshots-ko/boot-hud.png",
+   "type": "fork",
+   "desc": "(시뮬레이션) AI 콜센터 시뮬레이션의 비공식 한글 포크(원본 MIT)",
+   "category": "3D"
+  },
+  "40e76f2e-9097-810f-9b3f-e1a006249d7d": {
+   "repo": "Q-gress",
+   "name": "Q-Gress 한글판 (비공식)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Q-gress/",
+   "screenshot": "https://github.com/sigco3111/Q-gress/raw/HEAD/docs/screenshots-ko/gameplay.png",
+   "type": "fork",
+   "desc": "(시뮬레이션)Ingress 스타일 AI 대 AI 실제 지도(위성 + 3D 건물) 포털 점령 시뮬 비공식 한글 포크.",
+   "category": "3D"
+  },
+  "40e76f2e-9097-812e-9e0c-f74a35a314e1": {
+   "repo": "exact-half",
+   "name": "딱 반",
+   "featured": true,
+   "live": "https://sigco3111.github.io/exact-half/",
+   "screenshot": "https://github.com/sigco3111/exact-half/raw/HEAD/screenshots/1-01-pick.png",
+   "type": "original",
+   "desc": "눈대중으로 물체를 정확히 반으로 자르는 웹 퍼즐 — 21종 오브젝트, 3D 미리보기 선택, 연습 모드, 오브젝트별 로컬 기록·배지 (참고 원작: itland half-cut)",
+   "category": "2D게임"
+  },
+  "40e76f2e-9097-8111-90db-cdaf9504ace2": {
+   "repo": "prism-currents",
+   "name": "프리즘 커런츠 — 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/prism-currents/",
+   "screenshot": "https://github.com/sigco3111/prism-currents/raw/HEAD/screenshot.jpg",
+   "type": "fork",
+   "desc": "(인터랙티브 아트) · 흐름장을 따라 유영하는 수만 개의 프리즘 WebGL2 아트 — wtc-gl+Tweakpane (원작 Liam Egan, CodePen, MIT)",
+   "category": "시각화"
+  },
+  "40d76f2e-9097-8150-9e14-e84179367bf0": {
+   "repo": "assets-2d-portraits",
+   "name": "2D 에셋 (초상화)",
+   "featured": false,
+   "live": null,
+   "desc": "2D 인물 초상화 수집 저장소 (자체 AI 생성, 조건 없이 사용 가능)",
+   "category": "기타"
+  },
+  "40d76f2e-9097-8181-82c7-d0b37d62ce61": {
+   "repo": "samgukji-sandbox",
+   "name": "삼국지 샌드박스",
+   "featured": true,
+   "live": "https://sigco3111.github.io/samgukji-sandbox/",
+   "screenshot": "https://github.com/sigco3111/samgukji-sandbox/raw/HEAD/docs/screenshots/world-map.png",
+   "type": "original",
+   "desc": "삼국지11 방식의 비공식 독립 팬 제작 웹 시뮬레이션 (3D 지도, 위임/세력전환, 독자 데이터)",
+   "category": "2D게임"
+  },
+  "40c76f2e-9097-8160-82f1-c4fcb23140b2": {
+   "repo": "Waveshare_ESP32_RLCD",
+   "name": "Syna - Waveshare ESP32-S3 RLCD 데스크톱 어시스턴트",
+   "featured": true,
+   "live": null,
+   "screenshot": "https://github.com/sigco3111/Waveshare_ESP32_RLCD/raw/HEAD/docs/screenshot.png",
+   "type": "fork",
+   "desc": "Syna - Waveshare ESP32-S3 RLCD 데스크톱 어시스턴트와 Windows/macOS Reporter 동반 프로그램",
+   "category": "일반앱"
+  },
+  "40876f2e-9097-8108-9990-f60139caaa84": {
+   "repo": "backpack-labyrinth",
+   "name": "배낭 속 미궁",
+   "featured": true,
+   "live": "https://sigco3111.github.io/backpack-labyrinth/",
+   "screenshot": "https://github.com/sigco3111/backpack-labyrinth/raw/HEAD/docs/screenshots/combat.png",
+   "type": "original",
+   "desc": "(로그라이크) 배낭 정리 로그라이크 - 인벤토리 배치·합성·영구 강화로 던전 자동 탐험",
+   "category": "2D게임"
+  },
+  "40876f2e-9097-8192-9117-c87e1d94dc9e": {
+   "repo": "last-stand",
+   "name": "Last Stand (라스트 스탠드) — 한글화 포크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/last-stand/",
+   "screenshot": "https://github.com/sigco3111/last-stand/raw/HEAD/docs/screenshots/combat.png",
+   "type": "fork",
+   "desc": "(액션RPG) Last Stand 한국어판 - 3D 웨이브 생존 ARPG 한글화 (UI·클래스·아이템·README, MIT, 영문 원본 보존)",
+   "category": "3D"
+  },
+  "40876f2e-9097-8143-a363-dea75a334549": {
+   "repo": "Sanctuarys_End",
+   "name": "생츄어리즈 엔드 — 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Sanctuarys_End/sanctuary.html",
+   "screenshot": "https://github.com/sigco3111/Sanctuarys_End/raw/HEAD/image.png",
+   "type": "fork",
+   "desc": "(액션RPG) Sanctuary's End 한국어판 - 3D ARPG 한글화 (UI·아이템·스킬·위키·README, MIT, 원본 README.en.md 보존)",
+   "category": "3D"
+  },
+  "40776f2e-9097-817f-9726-ea943c531f11": {
+   "repo": "assets-audio",
+   "name": "오디오 에셋",
+   "featured": false,
+   "live": null,
+   "desc": "효과음·배경음악 수집 저장소 (CC0 중심)",
+   "category": "기타"
+  },
+  "40776f2e-9097-81f1-935d-e197ccc74c9a": {
+   "repo": "assets-ui-icons",
+   "name": "UI 아이콘 에셋",
+   "featured": false,
+   "live": null,
+   "desc": "UI 키트·아이콘 수집 저장소 (CC0 중심, Game-icons는 CC BY 귀속 필요)",
+   "category": "기타"
+  },
+  "40776f2e-9097-8187-8d28-ef67f9181dba": {
+   "repo": "assets-3d-lowpoly",
+   "name": "3D 에셋 (로우폴리)",
+   "featured": false,
+   "live": null,
+   "desc": "3D 로우폴리 모델 수집 저장소 (CC0 중심, 분할 ZIP은 조각 모두 필요)",
+   "category": "기타"
+  },
+  "40776f2e-9097-81d3-9089-c49ea54927ed": {
+   "repo": "assets-2d-pixel",
+   "name": "2D 에셋 (픽셀)",
+   "featured": false,
+   "live": null,
+   "desc": "2D 픽셀 스프라이트·타일셋 수집 저장소 (CC0 중심, 출처·라이선스 포함)",
+   "category": "기타"
+  },
+  "40776f2e-9097-81dc-979e-e4728c14c4b0": {
+   "repo": "game-asset-catalog",
+   "name": "게임 에셋 카탈로그",
+   "featured": true,
+   "live": "https://sigco3111.github.io/game-asset-catalog/",
+   "screenshot": "https://github.com/sigco3111/game-asset-catalog/raw/HEAD/4-game-asset-catalog.jpg",
+   "type": "original",
+   "desc": "재사용 게임 에셋 도서관 - 151개 팩을 검색·필터·미리보기로 찾는 사이트 (출처·라이선스 표시, catalog.csv로 자동 갱신)",
+   "category": "기타"
+  },
+  "40776f2e-9097-81af-b577-fa8ae2285428": {
+   "repo": "lego-stylized-nature",
+   "name": "브릭랜드 — 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/lego-stylized-nature/",
+   "screenshot": "https://github.com/sigco3111/lego-stylized-nature/raw/HEAD/docs/readmeImg/optimized/hero.webp",
+   "type": "fork",
+   "desc": "(비행 탐험) 브릭랜드 한국어판 - 절차 생성 세계를 블록 비행기로 자유 탐험 (원작: hexianWeb/lego-stylized-nature, 원본 라이선스 없음 주의)",
+   "category": "3D"
+  },
+  "40776f2e-9097-81f7-aeda-e3467845814f": {
+   "repo": "sds",
+   "name": "Sheepdog Sim (양몰이 심) — 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/sds/",
+   "screenshot": "https://github.com/sigco3111/sds/raw/HEAD/docs/screenshots/sds-title.jpg",
+   "type": "fork",
+   "desc": "(시뮬레이션) 양몰이 심 한국어판 - 양떼를 우리로 몰아넣는 셀 셰이딩 브라우저 게임 한글화 (원작: matthew-kissinger/sds, AGPL-3.0)",
+   "category": "3D"
+  },
+  "40576f2e-9097-8123-a718-fe019f26bf9a": {
+   "repo": "dragon",
+   "name": "와룡전(臥龍傳) Web - 한글화 샘플 포크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/dragon/web/",
+   "screenshot": "https://github.com/sigco3111/dragon/raw/HEAD/docs/screenshots/L1_title.png",
+   "type": "fork",
+   "desc": "(전략 시뮬레이션) 와룡전: 삼국제패지계 Web 한국어판 샘플 - 시작 메뉴·전략 화면 UI 한글화 (원작: tianyi092-jcza/dragon, 코드 MIT)",
+   "category": "2D게임"
+  },
+  "40476f2e-9097-810c-b31b-ec1ccc24ff6f": {
+   "repo": "tramp-freighter",
+   "name": "트램프 프레이터 블루스 - 한글화",
+   "featured": true,
+   "live": "https://sigco3111.github.io/tramp-freighter/",
+   "screenshot": "https://github.com/sigco3111/tramp-freighter/raw/HEAD/screenshots/1-station-info-broker.png",
+   "type": "fork",
+   "desc": "(시뮬레이션) 트램프 프레이터 블루스 한국어판 - 우주 교역 생존 게임 한글화 (원작: Ovid/tramp-freighter)",
+   "category": "2D게임"
+  },
+  "40476f2e-9097-8158-916f-c3eaf603bbd6": {
+   "repo": "exilum",
+   "name": "EXILIUM · 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/exilum/",
+   "screenshot": "https://github.com/sigco3111/exilum/raw/HEAD/screenshots/8-dungeon-hud.png",
+   "type": "fork",
+   "desc": "(RPG) Exilum 한국어판 - 디아블로 스타일 RPG 한글화 (원작: Sonali-Sharma-tech/exilum)",
+   "category": "3D"
+  },
+  "40476f2e-9097-817a-889f-e7e399877fbb": {
+   "repo": "Backroom-Escape",
+   "name": "백룸 이스케이프",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Backroom-Escape/",
+   "screenshot": "https://github.com/sigco3111/Backroom-Escape/raw/HEAD/5-Backroom-Escape.jpg",
+   "type": "fork",
+   "desc": "(공포) Backroom Escape 한국어판 - 3D 미로 탈출 게임 한글화 (원작: StarKnightt/Backroom-Escape)",
+   "category": "3D"
+  },
+  "40476f2e-9097-81c0-a3d8-e0a21ecc4a94": {
+   "repo": "corsairs",
+   "name": "Corsairs: Wind of Freedom — 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/corsairs/",
+   "screenshot": "https://github.com/sigco3111/corsairs/raw/HEAD/docs/screenshots/battle.png",
+   "type": "fork",
+   "desc": "(항해·교역) Corsairs 한국어판 - Godot 기반 해양 모험·교역 게임 한글화 (원작: Elkhan-Isayev/corsairs, MIT)",
+   "category": "3D"
+  },
+  "40376f2e-9097-816b-ab43-d408812b1d6b": {
+   "repo": "genesis-atlas",
+   "name": "시대의 물결",
+   "featured": true,
+   "live": "https://sigco3111.github.io/genesis-atlas/",
+   "screenshot": "https://github.com/sigco3111/genesis-atlas/raw/HEAD/docs/real.png",
+   "type": "original",
+   "desc": "(시뮬레이션) 시대의 물결 — 지도 위에서 문명이 흥망성쇠하는 모습을 지켜보는 신 시뮬레이터",
+   "category": "2D게임"
+  },
+  "40176f2e-9097-81b6-8e92-d2312baf1036": {
+   "repo": "tidewright",
+   "name": "TIDEWRIGHT (타이드라이트) - 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/tidewright/",
+   "screenshot": "https://github.com/sigco3111/tidewright/raw/HEAD/docs/hero.jpg",
+   "type": "fork",
+   "desc": "(시뮬레이션) 타이드라이트 한국어판 - 100% GPU 3D 모래성 시뮬레이터 한글화 (원작: winchxyz/tidewright)",
+   "category": "3D"
+  },
+  "40176f2e-9097-813c-afcd-cb6c13fa8d93": {
+   "repo": "veilspire",
+   "name": "베일스파이어 - 한국어판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/veilspire/",
+   "desc": "(RPG) 베일스파이어 한국어판 - Three.js 오픈월드 마법 액션 RPG 한글화 (원작: Lunaneco/veilspire)",
+   "category": "3D"
+  },
+  "40176f2e-9097-81f4-a29e-fdfc2fc50381": {
+   "repo": "red-sands",
+   "name": "레드 샌즈 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/red-sands/",
+   "screenshot": "https://github.com/sigco3111/red-sands/raw/HEAD/docs/media/hero.jpg",
+   "type": "fork",
+   "desc": "(오픈월드) 레드 샌즈 한국어판 - 브라우저에서 즐기는 절차적 생성 오픈월드 서부극 (gillworks/red-sands 한글화)",
+   "category": "3D"
+  },
+  "40076f2e-9097-8185-b835-ecff0c6bae8d": {
+   "repo": "hegemony-war-pages",
+   "name": "패권의 시간 — 배포 저장소",
+   "featured": false,
+   "live": "https://sigco3111.github.io/hegemony-war-pages/",
+   "desc": "패권의 시간 — GitHub Pages 배포 저장소. 실게임 저장소: https://github.com/sigco3111/hegemony-war",
+   "category": "2D게임"
+  },
+  "40076f2e-9097-818a-b09b-e5db48fa62c4": {
+   "repo": "hegemony-war",
+   "name": "패권의 시간",
+   "featured": true,
+   "live": "https://sigco3111.github.io/hegemony-war-pages/",
+   "screenshot": "https://github.com/sigco3111/hegemony-war/raw/HEAD/docs/screenshots/game.webp",
+   "type": "fork",
+   "desc": "(전략) 패권의 시간 — OpenFront 싱글 플레이 개선판",
+   "category": "2D게임"
+  },
+  "3ff76f2e-9097-81e3-b8e7-d9ddf95c7de5": {
+   "repo": "unchartedwaters2",
+   "name": "대항해시대2 for Web (개선 포크)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/unchartedwaters2/",
+   "screenshot": "https://github.com/sigco3111/unchartedwaters2/raw/HEAD/screenshot.png",
+   "type": "fork",
+   "desc": "(RPG) 대항해시대2를 웹으로 편하게 즐기자!",
+   "category": "2D게임"
+  },
+  "3ff76f2e-9097-8143-82f8-d1f3d3f04f89": {
+   "repo": "abyss-lantern",
+   "name": "심연의 등불",
+   "featured": true,
+   "live": "https://sigco3111.github.io/abyss-lantern/",
+   "screenshot": "https://github.com/sigco3111/abyss-lantern/raw/HEAD/6-abyss-lantern.jpg",
+   "type": "original",
+   "desc": "(오토배틀) 심연의 등불 — 코어 수호 + 진형 배치 오토 배틀",
+   "category": "2D게임"
+  },
+  "3fe76f2e-9097-8117-be57-ff2d8e89a327": {
+   "repo": "Notbell",
+   "name": "Notbell",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Notbell/",
+   "screenshot": "https://github.com/sigco3111/Notbell/raw/HEAD/7-Notbell.jpg",
+   "type": "fork",
+   "desc": "(시뮬레이션) three.js로 만든 작은 로우폴리 마을 생활 군도. 낚시·채집·주민과의 수다 등 소소한 섬 생활을 즐기는 동물의 숲 스타일 힐링 게임. 빌드 없이 동작하며 브라우저에 저장 (brezgis 원작, MIT)",
+   "category": "3D"
+  },
+  "3fe76f2e-9097-811c-a68f-e6202bc842bb": {
+   "repo": "perilous-ways",
+   "name": "페릴러스 웨이즈",
+   "featured": true,
+   "live": "https://sigco3111.github.io/perilous-ways/",
+   "screenshot": "https://github.com/sigco3111/perilous-ways/raw/HEAD/8-perilous-ways.jpg",
+   "type": "fork",
+   "desc": "(시뮬레이션) 하플링, 드워프, 엘프, 인간, 오크가 사는 대륙을 무대로 한 3D 세계 시뮬레이션입니다. 당신은 왕국 교통청(Realm Transit Authority)의 청장입니다.",
+   "category": "3D"
+  },
+  "3fe76f2e-9097-8153-b27f-eb526483a995": {
+   "repo": "instinct-usage-dashboard",
+   "name": "Instinct 사용량 대시보드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/instinct-usage-dashboard/",
+   "desc": "(시각화) Instinct 일일 사용량 대시보드 - GitHub Actions로 data/usage.json 기반 정적 빌드",
+   "category": "웹앱"
+  },
+  "3fc76f2e-9097-8151-9012-e69aa9184323": {
+   "repo": "blue-cycle",
+   "name": "푸른 순환",
+   "featured": true,
+   "live": "https://sigco3111.github.io/blue-cycle/",
+   "screenshot": "https://github.com/sigco3111/blue-cycle/raw/HEAD/9-blue-cycle.jpg",
+   "type": "original",
+   "desc": "(시뮬레이션) 손대지 않아도 먹이사슬이 저절로 돌아가는 방치형 생태계 수족관",
+   "category": "2D게임"
+  },
+  "3fc76f2e-9097-8150-a1ae-c5aec980b185": {
+   "repo": "dashi-jigu",
+   "name": "다시, 지구",
+   "featured": true,
+   "live": "https://sigco3111.github.io/dashi-jigu/",
+   "screenshot": "https://github.com/sigco3111/dashi-jigu/raw/HEAD/docs/screenshot-1.png",
+   "type": "original",
+   "desc": "(시뮬레이션) 공개 통계로 출생지를 추첨하고, 태어나서 죽을 때까지를 약 3분 동안 살아 보는 텍스트 인생 시뮬레이션 웹게임",
+   "category": "2D게임"
+  },
+  "3fb76f2e-9097-818a-be54-f26029b997ab": {
+   "repo": "supply-chain-tycoon",
+   "name": "FLOW CAPITAL · 방치형 공급망 타이쿤",
+   "featured": true,
+   "live": "https://sigco3111.github.io/supply-chain-tycoon/",
+   "screenshot": "https://github.com/sigco3111/supply-chain-tycoon/raw/HEAD/docs/1-network.png",
+   "type": "original",
+   "desc": "(경영) 방치형 공급망 타이쿤 · 노드 기반 경제 시뮬레이션 프로토타입",
+   "category": "2D게임"
+  },
+  "3fa76f2e-9097-8188-9ae7-cbc6abd594e7": {
+   "repo": "hero-lord-web",
+   "name": "영웅서기 솔티아의 바람: 리마스터 · 웹 포크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/hero-lord-web/",
+   "screenshot": "https://github.com/sigco3111/hero-lord-web/raw/HEAD/docs/img/crt-menu.jpg",
+   "type": "fork",
+   "desc": "(RPG) 영웅서기 솔티아의 바람: 리마스터 · 웹 포크 - 자동전투 및 그래픽 옵션 추가",
+   "category": "2D게임"
+  },
+  "3fa76f2e-9097-8130-bb4b-ed6d115070f2": {
+   "repo": "afk-ide",
+   "name": "AFK IDE",
+   "featured": false,
+   "live": "https://sigco3111.github.io/afk-ide/",
+   "desc": "(RPG) AFK IDE - IDE처럼 보이는 정통 판타지 방치형 RPG. 자동 모험, 개입 설정, 암호화 저장.",
+   "category": "2D게임"
+  },
+  "3f976f2e-9097-8176-837b-fa0a7da7a5ff": {
+   "repo": "folio-2025",
+   "name": "Bruno Simon Folio 2025 한글판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/folio-2025/",
+   "screenshot": "https://github.com/sigco3111/folio-2025/raw/HEAD/3-folio-world.png",
+   "type": "fork",
+   "desc": "자동차로 탐험하는 Bruno Simon 원작 게임형 포트폴리오의 한국어 정적판",
+   "category": "3D"
+  },
+  "3f976f2e-9097-8182-98b2-d5b9dcb14fc2": {
+   "repo": "Sketchbook",
+   "name": "Sketchbook 한글판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Sketchbook/",
+   "desc": "캐릭터로 탐험하고 자동차·비행기·헬리콥터를 타는 3D 물리 놀이터",
+   "category": "3D"
+  },
+  "3f976f2e-9097-8100-8ddc-c18f20ae15fb": {
+   "repo": "instinct-nexus",
+   "name": "INSTINCT NEXUS",
+   "featured": false,
+   "live": "https://sigco3111.github.io/instinct-nexus/",
+   "desc": "(웹사이트) INSTINCT NEXUS - GPU 파티클이 INSTINCT로 모핑되는 인터랙티브 웹사이트",
+   "category": "3D"
+  },
+  "3f976f2e-9097-8148-8bb1-d82681ee0680": {
+   "repo": "Kinema",
+   "name": "KINEMA | 한글판 게임플레이 실험실",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Kinema/",
+   "screenshot": "https://github.com/sigco3111/Kinema/raw/HEAD/3-ko-menu.png",
+   "type": "fork",
+   "desc": "TypeScript, Three.js, Rapier 물리 엔진으로 만든 3인칭 게임플레이 실험실과 브라우저 레벨 편집기입니다. 2600th/Kinema 원작의 한국어 포크",
+   "category": "3D"
+  },
+  "3f976f2e-9097-81ed-9009-f74a8cfc8acf": {
+   "repo": "mecha-world",
+   "name": "MECHA WORLD | 한국어 정적 체험판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/mecha-world/?v=static",
+   "desc": "(RPG) React Three Fiber 기반 3D 메카 액션 게임을 한국어로 번역했습니다. 오픈월드 탐험, 근접·원거리 전투, 장비, 퀘스트, 메카 선택과 뽑기를 브라우저에서 체험할 수 있습니다.",
+   "category": "3D"
+  },
+  "3f976f2e-9097-8103-86cc-d6c75b79baa7": {
+   "repo": "dark-strands",
+   "name": "DARK STRANDS | 한글판 3D 탐험",
+   "featured": false,
+   "live": "https://sigco3111.github.io/dark-strands/?v=6",
+   "desc": "(샌드박스) VictorZakharov의 Babylon.js 9 기반 3D 탐험·렌더링 데모를 한국어로 번역했습니다. 점수나 승리 조건 없이 마을, 숲, 물, 날씨와 물리 상호작용을 살펴보는 샌드박스",
+   "category": "3D"
+  },
+  "3f976f2e-9097-81ab-a168-f5f66a365475": {
+   "repo": "island",
+   "name": "MODEL ISLAND | 나만의 섬 만들기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/island/",
+   "desc": "마우스로 섬의 지형을 빚고 집·등대·나무·풍력 터빈 등으로 꾸미는 3D 샌드박스",
+   "category": "3D"
+  },
+  "3f976f2e-9097-812a-8af1-df498d00d84a": {
+   "repo": "Contril",
+   "name": "Contril",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Contril/",
+   "screenshot": "https://github.com/sigco3111/Contril/raw/HEAD/1-ko-gameplay.png",
+   "type": "fork",
+   "desc": "셀셰이딩 바다 위에서 AI 보트 3대와 겨루는 3D 아케이드 보트 레이싱",
+   "category": "3D"
+  },
+  "3f976f2e-9097-81b2-8e3a-c7121099263e": {
+   "repo": "metropolis-city-builder",
+   "name": "메트로폴리스 · 도시경영 시뮬레이션",
+   "featured": true,
+   "live": "https://sigco3111.github.io/metropolis-city-builder/",
+   "screenshot": "https://github.com/sigco3111/metropolis-city-builder/raw/HEAD/screenshots/8-spring-day.png",
+   "type": "original",
+   "desc": "(경영) 메트로폴리스 도시경영 - 등각투영 도시에 건설/철거",
+   "category": "3D"
+  },
+  "3f976f2e-9097-8101-b249-ff97ba71b9cd": {
+   "repo": "three-descent",
+   "name": "디센트 한국어판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/three-descent/",
+   "desc": "(슈팅) 디센트 - 광산 안을 자유롭게 비행하며 로봇과 싸우고 인질을 구출하는 6자유도 브라우저 슈팅. (원작: mrdoob/three-descent)",
+   "category": "3D"
+  },
+  "3f976f2e-9097-8145-b4c0-e62d5be39ee2": {
+   "repo": "voxel-musou",
+   "name": "복셀 무쌍 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/voxel-musou/",
+   "screenshot": "https://github.com/sigco3111/voxel-musou/raw/HEAD/media/promo.gif",
+   "type": "fork",
+   "desc": "(액션) 복셀 무쌍 - 삼국지 장수 7명, 이야기 4장, 시련 3개와 수백 명의 병사를 상대하는 브라우저 액션. (원작: mike007jd/voxel-musou)",
+   "category": "3D"
+  },
+  "3f976f2e-9097-81f7-bd8b-c67714162acb": {
+   "repo": "summer-cycle",
+   "name": "여름 자전거 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/summer-cycle/",
+   "screenshot": "https://github.com/sigco3111/summer-cycle/raw/HEAD/media/reel.webp",
+   "type": "fork",
+   "desc": "지브리/신카이풍 일본 시골 자전거 게임 한국어판 - Three.js 툰셰이딩, 4개 시간대, 모든 메시·텍스처·사운드를 코드로 생성 (원작: StarKnightt/summer-cycle)",
+   "category": "3D"
+  },
+  "3f976f2e-9097-8190-83d4-cba31545cc84": {
+   "repo": "jungle-trail",
+   "name": "정글 트레일 한국어판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/jungle-trail/",
+   "desc": "정글 트레일 한국어판 - Three.js로 구현한 절차적 정글 1인칭 탐험. 모든 텍스처·메시·사운드를 코드로 생성합니다.",
+   "category": "3D"
+  },
+  "3f876f2e-9097-8170-93e3-cd4bd4499966": {
+   "repo": "moon-gardener",
+   "name": "달의 정원사",
+   "featured": false,
+   "live": "https://sigco3111.github.io/moon-gardener/",
+   "desc": "(클릭커) 달의 정원사 - 복셀 3D 달빛 정원 힐링 방치형 클리커 게임 (식물 36종, 달 주기 이벤트, 연금술, 환생)",
+   "category": "3D"
+  },
+  "3f876f2e-9097-8168-9824-e2c01943533c": {
+   "repo": "Voxel-Pagoda-Garden",
+   "name": "복셀 탑 정원",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Voxel-Pagoda-Garden/",
+   "desc": "(시각화) Three.js 복셀 정원 디오라마. 5층 탑, 잉어 연못, 벚꽃비와 랜턴이 빛나는 석양을 감상합니다.",
+   "category": "3D"
+  },
+  "3f876f2e-9097-8111-a939-d1ab3c3b5dbb": {
+   "repo": "claw3d",
+   "name": "3D 인형뽑기 - 한국어판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/claw3d/",
+   "desc": "(아케이드) React · Three.js · Rapier 물리엔진으로 만든 3D 인형뽑기 게임 한국어판",
+   "category": "3D"
+  },
+  "3f876f2e-9097-8186-8014-e449a4f7f461": {
+   "repo": "void-pulse",
+   "name": "VOID PULSE (한글판)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/void-pulse/",
+   "screenshot": "https://github.com/sigco3111/void-pulse/raw/HEAD/assets/screenshots/gameplay.jpg",
+   "type": "fork",
+   "desc": "(슈팅) 무리를 뚫고 무기를 진화시켜 원자로를 탈환하는 네온 SF 생존 슈터. 브라우저 싱글 플레이 + 2-4인 LAN 협동. (원작: GameDev4Funs/void-pulse 한글화 포크)🔀🍴 [한글화/포크] (3D) (슈팅) 무리를 뚫고 무기를 진화시켜 원자로를 탈환하는 네온 SF",
+   "category": "3D"
+  },
+  "3f776f2e-9097-81c3-ba29-c7576a5fde7b": {
+   "repo": "citydriver2",
+   "name": "시티 드라이버 2",
+   "featured": true,
+   "live": "https://sigco3111.github.io/citydriver2/",
+   "screenshot": "https://github.com/sigco3111/citydriver2/raw/HEAD/14-citydriver2.jpg",
+   "type": "fork",
+   "desc": "(레이싱) 절차 생성 도시의 3D 택시 운전 및 철거 게임",
+   "category": "3D"
+  },
+  "3f776f2e-9097-813a-a4b3-dbf3bad0286c": {
+   "repo": "neon-zenith",
+   "name": "네온 제니스 · Neon Zenith 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/neon-zenith/",
+   "screenshot": "https://github.com/sigco3111/neon-zenith/raw/HEAD/docs/media/hero.jpg",
+   "type": "fork",
+   "desc": "(레이싱) 비 내리는 수직 도시를 달리고 날아다니는 브라우저 3D 게임",
+   "category": "3D"
+  },
+  "3f776f2e-9097-8121-9754-d18dd4b4665f": {
+   "repo": "invisible-cities-opus-5.5",
+   "name": "인비지블 시티즈 Opus 5.5",
+   "featured": true,
+   "live": "https://sigco3111.github.io/invisible-cities-opus-5.5/",
+   "screenshot": "https://github.com/sigco3111/invisible-cities-opus-5.5/raw/HEAD/10-invisible-cities-opus-5.5.jpg",
+   "type": "fork",
+   "desc": "(시각화) 마르코 폴로가 쿠빌라이 칸에게 들려주는 55개의 도시",
+   "category": "3D"
+  },
+  "3eb76f2e-9097-8109-aa18-c3d2bd7c9750": {
+   "repo": "edusim",
+   "name": "에듀심 — 인터랙티브 3D 인체 해부학 탐색기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/edusim/",
+   "desc": "(시각화) · 200개 이상 인체 구조물 인터랙티브 3D 해부 아틀라스 — Three.js+WebGL+GLTF/DRACO",
+   "category": "3D"
+  },
+  "3ea76f2e-9097-819b-b7c6-ebde5340c98c": {
+   "repo": "suminagashi",
+   "name": "스미나가시 墨流し",
+   "featured": true,
+   "live": "https://sigco3111.github.io/suminagashi/",
+   "screenshot": "https://github.com/sigco3111/suminagashi/raw/HEAD/public/og-image.jpg",
+   "type": "fork",
+   "desc": "(시뮬) · 물 위 먹 마블링 실시간 시뮬 — React+Vite+Three.js+WebGL2",
+   "category": "3D"
+  },
+  "3ea76f2e-9097-81f7-a601-cb87aa9f52c8": {
+   "repo": "off-road",
+   "name": "오프 로드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/off-road/",
+   "desc": "(시뮬) · 3D 오프로드 물류 시뮬레이션 — Three.js+Rapier3D+Vite",
+   "category": "3D"
+  },
+  "3ea76f2e-9097-816b-ad87-f54381d0c4c8": {
+   "repo": "threejs-conference",
+   "name": "Threejs-Punk (한글화)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/threejs-conference/",
+   "desc": "(시뮬) · 빗속 사이버펑크 골목 산책 — Three.js+WebGPU+TSL",
+   "category": "3D"
+  },
+  "3e376f2e-9097-8161-a967-c427c2577dd3": {
+   "repo": "transformer-explainer",
+   "name": "트랜스포머 익스플레이너 — Transformer Explainer (한글판)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/transformer-explainer/",
+   "desc": "(시각화) · 트랜스포머를 브라우저에서 인터랙티브 학습 — SvelteKit+ONNX",
+   "category": "시각화"
+  },
+  "3e376f2e-9097-81cd-9b78-d3237fbd0f3f": {
+   "repo": "rotten-souls",
+   "name": "썩은 영혼들",
+   "featured": false,
+   "live": "https://sigco3111.github.io/rotten-souls/",
+   "desc": "고딕 분위기 소울라이크. 원본: igorjohn/rotten-souls 한국어 풀트랜슬레이션 + gh-pages 배포",
+   "category": "3D"
+  },
+  "3e276f2e-9097-81c4-a766-ca6b4c8fa292": {
+   "repo": "pacanele",
+   "name": "슬롯머신 — 마지막 한 번",
+   "featured": false,
+   "live": "https://sigco3111.github.io/pacanele/",
+   "desc": "(시뮬) · 3D 슬롯머신 시뮬레이터 — Three.js. 원본 danmana/pacanele의 한글화 버전. 게임장은 사라졌지만 노브는 남겨뒀습니다. 가상의 크레딧으로 즐기는, 진짜 돈은 없는 한 번의 회전.",
+   "category": "3D"
+  },
+  "3e276f2e-9097-808d-9ae9-eaf6ae0b47ec": {
+   "repo": "stick-steel",
+   "name": "스틱 & 스틸 (한글화)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/stick-steel/",
+   "desc": "(액션) 스틱&스틸 한글화",
+   "category": "3D"
+  },
+  "3e276f2e-9097-811a-b3ef-c0778ab813c9": {
+   "repo": "Lineworld",
+   "name": "라인월드",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Lineworld/",
+   "screenshot": "https://github.com/sigco3111/Lineworld/raw/HEAD/media/dog.gif",
+   "type": "fork",
+   "desc": "(시뮬) · 손전등을 든 강아지가 선으로 그려진 숲을 걷는다 — 절차적 Three.js + Vite + TypeScript, 원본 muratkamci/Lineworld",
+   "category": "3D"
+  },
+  "3de76f2e-9097-816f-9c5a-f7c056e0ce67": {
+   "repo": "HandCastAbilityThreeJS",
+   "name": "엘리멘탈 샌드박스 — 핸드 캐스트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/HandCastAbilityThreeJS/",
+   "desc": "(액션) · 손동작으로 쏘는 원소 능력 VFX 샌드박스 — Three.js+Vite+GLSL",
+   "category": "3D"
+  },
+  "3de76f2e-9097-81ba-bfb0-d946f727c246": {
+   "repo": "LinearAbiltyCastingExtendedThreeJS",
+   "name": "원소 샌드박스 — 어빌리티 캐스팅 확장 한글판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/LinearAbiltyCastingExtendedThreeJS/",
+   "desc": "(시뮬) · 절차적 스킬샷 VFX 10종 샌드박스 — 직선 3종+원거리 7종 — Three.js+Vite+GLSL",
+   "category": "3D"
+  },
+  "3de76f2e-9097-8162-88d8-e9a642383048": {
+   "repo": "auto-janggi",
+   "name": "초 vs 한 AI 장기 시뮬레이션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/auto-janggi/",
+   "desc": "(전략) · 한국어 장기 AI 대국 시뮬 — 순수 JS 단일 HTML",
+   "category": "2D게임"
+  },
+  "3de76f2e-9097-813d-815e-f2adb4dd1815": {
+   "repo": "LinearAbiltyCastingThreeJS",
+   "name": "엘리멘탈 샌드박스 — 능력 시전",
+   "featured": false,
+   "live": "https://sigco3111.github.io/LinearAbiltyCastingThreeJS/",
+   "desc": "(에디터) · 절차적 스킬 이펙트 샌드박스 — Three.js+Vite+GLSL",
+   "category": "3D"
+  },
+  "3de76f2e-9097-8159-af0b-d8470ce005a4": {
+   "repo": "LinearAbilityExtThreeJS",
+   "name": "원소 샌드박스 — 어빌리티 확장 한글판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/LinearAbilityExtThreeJS/",
+   "desc": "(시뮬) · Three.js 원소 샌드박스 — 화염·크라켄·전기·대지·관문·고리·차원의문 7개 시전 + 3개 자기강화 — Vite+FBX+GLSL 절차적 VFX",
+   "category": "3D"
+  },
+  "3de76f2e-9097-81e6-a203-f73790b40782": {
+   "repo": "SoldierThirdPersonThreeJS",
+   "name": "SoldierThirdPersonThreeJS",
+   "featured": true,
+   "live": "https://sigco3111.github.io/SoldierThirdPersonThreeJS/",
+   "screenshot": "https://github.com/sigco3111/SoldierThirdPersonThreeJS/raw/HEAD/11-SoldierThirdPersonThreeJS.jpg",
+   "type": "fork",
+   "desc": "(액션) · 3인칭 솔저 한국어판 · 무기·술법·가호 — Three.js+Vite+lil-gui",
+   "category": "3D"
+  },
+  "3de76f2e-9097-81dd-bbac-cff56f7adf1e": {
+   "repo": "auto-chess",
+   "name": "백 vs 흑 AI 체스 시뮬레이션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/auto-chess/",
+   "desc": "(전략) · 한국어 풀 체스 AI 대국 — 순수 JS 단일 HTML",
+   "category": "2D게임"
+  },
+  "3de76f2e-9097-81cc-bf76-f8e95a1976ea": {
+   "repo": "threejs-gallery-kr",
+   "name": "Three.js 그래픽스 갤러리 — 한글판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/threejs-gallery-kr",
+   "screenshot": "https://raw.githubusercontent.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills/main/assets/example_gallery.jpeg",
+   "type": "fork",
+   "desc": "· 41개 Three.js 절차적 그래픽 예제 모음 — JavaScript+Three.js+GLSL",
+   "category": "3D"
+  },
+  "3de76f2e-9097-8176-a56a-c2a40297ac1b": {
+   "repo": "vibe-coding-ui-glossary",
+   "name": "바이브코딩 앱 UI 용어 정리본",
+   "featured": false,
+   "live": "https://sigco3111.github.io/vibe-coding-ui-glossary/",
+   "desc": "쥬하(@juuouse) 님의 '바이브코딩 앱 UI 용어 정리본' Notion 페이지를 GitHub Pages로 옮긴 미러.",
+   "category": "웹앱"
+  },
+  "3d476f2e-9097-81d0-8497-c0f19eff61d0": {
+   "repo": "zork-underground-empire",
+   "name": "조크 · 위대한 지하 제국",
+   "featured": true,
+   "live": "https://sigco3111.github.io/zork-underground-empire/",
+   "screenshot": "https://github.com/sigco3111/zork-underground-empire/raw/HEAD/emollick/zork-underground-empire/raw/codex/public-release/public/social/zork-social.jpg",
+   "type": "fork",
+   "desc": "Zork I의 비공식 한글화 포크. emollick/zork-underground-empire를 sigco3111 계정으로 복제 후 모든 인게임 텍스트, UI, 메시지를 자연스러운 한국어로 번역. Vite + Three.js 1인칭 3D 탐험 어댑테이션, 30개 구역 + 19개 보물 +",
+   "category": "3D"
+  },
+  "3d476f2e-9097-818f-9b79-e188e08974eb": {
+   "repo": "annals-kingdom",
+   "name": "연대기 — 스스로 살아가는 왕국",
+   "featured": true,
+   "live": "https://sigco3111.github.io/annals-kingdom/",
+   "screenshot": "https://github.com/sigco3111/annals-kingdom/raw/HEAD/share.jpg",
+   "type": "fork",
+   "desc": "(시뮬) · 스스로 살아가는 중세 왕국 시뮬레이터 — Vanilla JS+Three.js",
+   "category": "2D게임"
+  },
+  "3d476f2e-9097-81e8-93ab-d477c134ef1a": {
+   "repo": "self-balance-lab",
+   "name": "셀프밸런스 랩",
+   "featured": false,
+   "live": "https://sigco3111.github.io/self-balance-lab/",
+   "desc": "(시뮬) · 브라우저에서 진짜로 동작하는 전자공작 작업대 — Three.js+Rapier+WebGL2+WebAssembly",
+   "category": "3D"
+  },
+  "3d476f2e-9097-8161-b6e6-eadb25c99c6d": {
+   "repo": "MagicCarpetWizard",
+   "name": "매직 카펫 위저드 — 천 개의 하늘",
+   "featured": false,
+   "live": "https://sigco3111.github.io/MagicCarpetWizard/",
+   "desc": "(액션) · 매직 카펫 3D 무한 비행 모험 — Three.js+Vite+TypeScript",
+   "category": "3D"
+  },
+  "3d476f2e-9097-81d9-a903-cdc4a55022cf": {
+   "repo": "voidrunner-astra",
+   "name": "보이드러너 아스트라",
+   "featured": true,
+   "live": "https://sigco3111.github.io/voidrunner-astra/",
+   "screenshot": "https://github.com/sigco3111/voidrunner-astra/raw/HEAD/12-voidrunner-astra.jpg",
+   "type": "fork",
+   "desc": "(레이서) · 반중력 combat racer 한글판 — Three.js+WebGL+GLSL",
+   "category": "3D"
+  },
+  "3d476f2e-9097-81e5-98bb-cf2696b9802c": {
+   "repo": "voidbound-choir-of-ash",
+   "name": "보이드바운드 — 잿빛의 성가대",
+   "featured": false,
+   "live": "https://sigco3111.github.io/voidbound-choir-of-ash/",
+   "desc": "(액션) · 분위기 호러 한글판 — Three.js+GLSL+절차적 오디오",
+   "category": "3D"
+  },
+  "3d476f2e-9097-81a8-aa2b-e30354b6a0de": {
+   "repo": "gogh-strike",
+   "name": "고흐 스트라이크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/gogh-strike/",
+   "screenshot": "https://github.com/sigco3111/gogh-strike/raw/HEAD/docs/screenshots/gameplay.png",
+   "type": "fork",
+   "desc": "(액션) · 12명의 화가 6vs6 브라우저 슈터 반 고흐 마을 — Three.js+ESM",
+   "category": "3D"
+  },
+  "3d476f2e-9097-81ce-8656-de3bc980f1a1": {
+   "repo": "piata-unirii",
+   "name": "피아차 우니리",
+   "featured": true,
+   "live": "https://sigco3111.github.io/piata-unirii/",
+   "screenshot": "https://github.com/sigco3111/piata-unirii/raw/HEAD/13-piata-unirii.jpg",
+   "type": "fork",
+   "desc": "Piața Unirii (클루즈나포카 통일광장) — 동일 명세를 여러 코딩 에이전트가 독립 구현한 복셀 아트 미니어처 비교 (한국어화)",
+   "category": "3D"
+  },
+  "3d476f2e-9097-811e-a04d-ef208970d2cf": {
+   "repo": "abyssal-living-deep",
+   "name": "ABYSSAL — 살아 있는 심해",
+   "featured": true,
+   "live": "https://sigco3111.github.io/abyssal-living-deep/",
+   "screenshot": "https://github.com/sigco3111/abyssal-living-deep/raw/HEAD/docs/media/living-surface.jpg",
+   "type": "fork",
+   "desc": "(시각화/시뮬) · ABYSSAL의 살아 있는 바다 — 시드 기반 산호초·켈프 숲·심해의 정원 + 살아 있는 야생 생물 + 극단적 날씨 시뮬레이션. Three.js 단일 의존성, Vite 빌드, MIT 라이선스 보존.",
+   "category": "3D"
+  },
+  "3d376f2e-9097-8113-a2fa-c80e407deda2": {
+   "repo": "watermelon-lab",
+   "name": "수박 연구소",
+   "featured": true,
+   "live": "https://sigco3111.github.io/watermelon-lab/",
+   "screenshot": "https://github.com/sigco3111/watermelon-lab/raw/HEAD/3-watermelon-lab.jpg",
+   "type": "fork",
+   "desc": "GPT-6 Astra One Shot 테스트의 멜론 게임(瓜体实验室) 한글화. zh-CN → ko, 97개 UI 구간 + 9개 과일명 + 3개 물성모드 + 다이얼로그 완전 번역. 한자 잔여 0자, 중국식 부호 0개. 단일 HTML 5.26MB로 Pages 배포, 백엔드/DB 불필요.",
+   "category": "2D게임"
+  },
+  "3d176f2e-9097-8148-be0b-df3f6db7d39e": {
+   "repo": "gemini-studio",
+   "name": "제미나이 스튜디오",
+   "featured": false,
+   "live": "https://sigco3111.github.io/gemini-studio/",
+   "desc": "· Gemini3.0과 Antigravity로 제작한 몰입형 웹 실험 모음 — HTML+JavaScript+Three.js",
+   "category": "시각화"
+  },
+  "3d176f2e-9097-81dd-96f2-cf57edb92b6b": {
+   "repo": "FABLE-SHOWCASE",
+   "name": "Fable 5 쇼케이스",
+   "featured": true,
+   "live": "https://sigco3111.github.io/FABLE-SHOWCASE/",
+   "screenshot": "https://github.com/sigco3111/FABLE-SHOWCASE/raw/HEAD/20-FABLE-SHOWCASE.jpg",
+   "type": "fork",
+   "desc": "· Fable 5 쇼케이스 57개 데모 한국어판. 단일 프롬프트로 하루 동안 만들어진 57개의 독립 실행형 창의적 웹 데모 (생성형 아트, 시뮬레이션, 물리, 세계, 사운드, 플레이) — Claude Fable 5 에이전트 군이 설계/구축/QA 종단간 수행. 각 데모는 의존성 0인 단일",
+   "category": "시각화"
+  },
+  "3d176f2e-9097-8187-9f58-e799e72fc496": {
+   "repo": "gemini_experience",
+   "name": "Gemini 3.0 경험 — 안티그래비티",
+   "featured": false,
+   "live": "https://sigco3111.github.io/gemini_experience/",
+   "desc": "· 몰입형 WebGL 웹 실험과 인터랙티브 시뮬레이션 모음 — HTML+JavaScript+Three.js",
+   "category": "3D"
+  },
+  "3d176f2e-9097-8115-88f7-c82172377ece": {
+   "repo": "fable5-world-demo",
+   "name": "LAAS — 절차적 4×4km 월드 (한글화)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/fable5-world-demo/",
+   "screenshot": "https://github.com/sigco3111/fable5-world-demo/raw/HEAD/docs/readme-hero.jpg",
+   "type": "fork",
+   "desc": "브라우저 WebGPU에서 동작하는 완전 절차적 4×4km 월드 three.js TSL WGSL TypeScript strict. 한글 UI 70+ 문자열 패치.",
+   "category": "3D"
+  },
+  "3d176f2e-9097-81d1-b3b3-f35d07ad6a7e": {
+   "repo": "Sims-Fable-5",
+   "name": "작은 인생 — 한글화판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Sims-Fable-5/",
+   "desc": "(시뮬) · The Sims를 한 손에 쥐어볼 수 있는 코지 라이프 시뮬 — Vanilla HTML+Canvas+JS",
+   "category": "2D게임"
+  },
+  "3d076f2e-9097-81d1-89a5-e5093674b1c9": {
+   "repo": "nanoraider",
+   "name": "나노레이더",
+   "featured": false,
+   "live": "https://sigco3111.github.io/nanoraider/",
+   "desc": "(시뮬) · 로그라이크 영웅 관리 시뮬 — React+Vite+TypeScript+Zustand",
+   "category": "2D게임"
+  },
+  "3d076f2e-9097-8160-84e4-f421a4ffd668": {
+   "repo": "athena-crisis",
+   "name": "Athena Crisis",
+   "featured": false,
+   "live": "https://sigco3111.github.io/athena-crisis/",
+   "desc": "(전략) · 모던 레트로 턴제 전략 게임 — vocs+waku+React+fbtee",
+   "category": "2D게임"
+  },
+  "3d076f2e-9097-819d-b763-ee089303e651": {
+   "repo": "Rotten-Soup",
+   "name": "로텐 수프 — 한글화 포크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Rotten-Soup/",
+   "screenshot": "https://github.com/sigco3111/Rotten-Soup/raw/HEAD/docs/screenshot.png",
+   "type": "fork",
+   "desc": "(RPG) · Vue+Vuetify 기반 브라우저 턴제 로그라이크 — Vue2+Vuetify1+PixiJS+rot.js+Tiled. 원본: Larkenx/Rotten-Soup (GPL-3.0). 23개 Vue 컴포넌트 + 90+개 JS 파일의 UI/게임 텍스트, 4종 NPC 대화, 8종",
+   "category": "2D게임"
+  },
+  "3d076f2e-9097-8170-983f-fa3c67ff70f9": {
+   "repo": "voidstrike",
+   "name": "VOIDSTRIKE 한글판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/voidstrike/",
+   "screenshot": "https://github.com/sigco3111/voidstrike/raw/HEAD/docs/voidstrike-social.png",
+   "type": "fork",
+   "desc": "(전략) · 브라우저 멀티플레이어 사이파이 RTS 한글화 — Three.js+WebGPU+Next.js",
+   "category": "3D"
+  },
+  "3d076f2e-9097-81ed-a248-e412ef006b77": {
+   "repo": "blacksite",
+   "name": "블랙사이트 — 한글화 포크",
+   "featured": false,
+   "live": "https://sigco3111.github.io/blacksite/",
+   "desc": "(액션/FPS) · 적대 PMC의 시설 탈환 10 웨이브 생존 FPS — Three.js+Rapier+TS+Vite",
+   "category": "3D"
+  },
+  "3d076f2e-9097-81a1-a12e-f9c7f38ba5bc": {
+   "repo": "quick-dungeon-crawler-rpg-od",
+   "name": "퀵 던전 크롤러 온 디맨드 (한글판)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/quick-dungeon-crawler-rpg-od/",
+   "screenshot": "https://github.com/sigco3111/quick-dungeon-crawler-rpg-od/raw/HEAD/assets/screenshots/combat.png",
+   "type": "fork",
+   "desc": "(RPG) · 엔들리스 던전 크롤러 한글화 — HTML+JS+CSS+PWA, AGPL-3.0",
+   "category": "2D게임"
+  },
+  "3cf76f2e-9097-817f-91d1-d31a62a7c95e": {
+   "repo": "neon-vector-defense",
+   "name": "랜턴 7 — 한글화 데모",
+   "featured": true,
+   "live": "https://sigco3111.github.io/neon-vector-defense/",
+   "screenshot": "https://github.com/sigco3111/neon-vector-defense/raw/HEAD/public/og-image.jpg",
+   "type": "fork",
+   "desc": "SF 타워 디펜스 게임. React 19 + TypeScript + Canvas. 21개 타워 × 2 업그레이드 경로, 16개 섹터, 4단계 프로토콜. 한글화 + gh-pages 데모. 원본: Calculator5329/neon-vector-defense (MIT)",
+   "category": "2D게임"
+  },
+  "3cf76f2e-9097-8143-b836-f54667ff897f": {
+   "repo": "city-builder-survival",
+   "name": "라스트 리퓨지",
+   "featured": true,
+   "live": "https://sigco3111.github.io/city-builder-survival/",
+   "screenshot": "https://github.com/sigco3111/city-builder-survival/raw/HEAD/docs/screenshot-defense.png",
+   "type": "fork",
+   "desc": "(시뮬) · 낮에 짓고 밤에 살아남는 포스트 아포칼립스 도시 건설 — Three.js+Vite",
+   "category": "2D게임"
+  },
+  "3cf76f2e-9097-810b-9515-f93798e495a9": {
+   "repo": "smart-daddy-games",
+   "name": "스마트대디 게임 모음",
+   "featured": false,
+   "live": "https://sigco3111.github.io/smart-daddy-games/",
+   "desc": "(기타) · 유튜버 스마트대디의 게임 모음",
+   "category": "3D"
+  },
+  "3cf76f2e-9097-8192-8696-de1ea7f71259": {
+   "repo": "bonfire",
+   "name": "Bonfire (한글화 포크)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/bonfire/",
+   "desc": "(RPG) · Flutter로 RPG 게임을 더 쉽게 만드는 엔진 — Flutter+Flame+Dart. 원본 RafaelBarbosatec/bonfire의 한글화 포크로, example 앱 메뉴 35개와 NPC 대화 6개를 한국어로 번역하고 라이브러리 dart doc-comment와 ",
+   "category": "2D게임"
+  },
+  "3cf76f2e-9097-8021-8427-c8dee7a70568": {
+   "repo": "Claude-of-Tanks-ko",
+   "name": "클로드 오브 탱크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Claude-of-Tanks-ko/",
+   "screenshot": "https://github.com/sigco3111/Claude-of-Tanks-ko/raw/HEAD/public/brand/og-image.png",
+   "type": "fork",
+   "desc": "(액션) · 브라우저에서 도는 111대 절차적 전차 + 20 전장 + 물리 탄도 - 솔로 게임 - Three.js + TypeScript + Vite",
+   "category": "3D"
+  },
+  "3ce76f2e-9097-81ef-ae71-e85bc798261b": {
+   "repo": "pixel-run",
+   "name": "픽셀 런 — 한글판",
+   "featured": false,
+   "live": "https://sigco3111.github.io/pixel-run/",
+   "desc": "(액션) · 브라우저 무한 러너 픽셀 아트 — React+Vite+Canvas+TypeScript",
+   "category": "2D게임"
+  },
+  "3ce76f2e-9097-8148-bb78-c2434e78d890": {
+   "repo": "Princeton-Tower-Defense",
+   "name": "프린스턴 타워 디펜스",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Princeton-Tower-Defense/",
+   "screenshot": "https://github.com/sigco3111/Princeton-Tower-Defense/raw/HEAD/public/images/new/gameplay_grounds.png",
+   "type": "fork",
+   "desc": "(전략시뮬레이션) · 26개 레벨 + 7개 타워 + 9명 영웅 + 6개 주문 - React+Canvas 2D+Next.js",
+   "category": "2D게임"
+  },
+  "3ce76f2e-9097-8197-8c28-c69e0db73618": {
+   "repo": "Cog-and-Cosmos",
+   "name": "코그 앤 코스모스",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Cog-and-Cosmos/",
+   "screenshot": "https://github.com/sigco3111/Cog-and-Cosmos/raw/HEAD/15-Cog-and-Cosmos.jpg",
+   "type": "fork",
+   "desc": "2D게임) (시뮬) · 8세계 연결 증분형 방치 — Svelte5+PixiJS v8+PWA",
+   "category": "2D게임"
+  },
+  "3ce76f2e-9097-8138-a858-ee3e64b05879": {
+   "repo": "VibeWars",
+   "name": "바이브 워즈",
+   "featured": true,
+   "live": "https://sigco3111.github.io/VibeWars/",
+   "screenshot": "https://github.com/sigco3111/VibeWars/raw/HEAD/16-VibeWars.jpg",
+   "type": "fork",
+   "desc": "(전략) · 브라우저에서 도는 육각 그리드 턴제 전략 게임 — Three.js+TypeScript+Vite",
+   "category": "3D"
+  },
+  "3cd76f2e-9097-8192-9db1-fd71992dc640": {
+   "repo": "mystic-forest-three",
+   "name": "미스틱 포레스트 보크셀",
+   "featured": false,
+   "live": "https://sigco3111.github.io/mystic-forest-three/",
+   "desc": "(시뮬) · 보크셀 신비의 숲 2.5D 탐험 — Three.js+Vite+TypeScript. miya123123/mystic-forest-three 미러",
+   "category": "3D"
+  },
+  "3cd76f2e-9097-8145-8aff-e7fb72f03877": {
+   "repo": "Farming-Simulator-Cabacos",
+   "name": "카바코스 농장",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Farming-Simulator-Cabacos/",
+   "desc": "(파밍)  2D 탑다운 픽셀 아트 농장 시뮬레이터. Phaser 3 + TypeScript + Vite. 한국어/포르투갈어/영어 지원.",
+   "category": "2D게임"
+  },
+  "3cd76f2e-9097-817f-87dd-ceebc565811c": {
+   "repo": "elderglen",
+   "name": "엘더글렌",
+   "featured": false,
+   "live": "https://sigco3111.github.io/elderglen/",
+   "desc": "(탐험/시뮬) · Three.js + WebGL 절차적 오픈 월드 — 잔잔한 1인칭 저폴리 계곡 탐험",
+   "category": "3D"
+  },
+  "3cd76f2e-9097-815d-a442-d439cdbc16c3": {
+   "repo": "emerald-bayou",
+   "name": "에메랄드 베이유",
+   "featured": true,
+   "live": "https://sigco3111.github.io/emerald-bayou/",
+   "screenshot": "https://github.com/sigco3111/emerald-bayou/raw/HEAD/docs/screenshots/01-hero.jpg",
+   "type": "fork",
+   "desc": "(시뮬) · 남플로리다 에어보트 1인칭 시뮬 — Three.js+Vite+WebGL",
+   "category": "3D"
+  },
+  "3cd76f2e-9097-81e6-824b-f176295ec22e": {
+   "repo": "astral-forge-threejs",
+   "name": "ASTRAL FORGE // 성간 단조",
+   "featured": true,
+   "live": "https://sigco3111.github.io/astral-forge-threejs/",
+   "screenshot": "https://github.com/sigco3111/astral-forge-threejs/raw/HEAD/previews/gameplay-daylight.png",
+   "type": "fork",
+   "desc": "(시뮬) · Three.js 1인칭 체소 성간 탐사 - Three.js+WebGL+vanilla JS",
+   "category": "3D"
+  },
+  "3cd76f2e-9097-8173-baa8-c5418ca28a28": {
+   "repo": "AroundTheWorld",
+   "name": "어라운드 더 월드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/AroundTheWorld/",
+   "desc": "(액션) · 작은 행성에서 운석을 피하고 코인을 모으는 3D 러너 — Three.js+cannon-es+TS+Webpack",
+   "category": "3D"
+  },
+  "3cd76f2e-9097-81f6-8e1a-d16a2b49b380": {
+   "repo": "Shadow-of-the-Watchers",
+   "name": "감시자의 그림자",
+   "featured": true,
+   "live": "https://sigco3111.github.io/Shadow-of-the-Watchers/",
+   "screenshot": "https://github.com/sigco3111/Shadow-of-the-Watchers/raw/HEAD/docs/screenshot-game.png",
+   "type": "fork",
+   "desc": "(전략) · 신화시대 종말론 RTS 한국어판 — Three.js+Vite",
+   "category": "3D"
+  },
+  "3cc76f2e-9097-8118-86e2-e5756af6c15e": {
+   "repo": "aeon",
+   "name": "aeon",
+   "featured": true,
+   "live": "https://sigco3111.github.io/aeon/",
+   "screenshot": "https://github.com/sigco3111/aeon/raw/HEAD/18-aeon.jpg",
+   "type": "fork",
+   "desc": "(시뮬) · 모든 생물이 신경망을 가진 브라우저 신 게임 & 문명 시뮬 — VanillaJS",
+   "category": "2D게임"
+  },
+  "3ca76f2e-9097-81aa-ae6b-f852bc41bce0": {
+   "repo": "idle-hero",
+   "name": "아이들 히어로 · 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/idle-hero/",
+   "screenshot": "https://github.com/sigco3111/idle-hero/raw/HEAD/public/screenshots/preview.svg",
+   "type": "fork",
+   "desc": "(RPG) · 브라우저 아이들 RPG 한국어판 — React+Vite+TypeScript+Three.js",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81cb-ae8a-f5cc2bdd7492": {
+   "repo": "ios_hyperclovax",
+   "name": "HyperCLOVAX-SEED 프로젝트",
+   "featured": false,
+   "live": null,
+   "desc": "· iOS 하이퍼클로박스 앱",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81d5-a4fd-f28d457d9971": {
+   "repo": "yt-download",
+   "name": "로컬 YouTube MP4/MP3 다운로더",
+   "featured": false,
+   "live": null,
+   "desc": "· 로컬 YouTube MP4/MP3 다운로더",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8162-90c6-f32a58b118ff": {
+   "repo": "prompt-advisor",
+   "name": "Prompt Advisor 커스텀 슬래시 커맨드 사용 가이드",
+   "featured": false,
+   "live": null,
+   "desc": "· claude code용 커스텀 슬래시 커맨드 : super claude 스킬과 플러그인을 최적으로 활용하는 지능형 프롬프트 전략 추천.",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81ab-bb78-db0a92ef87fc": {
+   "repo": "opencode-time-travel",
+   "name": "opencode-time-travel",
+   "featured": false,
+   "live": null,
+   "desc": "· 세션 타임라인 리플레이 - OpenCode 서브에이전트 활동 모니터링 & 모델 표시",
+   "category": "실험"
+  },
+  "3c976f2e-9097-813c-9174-d111b3c71490": {
+   "repo": "opencode-usage-cli",
+   "name": "opencode-usage-cli",
+   "featured": false,
+   "live": "npm install -g @sigco3111/oc-usage",
+   "desc": "· CLI tool to check OpenCode usage statistics",
+   "category": "CLI"
+  },
+  "3c976f2e-9097-815c-bfb8-f4dd80b039e0": {
+   "repo": "hwp2md",
+   "name": "hwp2md",
+   "featured": false,
+   "live": null,
+   "desc": "· 한글(HWP) 파일을 깔끔한 마크다운으로 — 의존성 제로, 오프라인 우선, LLM RAG 파이프라인에 최적화",
+   "category": "자동화"
+  },
+  "3c976f2e-9097-81e1-879f-f4721e1bd2d2": {
+   "repo": "md-doctor",
+   "name": "md-doctor",
+   "featured": false,
+   "live": null,
+   "desc": "· 마크다운 품질 진단 + 후처리 CLI — 데드 링크, 깨진 이미지, 한국어 헤딩 일관성, 토큰 효율 통계",
+   "category": "CLI"
+  },
+  "3c976f2e-9097-815d-b381-c70a78e1379b": {
+   "repo": "ai-gm",
+   "name": "AI Game Master — 장르 비종속 공통 엔진",
+   "featured": false,
+   "live": null,
+   "desc": "(엔진) · 장르 비종속 AI 게임 마스터 공통 엔진. 게임 시작 시 GM이 사용자에게 설정을 묻고 시작 — 미리정해진 세계 없음. 장르 플러그인이 위에 얹힘.",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8151-86e3-c68216b780f7": {
+   "repo": "blog-images",
+   "name": "blog-images",
+   "featured": false,
+   "live": null,
+   "desc": "· ICBM Blog 이미지 호스팅 저장소",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8115-a93b-d9d49d69e5dd": {
+   "repo": "ai-gm-sci-fi-explore",
+   "name": "AI Game Master — Sci-Fi Explore (장르 플러그인)",
+   "featured": false,
+   "live": null,
+   "desc": "(라이브러리) · SF 탐험 장르 플러그인 — ai-gm 코어 기반. 함장 시점 성간 탐험. 샘플 시드: 인류 진출기 2247. 미리지정 시드 없음.",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81f0-a35c-f2c14f9b5ce7": {
+   "repo": "ai-gm-mystery-detective",
+   "name": "AI Game Master — Mystery / Detective (장르 플러그인)",
+   "featured": false,
+   "live": null,
+   "desc": "(라이브러리) · 미스터리/탐정 장르 플러그인 — ai-gm 코어 기반. 추리 + 심문 + 단서 추적. 샘플 시드: 하버튼 저택의 죽음 1923. 미리지정 시드 없음.",
+   "category": "실험"
+  },
+  "3c976f2e-9097-810e-9092-f9a7d6d42499": {
+   "repo": "ai-gm-strategy-war",
+   "name": "AI Game Master — Strategy / War (장르 플러그인)",
+   "featured": false,
+   "live": null,
+   "desc": "(라이브러리) · 전략/전쟁 장르 플러그인 — ai-gm 코어 기반. 턴제 그랜드 전략. 샘플 시드: 고구려 391. 게임 시작 시 GM이 시대·톤·규모·국가를 사용자에게 묻고 시작. 미리지정 시드 없음.",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81b4-825e-ef23c20434b0": {
+   "repo": "ai-gm-fantasy-rpg",
+   "name": "AI Game Master — Fantasy RPG (장르 플러그인)",
+   "featured": false,
+   "live": null,
+   "desc": "(라이브러리) · 판타지 RPG 장르 플러그인 — ai-gm 코어 기반. AI GM이 던전·도시·NPC 운영. 샘플 시드: 드래곤 시대 1024. 미리지정 시드 없음.",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81b9-9707-cfc9f13e47e7": {
+   "repo": "cron-doctor",
+   "name": "cron-doctor",
+   "featured": false,
+   "live": null,
+   "desc": "· cron 작업을 진단하는 가벼운 CLI — cron.yaml의 문법·의미·의존성·스키마를 한 번에 검증",
+   "category": "자동화"
+  },
+  "3c976f2e-9097-81d7-af91-e09b783d5b39": {
+   "repo": "opencode-trading",
+   "name": "opencode-trading",
+   "featured": false,
+   "live": null,
+   "desc": "· OpenCode용 TradingCodex 어댑터 — Codex 전용 트레이딩 하니스를 OpenCode + oh-my-openagent로",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81ae-80fb-e49703d72d1c": {
+   "repo": "opencode-harness-bridge",
+   "name": "opencode-harness-bridge",
+   "featured": false,
+   "live": null,
+   "desc": "· OpenCode 하니스 브릿지 — Claude Code/Codex 하니스를 OpenCode로 안전하게 이주",
+   "category": "실험"
+  },
+  "3c976f2e-9097-817b-a265-fa74dcd63b72": {
+   "repo": "gh-traffic-monitor",
+   "name": "gh-traffic-monitor",
+   "featured": false,
+   "live": null,
+   "desc": "(시각화) · GitHub repo 트래픽을 매일 누적 CSV로 저장 (Repolis 등 3D 도시 시각화 백엔드)",
+   "category": "자동화"
+  },
+  "3c976f2e-9097-8188-ac34-c408d397b3eb": {
+   "repo": "xmrig-dashboard",
+   "name": "xmrig-dashboard",
+   "featured": false,
+   "live": null,
+   "desc": "· Real-time TUI dashboard for XMRig (Monero CPU miner) — live hashrate, system metrics, pool status",
+   "category": "CLI"
+  },
+  "3c976f2e-9097-81a8-98e0-f1d11e28fd30": {
+   "repo": "selfgrow",
+   "name": "자가발전 문명 시뮬레이션",
+   "featured": false,
+   "live": null,
+   "desc": "· TUI 자가개선 생태계 시뮬레이터",
+   "category": null
+  },
+  "3c976f2e-9097-81d0-867a-fa1d09d3e0e7": {
+   "repo": "idea-bank",
+   "name": "아이디어 뱅크",
+   "featured": false,
+   "live": null,
+   "desc": "· 프로젝트 아이디어 모음 저장소 - GitHub + Vercel 배포 가능 프로젝트 컬렉션",
+   "category": "기타"
+  },
+  "3c976f2e-9097-81a4-bc20-e880723d8acc": {
+   "repo": "htop-tycoon",
+   "name": "htop 타이쿤",
+   "featured": false,
+   "live": null,
+   "desc": "(시뮬) · 회사 경영을 htop UI로 하는 TUI 게임 — CPU는 매출, 메모리는 재고, 좀비 프로세스는 퇴사 위기 직원",
+   "category": "CLI"
+  },
+  "3c976f2e-9097-81c6-84a1-e5a492fa9511": {
+   "repo": "hermes-ulw",
+   "name": "Hermes ULW — oh-my-openagent Ultrawork 가이드",
+   "featured": false,
+   "live": null,
+   "desc": "· ULW = Ultrawork. 한 단어로 모든 에이전트를 활성화하고, 끝날 때까지 멈추지 않는 워크플로우.",
+   "category": "자동화"
+  },
+  "3c976f2e-9097-81a3-9a19-d939b99dd4eb": {
+   "repo": "generative_agents-kr",
+   "name": "Generative Agents 한국어판",
+   "featured": false,
+   "live": null,
+   "desc": "· 생성형 에이전트: 인간 행동의 상호작용적 모방체 — Generative+Agents+한국어+클론+:+NIM+gpt-oss-120b+llama-nemotron-embed",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8131-b88b-e08b80917dee": {
+   "repo": "snkrx-clone",
+   "name": "SNKRX 한국어화",
+   "featured": true,
+   "live": null,
+   "screenshot": "https://github.com/sigco3111/snkrx-clone/raw/HEAD/21-snkrx-clone.jpg",
+   "type": "fork",
+   "desc": "(RPG) · SNKRX 한국어화 + UI/콘텐츠 개선",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-810b-a4e7-e46769c17309": {
+   "repo": "bytepath-ex",
+   "name": "바이트패스 EX",
+   "featured": false,
+   "live": null,
+   "desc": "(RPG) · 로그라이크 아케이드 슈터 BYTEPATH의 개선",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8193-a2e0-d5d72f8884fd": {
+   "repo": "spriteatelier",
+   "name": "스프라이트 아틀리에",
+   "featured": false,
+   "live": null,
+   "desc": "· 레거시 백업: MFC + DirectX 7 2D 스프라이트 에디터 + WIPI 게임 샘플 (2026-07-30 스냅샷)",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-8137-9ea6-f4e884295c16": {
+   "repo": "wipic-draw3",
+   "name": "WIPI C DRAW ENGINE 3.1",
+   "featured": false,
+   "live": null,
+   "desc": "· 기록 백업: WIPI C Draw Engine 3.1 — 2009-04-13,+draw.c/h+util.c/h",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-81b2-9148-e93b892ebf09": {
+   "repo": "gp32-blaster-vertical",
+   "name": "GP32 블라스터",
+   "featured": false,
+   "live": null,
+   "desc": "(슈팅) · GP32 수직 스크롤 슈팅 게임",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-8112-ae5f-e07d554a7d58": {
+   "repo": "flamesword-action",
+   "name": "플레임소드",
+   "featured": false,
+   "live": null,
+   "desc": "(액션) · FlameSword Windows 횡스크롤 액션 게임",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-8128-9583-c9c043a2a2f9": {
+   "repo": "win32-console-shooter",
+   "name": "Win32 콘솔 슈터",
+   "featured": false,
+   "live": null,
+   "desc": "(슈팅) · Win32 콘솔 슈팅 게임",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-81ff-ab89-e397415e5a43": {
+   "repo": "gateheavens-shmup",
+   "name": "게이트헤븐스",
+   "featured": false,
+   "live": null,
+   "desc": "(슈팅) · GateHeavens 전술 슈팅 RPG",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-814a-a4f5-dfce7f34f89d": {
+   "repo": "pleasuregate-shmup",
+   "name": "플레저게이트",
+   "featured": false,
+   "live": null,
+   "desc": "(액션) · PleasureGate 횡스크롤 슈팅 게임",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-8105-8a8f-d0856473a6d8": {
+   "repo": "mobile-map-editor",
+   "name": "모바일 맵 에디터",
+   "featured": false,
+   "live": null,
+   "desc": "· Mobile Map Editor MFC SDI 맵 에디터",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-810d-a598-fb9c6bfae3d1": {
+   "repo": "sprite-map-viewer",
+   "name": "스프라이트 맵 뷰어",
+   "featured": false,
+   "live": null,
+   "desc": "· Sprite Map Viewer DirectDraw .Spr/.Map 뷰어 + 콤보 테스터",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-8188-be17-e38d80f80e83": {
+   "repo": "dnb-map-editor",
+   "name": "DnB 맵 에디터",
+   "featured": false,
+   "live": null,
+   "desc": "· Map Editor (MT) MFC SDI 타일 맵 에디터",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-813d-b99a-e894aa820f49": {
+   "repo": "dnb-sprite-tool",
+   "name": "DnB 스프라이트 툴",
+   "featured": false,
+   "live": null,
+   "desc": "· Sprite Tool (ST) MFC SDI 스프라이트 에디터",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-81ab-b647-ff9637dda4d6": {
+   "repo": "gp32-bluemarble-king",
+   "name": "GP32 부루마블 킹",
+   "featured": false,
+   "live": null,
+   "desc": "(보드) · GP32 부루마블대왕 보드게임",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-8110-a983-efc4e728393e": {
+   "repo": "dnb-action-rpg",
+   "name": "DnB — 2D 액션 RPG",
+   "featured": false,
+   "live": null,
+   "desc": "(RPG) · DnB Windows용 2D 액션 RPG",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-811e-ab2c-f4f205935d45": {
+   "repo": "IsoMapTool",
+   "name": "IsoMapTool",
+   "featured": false,
+   "live": null,
+   "desc": "· 2003년 VC++ 6.0 / MFC로 작성한 다이아몬드형 아이소메트릭 타일맵 에디터 (2:1 ratio, 1000x1000 인덱스 기반, 3단 Splitter UI)",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-81fa-91fa-f58d8e2d95be": {
+   "repo": "asciirogue",
+   "name": "아스키 로그",
+   "featured": false,
+   "live": null,
+   "desc": "(RPG) · 한국어 우선 · TUI · half-block 비주얼 · 절차 생성 던전 로그라이크 — Rust",
+   "category": "CLI"
+  },
+  "3c976f2e-9097-814c-bb81-d748e8da5f2f": {
+   "repo": "private-archive-thumbnails",
+   "name": "프라이빗 아카이브 썸네일",
+   "featured": false,
+   "live": null,
+   "desc": "· sigco3111 41개 비공개 프로젝트 README용 스크린샷 호스팅 (2003-2013 레거시 게임 자료)",
+   "category": "레거시"
+  },
+  "3c976f2e-9097-8126-b2be-ccc94bc5f685": {
+   "repo": "clipboard-history-mac",
+   "name": "클립보드 히스토리 Mac",
+   "featured": false,
+   "live": "https://clipboard-history-three.vercel.app",
+   "desc": "· macOS 메뉴바 상주 클립보드 히스토리 — SwiftUI MenuBarExtra + NSPasteboard 폴링 + 기존 단일 HTML 임베드",
+   "category": "CLI"
+  },
+  "3c976f2e-9097-8135-98df-f46c403fc84f": {
+   "repo": "piratenation-art",
+   "name": "파이러트 네이션 아트",
+   "featured": false,
+   "live": null,
+   "desc": "· Pirate Nation Unity client의 에셋",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81e6-977b-c70d0937f372": {
+   "repo": "piratenation-game",
+   "name": "Pirate Nation — 종합 가이드 (한국어)",
+   "featured": false,
+   "live": null,
+   "desc": "· Pirate Nation Unity client mirror",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8185-a9eb-d774f96af60b": {
+   "repo": "batgrl-gallery",
+   "name": "batgrl 갤러리",
+   "featured": false,
+   "live": null,
+   "desc": "· 한국어 UI 라벨 + 32개 미니게임 통합 Launcher가 포함된 batgrl 갤러리. 원본 salt-die/batgrl(MIT)에서 파생된 독립 포크.",
+   "category": null
+  },
+  "3c976f2e-9097-8183-9bb8-f8b48913f1ab": {
+   "repo": "hermes-control-room",
+   "name": "헤르메스 컨트롤 룸",
+   "featured": false,
+   "live": "https://sigco3111.github.io/hermes-control-room/",
+   "desc": "(자동화) · W17ant/Claude-Office 포크 · 헤르메스 자동화 시스템 시각화 · SIM/LIVE 토글 · 한글 UI",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8101-b1bb-ef4afc9eb50a": {
+   "repo": "nim-model-dashboard",
+   "name": "Nim 모델 대시보드",
+   "featured": true,
+   "live": "https://nim-model-dashboard.streamlit.app/",
+   "screenshot": "https://github.com/sigco3111/nim-model-dashboard/raw/HEAD/3-nim-model-dashboard.jpg",
+   "type": "original",
+   "desc": "(시각화) · NVIDIA NIM 모델 대시보드: 실시간 모델 상태, 응답 속도, 가용성 확인 도구. FastAPI 기반, 모바일 최적화, 동적 모델 목록 지원.",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8160-8f7c-d9024223da76": {
+   "repo": "tech-stack",
+   "name": "테크스택 AI",
+   "featured": false,
+   "live": "https://claude.ai/public/artifacts/84011dc3-0a71-406f-9a81-01119bff4907",
+   "desc": "· AI 기반 기술스택 추천 시스템",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81a6-9624-fbe6be12c26d": {
+   "repo": "relationship-visualizer",
+   "name": "창작물 인물 관계도 시각화",
+   "featured": false,
+   "live": "https://claude.ai/public/artifacts/fe04a0e2-9a69-4603-b756-37709234186d",
+   "desc": "· AI 창작물 인물 관계도 시각화 도구",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81ea-bdc2-fbf9390e501b": {
+   "repo": "github-board2",
+   "name": "GitHub 사용자 대시보드 2",
+   "featured": false,
+   "live": "https://github-board2.vercel.app/",
+   "desc": "(시각화) · GitHub 사용자 비교 분석 대시보드",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8176-a380-c11ffceb7c7b": {
+   "repo": "appscript_board",
+   "name": "구글 앱스 스크립트 게시판",
+   "featured": false,
+   "live": null,
+   "desc": "· Google Apps Script 기반 게시판",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81a1-8860-f4f95a325fcc": {
+   "repo": "bracket-view",
+   "name": "브라켓 뷰",
+   "featured": false,
+   "live": null,
+   "desc": "· 대진표",
+   "category": "실험"
+  },
+  "3c976f2e-9097-811a-b587-f8e504b9fc96": {
+   "repo": "mingmo-game-korea",
+   "name": "명말 · 협객행 —— 갑신 1644 (한국어판)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/mingmo-game-korea/",
+   "desc": "(액션) · 명말·협객행 갑신1644 — 순수 Canvas/JS 오픈월드 무협 게임 한국어화 버전",
+   "category": null
+  },
+  "3c976f2e-9097-817b-ab15-ff6fa2f9a7a2": {
+   "repo": "perpetual-engine-zai",
+   "name": "퍼페추얼 엔진 ZAI",
+   "featured": false,
+   "live": null,
+   "desc": "· Perpetual Engine 포크 — ZAI(GLM) 지원 멀티 에이전트 AI 스타트업 프레임워크. Claude Code, OpenCode 또는 모든 OpenAI 호환 API를 에이전트 런타임으로 사용.",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81eb-b23e-f0ae91d23146": {
+   "repo": "toss-trader",
+   "name": "토스 트레이더",
+   "featured": false,
+   "live": null,
+   "desc": "· 토스증권 Open API와 로컬 LLM CLI를 이용해 계좌·시장 상태를 주기적으로 분석하고, BUY / SELL / HOLD 판단을 화면에 표시하는 Next.js 애플리케이션입니다.",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81f9-9237-cf0430637b3f": {
+   "repo": "blog",
+   "name": "Jekyll 블로그 관리 시스템",
+   "featured": false,
+   "live": "https://sigco3111.github.io/blog/",
+   "desc": "· Jekyll 기반 블로그 관리 시스템",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-815e-9328-cdb24044c7b1": {
+   "repo": "pages",
+   "name": "pages",
+   "featured": false,
+   "live": "https://sigco3111.github.io/pages/",
+   "desc": "· 노션 Markdown 기반 GitHub Pages 정적 사이트",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81f5-a5ae-e130b2f74681": {
+   "repo": "end_of_eden",
+   "name": "엔드 오브 에덴",
+   "featured": false,
+   "live": "https://bigjk.itch.io/end-of-eden",
+   "desc": "(RPG) · \"Slay the Spire\"처럼 플레이하는 로그라이트 덱빌더 게임으로, 터미널에서 완전히 동작합니다",
+   "category": null
+  },
+  "3c976f2e-9097-818e-9e13-c9333bda30f1": {
+   "repo": "skill-worldmap",
+   "name": "ICBM2 스킬 월드맵",
+   "featured": false,
+   "live": "https://sigco3111.github.io/skill-worldmap/",
+   "desc": "· ICBM2 스킬 월드맵 — 게임 오픈월드 스타일 인터랙티브 스킬 시각화",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8127-ba46-d836a6194a52": {
+   "repo": "ant-colony-optimization",
+   "name": "개미 집단 최적화",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ant-colony-optimization/",
+   "desc": "· [코드깎는노인-코딩미션] 개미 집단 채집 (Ant Colony Optimization)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-817f-a80d-cc2706f01cb5": {
+   "repo": "boids-flocking",
+   "name": "Boids Flocking — 크레이그 레이놀즈의 군집 알고리즘 인공생명 시뮬레이션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/boids-flocking/ ",
+   "desc": "· [코드깎는노인-코딩미션] 군집 시뮬레이션 (Boids Flocking)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81bb-bab2-ee5252883b77": {
+   "repo": "bridge-constructor",
+   "name": "브리지 컨스트럭터",
+   "featured": false,
+   "live": "https://sigco3111.github.io/bridge-constructor/",
+   "desc": "(시뮬) · [코드깎는노인-코딩미션] 다리 건설 시뮬레이터 (Bridge Constructor)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-813a-8e76-d356a997fab0": {
+   "repo": "chladni-patterns",
+   "name": "클라드니 패턴",
+   "featured": false,
+   "live": "https://sigco3111.github.io/chladni-patterns/ ",
+   "desc": "· [코드깎는노인-코딩미션] 클라드니 도형 (Sound Visualization)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81f0-8615-fdad07487807": {
+   "repo": "cloth-simulation",
+   "name": "클로스 시뮬레이션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/cloth-simulation/",
+   "desc": "· [코드깎는노인-코딩미션] 찢어지는 3D 천 시뮬레이션 (Verlet Integration Cloth)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-819e-842b-e58f479517bb": {
+   "repo": "double-pendulum-chaos",
+   "name": "더블 펜듈럼 카오스",
+   "featured": false,
+   "live": "https://sigco3111.github.io/double-pendulum-chaos/",
+   "desc": "· [코드깎는노인-코딩미션] 더블 펜듈럼 (이중 진자) 시뮬레이션",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81a0-8476-d68a0fd9e1d8": {
+   "repo": "fractal-tree",
+   "name": "프랙탈 트리",
+   "featured": false,
+   "live": "https://sigco3111.github.io/fractal-tree/",
+   "desc": "· [코드깎는노인-코딩미션] 프랙탈 나무 성장 (Recursive Tree)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81d9-86df-c8d1fadf256c": {
+   "repo": "gravitational-lensing",
+   "name": "중력 렌징",
+   "featured": false,
+   "live": "https://sigco3111.github.io/gravitational-lensing/ ",
+   "desc": "· [코드깎는노인-코딩미션] 중력 렌즈 효과 (Gravitational Lensing)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8129-ac13-d6ffb8324bfd": {
+   "repo": "lorenz-attractor",
+   "name": "로렌츠 어트랙터",
+   "featured": false,
+   "live": "https://sigco3111.github.io/lorenz-attractor/ ",
+   "desc": "· [코드깎는노인-코딩미션] 로렌즈 어트랙터 (Strange Attractor)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81c2-a85e-fcec67295ef5": {
+   "repo": "neon-fluid",
+   "name": "네온 플루이드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/neon-fluid/ ",
+   "desc": "· [코드깎는노인-코딩미션] 유체 역학 입자 시뮬레이션",
+   "category": "실험"
+  },
+  "3c976f2e-9097-812a-b1ce-d43cbd43ae19": {
+   "repo": "nbody-simulation",
+   "name": "N-body 시뮬레이션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/nbody-simulation/",
+   "desc": "· [코드깎는노인-코딩미션] 중력 상호작용 (N-Body Simulation)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8129-8938-fa39321b783d": {
+   "repo": "newtons-cradle",
+   "name": "뉴턴 크래들",
+   "featured": false,
+   "live": "https://sigco3111.github.io/newtons-cradle/ ",
+   "desc": "(시뮬) · [코드깎는노인-코딩미션] 물리 기반 뉴턴의 요람 시뮬레이터 — Three.js + Cannon.js + Web Audio API",
+   "category": "실험"
+  },
+  "3c976f2e-9097-812c-aa39-eda78e082ed0": {
+   "repo": "pendulum-wave",
+   "name": "펜듈럼 웨이브",
+   "featured": false,
+   "live": "https://sigco3111.github.io/pendulum-wave/",
+   "desc": "· [코드깎는노인-코딩미션] 펜듈럼 웨이브 (Harmonic Motion)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-816c-9b20-c5dbac7bcd2e": {
+   "repo": "voxel-sandbox",
+   "name": "복셀 샌드박스",
+   "featured": false,
+   "live": "https://sigco3111.github.io/voxel-sandbox/",
+   "desc": "(에디터) · [코드깎는노인-코딩미션] 복셀(Voxel) 터레인 에디터",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8124-88a2-fdebfd9cc2ee": {
+   "repo": "aurora-fluid",
+   "name": "오로라 플루이드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/aurora-fluid/ ",
+   "desc": "· [코드깎는노인-코딩미션] 유체 역학 연기 (Fluid Dynamics)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81d8-94c2-d206b86feaff": {
+   "repo": "3d-matrix-rain",
+   "name": "3D Matrix Rain — 영화 *매트릭스*의 디지털 비를 3차원으로 재해석한 인터랙티브 타이포그래피 아트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/3d-matrix-rain/",
+   "desc": "· [코드깎는노인-코딩미션] 3D 매트릭스 레인 (3D Matrix Rain)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-815d-8b5a-fc7ee7164dc1": {
+   "repo": "genetic-walking",
+   "name": "유전 알고리즘 보행",
+   "featured": false,
+   "live": "https://sigco3111.github.io/genetic-walking/ ",
+   "desc": "· [코드깎는노인-코딩미션] 유전 알고리즘 보행 (Genetic Walking)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81df-9238-fd3523fc7c82": {
+   "repo": "dynamic-web-strings",
+   "name": "다이나믹 웹 스트링스",
+   "featured": false,
+   "live": "https://sigco3111.github.io/dynamic-web-strings/ ",
+   "desc": "· [코드깎는노인-코딩미션] 동적 거미줄과 장력 (Dynamic Web Strings)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-819a-9c39-ee0a5f33bc31": {
+   "repo": "falling-sand-reactions",
+   "name": "폴링 샌드 리액션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/falling-sand-reactions/ ",
+   "desc": "· [코드깎는노인-코딩미션] 원소 반응 샌드박스 — Falling+Sand+with+Reactions",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8118-8eb1-ec99f02a1cc1": {
+   "repo": "magnetic-fields",
+   "name": "자기장",
+   "featured": false,
+   "live": "https://sigco3111.github.io/magnetic-fields/ ",
+   "desc": "· [코드깎는노인-코딩미션] 자기장과 철가루 (Magnetic Fields)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-816c-9e80-ff0ccb4f6b1e": {
+   "repo": "jelly-tetris",
+   "name": "젤리 테트리스",
+   "featured": false,
+   "live": "https://sigco3111.github.io/jelly-tetris/",
+   "desc": "· [코드깎는노인-코딩미션] 소프트 바디 테트리스 (Jelly Tetris)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-818b-a511-e66480dc3976": {
+   "repo": "heavy-chain-ik",
+   "name": "헤비 체인 IK",
+   "featured": false,
+   "live": "https://sigco3111.github.io/heavy-chain-ik/",
+   "desc": "· [코드깎는노인-코딩미션] 무거운 사슬과 물리 (Inverse Kinematics)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-816c-946d-e134766d912e": {
+   "repo": "interactive-metaballs",
+   "name": "인터랙티브 메타볼",
+   "featured": false,
+   "live": "https://sigco3111.github.io/interactive-metaballs/",
+   "desc": "· [코드깎는노인-코딩미션] 메타볼 액체 결합 (Interactive Metaballs)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8134-9a36-c56bc2cfeea0": {
+   "repo": "interactive-voronoi",
+   "name": "인터랙티브 보로노이",
+   "featured": false,
+   "live": "https://sigco3111.github.io/interactive-voronoi/",
+   "desc": "· [코드깎는노인-코딩미션] 보로노이 다이어그램 (Interactive Voronoi)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81df-94f4-f9ac8b309d69": {
+   "repo": "heat-conduction-heatmap",
+   "name": "열전도 히트맵",
+   "featured": false,
+   "live": "https://sigco3111.github.io/heat-conduction-heatmap/",
+   "desc": "· [코드깎는노인-코딩미션] 열전도 히트맵 (Thermodynamics)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8126-9e1d-cfaf8cffd262": {
+   "repo": "jelly-slime",
+   "name": "젤리 슬라임",
+   "featured": false,
+   "live": "https://sigco3111.github.io/jelly-slime/ ",
+   "desc": "· [코드깎는노인-코딩미션] 젤리 슬라임 물리 (Soft Body Physics)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8150-9b91-c42617047ff5": {
+   "repo": "gravity-typography",
+   "name": "그래비티 타이포그래피",
+   "featured": false,
+   "live": "https://sigco3111.github.io/gravity-typography/ ",
+   "desc": "· [코드깎는노인-코딩미션] 중력 타이포그래피 (Falling Text)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81ac-a7a1-f09026a5fac8": {
+   "repo": "gray-scott-reaction-diffusion",
+   "name": "그레이-스콧 반응 확산",
+   "featured": false,
+   "live": "https://sigco3111.github.io/gray-scott-reaction-diffusion/",
+   "desc": "· [코드깎는노인-코딩미션] 반응-확산 (Reaction-Diffusion) 패턴",
+   "category": "실험"
+  },
+  "3c976f2e-9097-818e-839f-d8105e331a59": {
+   "repo": "optics-prism-lab",
+   "name": "옵틱스 프리즘 랩",
+   "featured": false,
+   "live": "https://sigco3111.github.io/optics-prism-lab/",
+   "desc": "· [코드깎는노인-코딩미션] 빛의 굴절과 프리즘 (Optics Lab)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81b1-995c-e763c987b3f7": {
+   "repo": "offroad-suspension",
+   "name": "오프로드 서스펜션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/offroad-suspension/",
+   "desc": "· [코드깎는노인-코딩미션] 2D 오프로드 자동차 서스펜션",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81c7-bbd5-c54c4d3a3817": {
+   "repo": "particle-fireworks",
+   "name": "파티클 파이어웍스",
+   "featured": false,
+   "live": "https://sigco3111.github.io/particle-fireworks/",
+   "desc": "· [코드깎는노인-코딩미션] 리얼한 불꽃놀이 (Particle Fireworks)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81a5-b9b9-d0ed419fb709": {
+   "repo": "mandelbrot-kaleidoscope",
+   "name": "만델브로트 칼레이도스코프",
+   "featured": false,
+   "live": "https://sigco3111.github.io/mandelbrot-kaleidoscope/ ",
+   "desc": "· [코드깎는노인-코딩미션] 만델브로 만화경 (Fractal Shader)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81f0-ab5d-e67c4e534860": {
+   "repo": "ripple-tank",
+   "name": "리플 탱크",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ripple-tank/ ",
+   "desc": "· [코드깎는노인-코딩미션] 물결 파동 간섭 (Ripple Tank)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8120-9961-ef92de301c92": {
+   "repo": "retro-synthwave-shooter",
+   "name": "레트로 신스웨이브 슈터",
+   "featured": false,
+   "live": "https://sigco3111.github.io/retro-synthwave-shooter/",
+   "desc": "· [코드깎는노인-코딩미션] 레트로 신스웨이브 슈팅 게임",
+   "category": "실험"
+  },
+  "3c976f2e-9097-810b-9e40-ef82e86e0834": {
+   "repo": "voronoi-glass-fracture",
+   "name": "유리 파편 파괴",
+   "featured": false,
+   "live": "https://sigco3111.github.io/voronoi-glass-fracture/",
+   "desc": "· [코드깎는노인-코딩미션] 유리 파편 파괴 (Voronoi Fracture)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8138-9caa-c1b8eb2b91a4": {
+   "repo": "synthwave-terrain",
+   "name": "Synthwave Terrain — 80년대 레트로웨이브 무한 네온 그리드 비행",
+   "featured": false,
+   "live": "https://sigco3111.github.io/synthwave-terrain/ ",
+   "desc": "· [코드깎는노인-코딩미션] 레트로 웨이브 비행 (Synthwave Terrain)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8157-95f6-edd577cd225d": {
+   "repo": "wind-tunnel-cfd",
+   "name": "윈드 터널 CFD",
+   "featured": false,
+   "live": "https://sigco3111.github.io/wind-tunnel-cfd/ ",
+   "desc": "· [코드깎는노인-코딩미션] 실시간 풍동 실험 (2D Wind Tunnel CFD)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-815d-922e-d9ae60c10f38": {
+   "repo": "raycasting-doom",
+   "name": "레이캐스팅 둠",
+   "featured": false,
+   "live": "https://sigco3111.github.io/raycasting-doom/",
+   "desc": "· [코드깎는노인-코딩미션] 둠(Doom) 스타일 레이캐스팅 엔진",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81fc-b752-f844f5d01ad5": {
+   "repo": "ray-cast-shadows",
+   "name": "레이캐스트 섀도우",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ray-cast-shadows",
+   "desc": "· [코드깎는노인-코딩미션] 동적 조명과 그림자 (Ray Casting)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81f4-80bb-e6f5d45b0ad6": {
+   "repo": "procedural-city",
+   "name": "프로시저럴 시티",
+   "featured": false,
+   "live": "https://sigco3111.github.io/procedural-city/ ",
+   "desc": "(생성기) · [코드깎는노인-코딩미션] 절차적 생성 도시 (Procedural City)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8191-9f36-dd393f9813b8": {
+   "repo": "sci-fi-hud",
+   "name": "SF HUD",
+   "featured": false,
+   "live": "https://sigco3111.github.io/sci-fi-hud/ ",
+   "desc": "· [코드깎는노인-코딩미션] SF 영화 해킹 인터페이스 (Sci-Fi HUD)",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81c8-afc6-ffa89033396d": {
+   "repo": "cyberpunk-globe",
+   "name": "사이버펑크 글로브",
+   "featured": false,
+   "live": "https://sigco3111.github.io/cyberpunk-globe/",
+   "desc": "(시각화) · [코드깎는노인-코딩미션] Three.js 사이버펑크 지구본",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8136-8def-f9cb311c6896": {
+   "repo": "make-app-wiz",
+   "name": "앱 생성 프롬프트 아이디어 마법사",
+   "featured": false,
+   "live": "https://sigco3111.github.io/make-app-wiz/",
+   "desc": "· AI 앱 생성 프롬프트 설계 도우미",
+   "category": "자동화"
+  },
+  "3c976f2e-9097-817f-b278-d4bcddcaece2": {
+   "repo": "google-script-wizard",
+   "name": "구글 앱스크립트 마법사",
+   "featured": false,
+   "live": "https://sigco3111.github.io/google-script-wizard/",
+   "desc": "(자동화) · Google Apps Script 프로젝트 자동 생성 도구",
+   "category": "자동화"
+  },
+  "3c976f2e-9097-81a0-b39f-e7701f36dcc3": {
+   "repo": "dev-trend-oracle",
+   "name": "개발 트렌드 오라클",
+   "featured": false,
+   "live": "https://sigco3111.github.io/dev-trend-oracle/",
+   "desc": "(시각화) · 개발 트렌드 오라클 — HN/Reddit/GitHub 트렌딩 기술 스택 실시간 대시보드",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81df-a5b8-f6749e119507": {
+   "repo": "ai-buy-sell",
+   "name": "AI Buy&Sell",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ai-buy-sell/ ",
+   "desc": "· AI 주식 매매 추천 도구",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81b6-a0db-d8670a2003d0": {
+   "repo": "fire-tribe-base",
+   "name": "파이어족 베이스",
+   "featured": false,
+   "live": "https://sigco3111.github.io/fire-tribe-base/ ",
+   "desc": "· FIRE족 아이디어 발상 관리 플랫폼",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81dd-a631-d0762472b868": {
+   "repo": "insight-pick",
+   "name": "인사이트픽",
+   "featured": false,
+   "live": "https://sigco3111.github.io/insight-pick/",
+   "desc": "· AI 기반 주식 포트폴리오 추천 도구",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-810d-ab3b-d2da03b2108b": {
+   "repo": "ai-image-generator",
+   "name": "AI 이미지 생성기",
+   "featured": true,
+   "live": "https://sigco3111.github.io/ai-image-generator/",
+   "screenshot": "https://github.com/sigco3111/ai-image-generator/raw/HEAD/4-ai-image-generator.jpg",
+   "type": "original",
+   "desc": "(생성기) · AI 이미지 생성기 - 무료 이미지 생성 — Pollinations.ai+Next.js",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81bd-813a-d334eda4de95": {
+   "repo": "KakaoSplit",
+   "name": "KakaoSplit",
+   "featured": false,
+   "live": "https://kakao-split.vercel.app/",
+   "desc": "· 카카오톡 대화 CSV 날짜별 분리 도구",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8192-aa3c-c79a013dba3c": {
+   "repo": "svg-converter",
+   "name": "SVG 변환기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/svg-converter/",
+   "desc": "· PNG ↔ SVG 이미지 변환 도구",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81f3-ac84-e25a66e52f13": {
+   "repo": "core-markdown-editor",
+   "name": "코어 마크다운 편집기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/core-markdown-editor/",
+   "desc": "· AI 기반 마크다운 편집기",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-811f-bd57-c907fb06fd32": {
+   "repo": "evolve-kr",
+   "name": "Evolve 한국어판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/evolve-kr",
+   "screenshot": "https://github.com/sigco3111/evolve-kr/raw/HEAD/docs/screenshot-korean-game.png",
+   "type": "fork",
+   "desc": "(시뮬) · Evolve 한국어 + 한국 콘텐츠",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8167-870b-f5a8b2fd21c4": {
+   "repo": "photosynthesis-simulator",
+   "name": "식물 광합성 시뮬레이터",
+   "featured": false,
+   "live": "https://sigco3111.github.io/photosynthesis-simulator/",
+   "desc": "· 빛, 이산화탄소, 물, 온도, 빛 파장 등 조건을 조절하며 광합성 과정을 인터랙티브하게 학습하는 교육용 시뮬레이터",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8142-85bf-db675a6a4788": {
+   "repo": "api-playground",
+   "name": "API 플레이그라운드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/api-playground/",
+   "desc": "· API Playground — 실시간 공개 API 실험실 | Test 100+ free public APIs in one place",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8175-ae74-c8880ace16a9": {
+   "repo": "astrocartography",
+   "name": "에스트로카토그래피 탐험가",
+   "featured": false,
+   "live": "https://sigco3111.github.io/astrocartography/",
+   "desc": "(시각화) · 점성술 기반 개인별 지도 시각화 도구",
+   "category": "일반앱"
+  },
+  "3c976f2e-9097-817c-919f-e8a0503ea886": {
+   "repo": "decision-genie",
+   "name": "고민 결정 마법사",
+   "featured": false,
+   "live": "https://sigco3111.github.io/decision-genie/",
+   "desc": "· AI 고민 해결 의사결정 보조 도구",
+   "category": "일반앱"
+  },
+  "3c976f2e-9097-8152-a874-d96d502047ce": {
+   "repo": "ai-agent-radar",
+   "name": "AI 에이전트 레이더",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ai-agent-radar/",
+   "desc": "· AI 에이전트 레이더 — ThoughtWorks 스타일 D3.js 인터랙티브 시각화",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8190-b915-c7018309d6c8": {
+   "repo": "codeviz-ai",
+   "name": "CodeViz AI(코드분석기)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/codeviz-ai/",
+   "desc": "· AI 기반 코드 분석 시각화 도구",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81c0-af43-ea3a000613ec": {
+   "repo": "ccusage-json",
+   "name": "클로드코드 사용량 대시보드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ccusage-json/",
+   "desc": "· Claude Code 사용량 분석 대시보드",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8186-b23e-e6379a172269": {
+   "repo": "git-constellation",
+   "name": "Git 컨스텔레이션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/git-constellation/",
+   "desc": "· GitHub 커밋 히스토리를 별자리처럼 시각화",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8102-ad60-c903673d4475": {
+   "repo": "code-map",
+   "name": "코드맵 생성기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/code-map/",
+   "desc": "(시각화) · 코드 구조 시각화 도구",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81a3-8aaf-f1cc4527aca2": {
+   "repo": "token-meter",
+   "name": "토큰 미터기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/token-meter/",
+   "desc": "· LLM 토큰 분할 시각화 도구",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81fe-a9ce-febcafe636db": {
+   "repo": "json-flow",
+   "name": "JSON 순서도 시각화 도구",
+   "featured": false,
+   "live": "https://sigco3111.github.io/json-flow/",
+   "desc": "(시각화) · JSON 구조 순서도 시각화 도구",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8153-890b-e5583b5170f0": {
+   "repo": "repo-dna-analyzer",
+   "name": "Repo DNA — 코드 스타일 지문 분석기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/repo-dna-analyzer/",
+   "desc": "(시각화) · Repo DNA — 코드 스타일 지문 분석기. GitHub 저장소의 들여쓰기, 명명법, 함수 길이, 주석 비율을 분석하여 DNA 헬릭스 + 레이더 차트로 시각화합니다.",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81a7-a718-c42983a8f652": {
+   "repo": "cellverse",
+   "name": "CellVerse — 세포 자동기 실험실",
+   "featured": false,
+   "live": "https://sigco3111.github.io/cellverse/",
+   "desc": "(시뮬) · 세포 자동기 실험실 — Conway's Game of Life, Wireworld, Langton's Ant 등 8가지 프리셋 + 커스텀 규칙 빌더. 단순한 규칙에서 복잡한 생명이 탄생하는 창발적 시스템을 브라우저에서 체험하세요.",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81b5-8f1d-e52b1f9d0818": {
+   "repo": "text-sync-check",
+   "name": "텍스트 싱크 체크",
+   "featured": false,
+   "live": "https://sigco3111.github.io/text-sync-check/",
+   "desc": "· 텍스트 차이 비교 유틸리티",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-815e-be54-fca554122dc7": {
+   "repo": "core-image-converter",
+   "name": "코어 이미지 컨버터",
+   "featured": false,
+   "live": "https://sigco3111.github.io/core-image-converter/",
+   "desc": "· 브라우저 기반 대량 이미지 포맷 변환 도구",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81ad-9f5f-c5f3a9c13ed2": {
+   "repo": "pixedit",
+   "name": "픽스에딧",
+   "featured": false,
+   "live": "https://sigco3111.github.io/pixedit/",
+   "desc": "· 웹 기반 이미지 편집기",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8131-9c95-d77eb57ce7d6": {
+   "repo": "rzweb",
+   "name": "RzWeb 한국어版",
+   "featured": false,
+   "live": "https://sigco3111.github.io/rzweb/",
+   "desc": "· Rizin 기반 브라우저 리버스 엔지니어링 도구 — WebAssembly",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8106-8b71-fb5b21111811": {
+   "repo": "core-video-editor",
+   "name": "코어 비디오 에디터",
+   "featured": false,
+   "live": "https://sigco3111.github.io/core-video-editor/",
+   "desc": "· AI 기반 웹 비디오 편집기",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81a0-96eb-e5ddecf032b8": {
+   "repo": "tech-toolkit-hub",
+   "name": "AI 테크 허브",
+   "featured": false,
+   "live": "https://tech-toolkit-hub.vercel.app/",
+   "desc": "· AI 테크 도구 허브",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81db-91e6-f1f1286b64d1": {
+   "repo": "DevCanvas",
+   "name": "DevCanvas - 웹앱 & 웹게임 허브",
+   "featured": false,
+   "live": "https://devcanvas-two.vercel.app/",
+   "desc": "· 웹앱 & 웹게임 허브",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8176-810f-de1a5128ae12": {
+   "repo": "mac-board",
+   "name": "MAC-BOARD",
+   "featured": false,
+   "live": "https://mac-board.vercel.app/",
+   "desc": "· macOS 스타일 온라인 게시판",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81ce-8020-e246a3b75918": {
+   "repo": "win11-board",
+   "name": "WIN11-BOARD",
+   "featured": false,
+   "live": "https://win11-board.vercel.app",
+   "desc": "· Windows 11 데스크톱 스타일 게시판",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81ad-9bc0-cbd7cc66b004": {
+   "repo": "winxp-board",
+   "name": "WINXP-BOARD",
+   "featured": false,
+   "live": "https://winxp-board.vercel.app",
+   "desc": "· Windows XP 데스크톱 스타일 게시판",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81f8-9b3f-c59c75329a6b": {
+   "repo": "hitel-board",
+   "name": "HITEL-BOARD",
+   "featured": false,
+   "live": "https://hitel-board.vercel.app",
+   "desc": "· 90년대 PC통신 레트로 스타일 게시판",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81d5-8b7c-eecf834ad2e9": {
+   "repo": "ubuntu-board",
+   "name": "Ubuntu-BOARD",
+   "featured": false,
+   "live": "https://ubuntu-board.vercel.app",
+   "desc": "· Ubuntu 데스크톱 스타일 게시판",
+   "category": "실험"
+  },
+  "3c976f2e-9097-812b-8c57-fc8e11cb6734": {
+   "repo": "sys8-board",
+   "name": "sys8-board",
+   "featured": false,
+   "live": "https://sys8-board.vercel.app",
+   "desc": "· macOS 스타일 게시판",
+   "category": "실험"
+  },
+  "3c976f2e-9097-81ab-b23d-e1bfb10c8fb4": {
+   "repo": "cli-board",
+   "name": "터미널 CLI 스타일 게시판",
+   "featured": false,
+   "live": "https://cli-board.vercel.app",
+   "desc": "· 터미널 CLI 스타일 게시판",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81fe-a924-e6badba22609": {
+   "repo": "dongne-today",
+   "name": "우리 동네 오늘",
+   "featured": false,
+   "live": "https://sigco3111.github.io/dongne-today/",
+   "desc": "· dongne-today — 내 동네 오늘 뭐 하지? AI가 6종 데이터 크로스체크로 1분 안에 코디해주는 미니앱",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8168-aa38-e0eb9bda1c83": {
+   "repo": "clipboard-history",
+   "name": "클립보드 히스토리",
+   "featured": false,
+   "live": "https://sigco3111.github.io/clipboard-history/",
+   "desc": "· macOS/브라우저 클립보드 히스토리 매니저 — IndexedDB 기반 무제한 보관 + 검색 + 복원/삭제 + JSON 내보내기",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8142-9817-e4c568e192b2": {
+   "repo": "radiant-kr",
+   "name": "Radiant KR — 한국 전통 색채 셰이더 컬렉션",
+   "featured": false,
+   "live": "https://radiant-kr.vercel.app",
+   "desc": "· 한국적 모티프 셰이더가 추가된 Radiant 갤러리.",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8170-a744-fd85becaf4ed": {
+   "repo": "aetheria",
+   "name": "에테리아",
+   "featured": false,
+   "live": "https://aetheria-five-jet.vercel.app/",
+   "desc": "· 에테리아 섬 — 시네마틱 3D 오픈 월드 게임 동반 앱 (한국어화 클론). Next.js 16 + React 19 + Three.js R3F + 4개 마이크로 프론트엔드 모듈.",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81a0-89cf-d34ca0c88ed9": {
+   "repo": "tegaki-live-demo",
+   "name": "Tegaki 손글씨 데모",
+   "featured": false,
+   "live": "https://sigco3111.github.io/tegaki-live-demo/",
+   "desc": "· 한글/영문/일본어 손글씨 애니메이션 라이브 데모 — gkurt/tegaki 기반",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-811b-9dc8-d3af8ad1ffb2": {
+   "repo": "sango-rising-dragons-kr",
+   "name": "삼국・기용 — 한국어 한글화 포크",
+   "featured": false,
+   "live": "https://sigco3111.github.io/sango-rising-dragons-kr",
+   "desc": "(시뮬) · ryantsai/sango-rising-dragons (三国·起龍) 한국어 한글화 포크",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81eb-b0d0-e6f0d2fac234": {
+   "repo": "minimax-of-duty",
+   "name": "미니맥스 오브 듀티",
+   "featured": false,
+   "live": "https://sigco3111.github.io/minimax-of-duty/",
+   "desc": "(FPS) · Fork of mshumer/Claude-of-Duty — Three.js r180 + WebGL2 브라우저 FPS, 풀 프로시저럴 (55k LOC). 한국어 환경 확장.",
+   "category": "3D"
+  },
+  "3c976f2e-9097-810a-b5e6-f9ed4e45d7bd": {
+   "repo": "token-town-kr",
+   "name": "토큰타운 · TokenTown (한국어)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/token-town-kr/",
+   "desc": "· 원본 LaurentiuGabriel/TokenTown에서 파생된 한국어 독립 포크. LLM 트랜스포머를 아이소메트릭 도시로 시각화한 가이드 투어를 한국어로 즐기세요.",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-819b-80b7-c92b57491bca": {
+   "repo": "engineworks-kr",
+   "name": "엔진웍스 · EngineWorks (한국어)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/engineworks-kr/",
+   "desc": "· 원본 LaurentiuGabriel/EngineWorks에서 파생된 한국어 독립 포크. F1 파워유닛을 아이소메트릭 공장에서 한 정류장씩 조립하는 가이드 투어를 한국어로 즐기세요.",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8168-9c96-d049a9d5080c": {
+   "repo": "chiptycoon-kr",
+   "name": "칩타이쿤 · ChipTycoon (한국어)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/chiptycoon-kr/",
+   "desc": "· 원본 LaurentiuGabriel/ChipTycoon에서 파생된 한국어 독립 포크. 칩 공장의 가이드가 있는 아이소메트릭 투어를 한국어로 즐기세요.",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8103-a52d-c936ce2f2ad9": {
+   "repo": "heart-of-africa-korea",
+   "name": "아프리카의 심장 — 모던 리메이크 (한국어판)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/heart-of-africa-korea/",
+   "screenshot": "https://github.com/user-attachments/assets/07cc05d9-7a8d-427c-88a7-adbd0ea372cf",
+   "type": "fork",
+   "desc": "(어드벤처) · 1985년 클래식 탐험 게임 The Heart of Africa 의 3D 웹 리메이크 — 한국어 인터페이스 버전",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8126-8470-ef2f5c4c49e5": {
+   "repo": "gazette-trend-analyzer",
+   "name": "관보 트렌드 분석기",
+   "featured": false,
+   "live": "https://gazette-trend-analyzer.vercel.app",
+   "desc": "🍴 [포크 (시각화) · 대한민국 관보 정책 트렌드 분석기 — 128,000+ 관보 데이터를 시각화",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8145-948a-fc2ae333b1d4": {
+   "repo": "youtube-board",
+   "name": "YouTube 채널 분석 대시보드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/youtube-board/",
+   "desc": "(시각화) · YouTube 채널 분석 대시보드",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81fe-9c6f-d2f1850dc455": {
+   "repo": "ip-board",
+   "name": "IP 대시보드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ip-board/",
+   "desc": "(시각화) · IP 주소 분석 및 연결 진단 대시보드",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81cf-8bd4-fa98ce251968": {
+   "repo": "steam-board",
+   "name": "스팀 대시보드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/steam-board/",
+   "desc": "(시각화) · Steam 프로필 분석 대시보드",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-818c-95ff-ec16a1fafb30": {
+   "repo": "github-board",
+   "name": "GitHub 사용자 대시보드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/github-board/",
+   "desc": "(시각화) · GitHub 사용자 프로필 대시보드",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81c2-a016-fb4b814a4a94": {
+   "repo": "world-data-map",
+   "name": "세계 데이터 지도",
+   "featured": false,
+   "live": "https://sigco3111.github.io/world-data-map/",
+   "desc": "· 국가별 통계 데이터 인터랙티브 지도",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81bb-9901-f7bea7edcd2f": {
+   "repo": "world-bank-board",
+   "name": "세계은행 데이터 AI 비교 분석기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/world-bank-board/",
+   "desc": "· 세계은행 데이터 AI 비교 분석 대시보드",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-81c9-bae4-f7287b2caba7": {
+   "repo": "satellite-board",
+   "name": "위성 궤도 시각화",
+   "featured": false,
+   "live": "https://sigco3111.github.io/satellite-board/",
+   "desc": "(시각화) · 위성 궤도 3D 시각화 대시보드",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81aa-9731-c55a3eef5001": {
+   "repo": "co2-board",
+   "name": "국가간 CO₂ 배출량 비교 분석",
+   "featured": false,
+   "live": "https://sigco3111.github.io/co2-board/",
+   "desc": "(시각화) · 국가별 CO₂ 배출량 비교 분석 대시보드",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81d0-a992-ddbd946a8dd6": {
+   "repo": "ke-globe",
+   "name": "KE-GLOBE — 전 세계 핵실험 타임라인 3D 시각화",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ke-globe/",
+   "desc": "(시각화) · 전 세계 핵실험 타임라인 (1945~현재) — CesiumJS 3D 글로벌 시각화",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81a1-a094-c947178025d7": {
+   "repo": "cable-globe",
+   "name": "케이블 글로브",
+   "featured": false,
+   "live": "https://sigco3111.github.io/cable-globe/",
+   "desc": "(시각화) · 전 세계 해저 인터넷 케이블 3D 인터랙티브 지도 — Globe.gl + Three.js 기반 해저 네트워크 시각화",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81dd-a3dc-c8382a8deb29": {
+   "repo": "earthquake",
+   "name": "전세계 지진 추적기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/earthquake/",
+   "desc": "(시각화) · 전 세계 실시간 지진 추적 대시보드",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-818f-a28f-d550a29a39a8": {
+   "repo": "texture-forge",
+   "name": "텍스처 포지",
+   "featured": false,
+   "live": "https://sigco3111.github.io/texture-forge/",
+   "desc": "· 절차적 텍스처 제네레이터 — Perlin/Simplex 노이즈로 돌, 나무, 대리석 등 2D 텍스처를 브라우저에서 실시간 생성",
+   "category": "실험"
+  },
+  "3c976f2e-9097-811e-86ea-c9ebb90e3666": {
+   "repo": "terrain",
+   "name": "지형 프로필 분석기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/terrain/",
+   "desc": "· 지형 고도 프로필 분석 도구",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81ea-b419-c8d32074cc5e": {
+   "repo": "ConvertFormat",
+   "name": "데이터 & 텍스트 변환기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ConvertFormat/",
+   "desc": "· 데이터 및 텍스트 포맷 변환 도구",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8147-a308-ce296d821401": {
+   "repo": "algo-visualizer",
+   "name": "알고 비주얼라이저",
+   "featured": false,
+   "live": "https://sigco3111.github.io/algo-visualizer/",
+   "desc": "· 알고리즘 & 자료구조 시각화 — 정렬, 탐색, 트리, 스택, 큐, 연결리스트를 애니메이션으로",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8162-9656-d6032b9e1e91": {
+   "repo": "ai-flowchart",
+   "name": "AI 플로우차트 생성기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ai-flowchart/",
+   "desc": "(생성기) · AI 플로우차트 생성기",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8159-8b0a-f40d05e7d099": {
+   "repo": "deckbuilder-adventure",
+   "name": "덱빌더 어드벤처",
+   "featured": false,
+   "live": "https://sigco3111.github.io/deckbuilder-adventure/",
+   "desc": "(RPG) · 덱 빌딩 카드 RPG 어드벤처 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81d0-8744-cd93e855d07f": {
+   "repo": "hexagon-conqueror",
+   "name": "헥사곤 정복자",
+   "featured": false,
+   "live": "https://sigco3111.github.io/hexagon-conqueror/",
+   "desc": "(전략) · 헥사곤 정복자 - 실제 한국 지도 위에서 펼치는 영토 확장 리스크 게임. deck.gl HexagonLayer로 구현된 턴제 전략 시뮬레이션.",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-818d-98da-c6588b0e8ac9": {
+   "repo": "predator",
+   "name": "포식자",
+   "featured": false,
+   "live": "https://sigco3111.github.io/predator/",
+   "desc": "(액션) · 생물 흡수 성장 아케이드 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8122-a8ae-d7b9b3c2d69b": {
+   "repo": "3d-fractal",
+   "name": "AI 기반 3D 프랙탈 아트 생성기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/3d-fractal/",
+   "desc": "(생성기) · AI 기반 3D 프랙탈 아트 생성기",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8144-aa99-efae8ea731c5": {
+   "repo": "fruitbox",
+   "name": "사과게임 · sigco fruitbox v0.3",
+   "featured": false,
+   "live": "https://sigco3111.github.io/fruitbox/",
+   "desc": "(퍼즐) · 사과게임 (sigco fruitbox) — 매일 새로운 17×10 사과 보드에서 목표 합(8/10/12/15 랜덤)으로 직사각형 영역을 지우는 120초 퍼즐",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81ae-aad9-ef62decaa889": {
+   "repo": "2048",
+   "name": "2048 게임",
+   "featured": false,
+   "live": "https://sigco3111.github.io/2048/",
+   "desc": "(퍼즐) · 클래식 2048 퍼즐 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81ea-8b26-f29e3c9be5ac": {
+   "repo": "Tetris-am3d",
+   "name": "테트리스 AI 마스터 3D",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Tetris-am3d/",
+   "desc": "(퍼즐) · 3D 테트리스 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8197-b3df-fa98aa917658": {
+   "repo": "liquid-sort",
+   "name": "리퀴드 소트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/liquid-sort/",
+   "desc": "(퍼즐) · 액체 색상 정렬 퍼즐 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8174-8a1c-c792add392b5": {
+   "repo": "poker-king",
+   "name": "포커 킹",
+   "featured": false,
+   "live": "https://sigco3111.github.io/poker-king/",
+   "desc": "(보드) · 텍사스 홀덤 포커 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-814c-9ed2-d4fe27b82df9": {
+   "repo": "one-card-game",
+   "name": "원카드 게임",
+   "featured": false,
+   "live": "https://sigco3111.github.io/one-card-game/",
+   "desc": "(보드) · 원카드 카드 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8181-ad8b-fb948c008bb5": {
+   "repo": "ladder-game",
+   "name": "세상에서 가장 공정한 사다리게임",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ladder-game/",
+   "desc": "(보드) · 공정한 사다리 타기 게임",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8189-8814-f66a8f9bfdb6": {
+   "repo": "sand-sandbox",
+   "name": "샌드 샌드박스",
+   "featured": false,
+   "live": "https://sigco3111.github.io/sand-sandbox/",
+   "desc": "(시뮬) · Falling Sand Simulation — 모래, 물, 불, 식물 등 요소 간 화학 반응이 일어나는 인터랙티브 샌드박스. Canvas 기반",
+   "category": "실험"
+  },
+  "3c976f2e-9097-8103-af24-c35de1213b93": {
+   "repo": "3d-block-world-edit",
+   "name": "3D 블록 월드 편집기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/3d-block-world-edit/",
+   "desc": "· 3D 블록 월드 편집기",
+   "category": "실험"
+  },
+  "3c976f2e-9097-810d-8ea4-c856c185b2b7": {
+   "repo": "last-banner",
+   "name": "라스트 배너",
+   "featured": false,
+   "live": "https://sigco3111.github.io/last-banner/",
+   "desc": "(RPG) · 변방 영지 운영 로그라이크 — Godot 4 + macOS 네이티브 + Wesnoth 2D — 자동+진행+결정+큐",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8165-9d00-e610ad60e238": {
+   "repo": "rpg-script-editor",
+   "name": "RPG 스크립트 편집기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/rpg-script-editor/",
+   "desc": "(RPG) · RPG 게임 시나리오 제작 편집기",
+   "category": "웹앱"
+  },
+  "3c976f2e-9097-8109-820e-f30ad6dde899": {
+   "repo": "rpg-adv-bt",
+   "name": "RPG어드벤처 (잊혀진 영역의 연대기)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/rpg-adv-bt/",
+   "desc": "(RPG) · JRPG 어드벤처 엔진 - 잊혀진 영역의 연대기",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8104-afce-c85543842e0f": {
+   "repo": "rpg-adv-at",
+   "name": "RPG어드벤처",
+   "featured": false,
+   "live": "https://sigco3111.github.io/rpg-adv-at/",
+   "desc": "(RPG) · JRPG 어드벤처 엔진 - 사이버펑크 조선",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8164-a930-c1fc869de02c": {
+   "repo": "Idle_RPG",
+   "name": "방치형 모험가 노트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Idle_RPG/",
+   "desc": "(RPG) · 방치형 던전 RPG 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81f2-a4bc-c164cd6bc798": {
+   "repo": "mount-and-blade",
+   "name": "마운트 앤 블레이드 Web",
+   "featured": false,
+   "live": "https://sigco3111.github.io/mount-and-blade/",
+   "desc": "(RPG) · 마운트 앤 블레이드 텍스트 RPG 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8143-9ccf-c4a0d76b87e4": {
+   "repo": "dungeon-story",
+   "name": "던전 앤 스토리",
+   "featured": false,
+   "live": "https://sigco3111.github.io/dungeon-story/",
+   "desc": "(RPG) · 마을 건설 던전 RPG 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81d9-b1ed-f69a8340a06c": {
+   "repo": "royal_secretary",
+   "name": "왕실 서기관: AI 에델바이스 보고서",
+   "featured": false,
+   "live": "https://sigco3111.github.io/royal_secretary/",
+   "desc": "(시뮬) · 판타지 왕국 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-812e-81cb-d1f698debab4": {
+   "repo": "lightning-strike",
+   "name": "라이트닝 스트라이크",
+   "featured": false,
+   "live": "https://sigco3111.github.io/lightning-strike/",
+   "desc": "(액션) · 번개 소환 아케이드 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-810e-87c8-e6b209de18ff": {
+   "repo": "lifeGame",
+   "name": "디지털 인생 게임",
+   "featured": false,
+   "live": "https://sigco3111.github.io/lifeGame/",
+   "desc": "(시뮬) · 디지털 인생 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8117-916a-cc8269e46b34": {
+   "repo": "convenience24",
+   "name": "24시 편의점 이야기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/convenience24/",
+   "desc": "(시뮬) · 24시 편의점 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8160-8968-c661fcc6d789": {
+   "repo": "pixel-farm-story",
+   "name": "픽셀 농장 이야기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/pixel-farm-story/",
+   "desc": "(시뮬) · 농장 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81a7-8e97-ca401c986d6b": {
+   "repo": "grand-prix",
+   "name": "그랑프리 스토리: 이모지 레이서",
+   "featured": false,
+   "live": "https://sigco3111.github.io/grand-prix/",
+   "desc": "(시뮬) · 레이싱 팀 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81c9-9d01-ccd7d90902e0": {
+   "repo": "super-robot-lite",
+   "name": "슈퍼로봇대전 Lite",
+   "featured": false,
+   "live": "https://sigco3111.github.io/super-robot-lite/",
+   "desc": "(전략) · 슈퍼로봇대전 턴제 전략 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-813d-9977-d8362cb221d3": {
+   "repo": "geoPoly",
+   "name": "지구마블 - 3D 보드 게임",
+   "featured": false,
+   "live": "https://sigco3111.github.io/geoPoly/",
+   "desc": "(보드) · 지구마블 3D 보드 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8123-a06e-cdcbd0584782": {
+   "repo": "juice-tycoon",
+   "name": "생과일 타이쿤",
+   "featured": false,
+   "live": "https://sigco3111.github.io/juice-tycoon/",
+   "desc": "(시뮬) · 과일 주스 가게 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81b5-a78d-e7d50e3dd4d4": {
+   "repo": "democracy4-lite",
+   "name": "민주주의4.0 Lite",
+   "featured": false,
+   "live": "https://sigco3111.github.io/democracy4-lite/",
+   "desc": "(시뮬) · 국가 운영 정치 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-812e-8cc2-d51a8ea0afe1": {
+   "repo": "castle-breaker",
+   "name": "캐슬 브레이커",
+   "featured": false,
+   "live": "https://sigco3111.github.io/castle-breaker/",
+   "desc": "(액션) · 3D 물리 기반 성 파괴 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81f1-bad3-fa5c123bebce": {
+   "repo": "wobbly-tower",
+   "name": "흔들흔들 탑 쌓기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/wobbly-tower/",
+   "desc": "(보드) · 3D 물리 기반 탑 쌓기 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8178-913f-d3bc289b977f": {
+   "repo": "wordle",
+   "name": "워들 게임",
+   "featured": false,
+   "live": "https://sigco3111.github.io/wordle/",
+   "desc": "(퍼즐) · 단어 추측 퍼즐 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-816d-88ed-ea32ec6e9270": {
+   "repo": "FireworksMaster",
+   "name": "파이어웍스 마스터",
+   "featured": false,
+   "live": "https://sigco3111.github.io/FireworksMaster/",
+   "desc": "(시뮬) · 불꽃놀이 제작 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8105-980a-d93944ed803e": {
+   "repo": "candy-crush-saga",
+   "name": "캔디 크러시 사가 클론",
+   "featured": false,
+   "live": "https://sigco3111.github.io/candy-crush-saga/",
+   "desc": "(퍼즐) · 캔디 크러쉬 매치-3 퍼즐 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81dc-acf2-ff23ec415335": {
+   "repo": "number-connect",
+   "name": "넘버 커넥트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/number-connect/",
+   "desc": "(퍼즐) · 숫자 연결 퍼즐 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8117-a59b-c8081e606450": {
+   "repo": "number-link-merge",
+   "name": "넘버링크",
+   "featured": false,
+   "live": "https://sigco3111.github.io/number-link-merge/",
+   "desc": "(퍼즐) · 숫자 합치기 퍼즐 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8183-922c-ea8d605c04f5": {
+   "repo": "watermelon",
+   "name": "수박 게임 3D",
+   "featured": false,
+   "live": "https://sigco3111.github.io/watermelon/",
+   "desc": "(퍼즐) · 3D 과일 합치기 퍼즐 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81a4-9234-cb0e854b9f21": {
+   "repo": "core-breaker",
+   "name": "코어 브레이커",
+   "featured": false,
+   "live": "https://sigco3111.github.io/core-breaker/",
+   "desc": "(FPS) · 3D 구조물 파괴 FPS 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8160-a181-c05a0fd94eea": {
+   "repo": "block-simCity",
+   "name": "블록 심시티 빌더",
+   "featured": false,
+   "live": "https://sigco3111.github.io/block-simCity/",
+   "desc": "(시뮬) · 블록 도시 건설 시뮬레이션 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81bf-961b-fcdb374c7bed": {
+   "repo": "department-tycoon",
+   "name": "백화점 타이쿤",
+   "featured": false,
+   "live": "https://sigco3111.github.io/department-tycoon/",
+   "desc": "(시뮬) · 백화점 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8185-945e-f41346b3c05b": {
+   "repo": "real-estate-king",
+   "name": "두근두근! 부동산 왕",
+   "featured": false,
+   "live": "https://sigco3111.github.io/real-estate-king/",
+   "desc": "(시뮬) · 부동산 매매 임대 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81fe-a741-d66e8561225b": {
+   "repo": "kbo-manager",
+   "name": "KBO 리그 매니저",
+   "featured": false,
+   "live": "https://sigco3111.github.io/kbo-manager/",
+   "desc": "(시뮬) · KBO 프로야구 팀 관리 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8198-9eab-ec6b8995d4f6": {
+   "repo": "FootballClub",
+   "name": "축구 클럽 매니저",
+   "featured": false,
+   "live": "https://sigco3111.github.io/FootballClub/",
+   "desc": "(시뮬) · 축구 클럽 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-815f-bae9-c6d6ef57a7ea": {
+   "repo": "ChampionMaker",
+   "name": "챔피언 메이커",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ChampionMaker/",
+   "desc": "(시뮬) · 복싱 선수 육성 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81e2-9c04-e76c48ab5d84": {
+   "repo": "kingdoms3-tradewar",
+   "name": "삼국지 : 무역전쟁",
+   "featured": false,
+   "live": "https://sigco3111.github.io/kingdoms3-tradewar/",
+   "desc": "(전략) · 삼국지 무역 전쟁 전략 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81cb-86fd-d1393252e7d6": {
+   "repo": "Kingdoms3Lite",
+   "name": "삼국지 Lite",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Kingdoms3Lite/",
+   "desc": "(전략) · 삼국지 턴제 전략 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81e3-bdb4-cdda3340920a": {
+   "repo": "gamedev-lite",
+   "name": "게임데브스토리 Lite",
+   "featured": false,
+   "live": "https://sigco3111.github.io/gamedev-lite/",
+   "desc": "(시뮬) · 게임 개발사 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8144-8d4d-d753fdd1e49d": {
+   "repo": "enterprise_ceo",
+   "name": "엔터프라이즈: CEO 대시보드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/enterprise_ceo/",
+   "desc": "(시뮬) · 기업 CEO 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8188-a09a-f373c99ae1e7": {
+   "repo": "age-of-exploration-lite",
+   "name": "대항해시대 Lite",
+   "featured": false,
+   "live": "https://sigco3111.github.io/age-of-exploration-lite/",
+   "desc": "(시뮬) · 대항해시대 탐험 교역 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-811d-9d6f-c904293939f2": {
+   "repo": "capitalism-web",
+   "name": "캐피탈리즘 월드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/capitalism-web/",
+   "desc": "(시뮬) · 글로벌 기업 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8119-8682-f8837b76aafb": {
+   "repo": "xcom-lite",
+   "name": "XCOM 라이트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/xcom-lite/",
+   "desc": "(전략) · 턴제 전술 분대 전략 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-819b-9907-d228c2634d55": {
+   "repo": "terrarium",
+   "name": "테라리움 : 방치형 성장 시뮬레이션",
+   "featured": false,
+   "live": "https://sigco3111.github.io/terrarium/",
+   "desc": "(시뮬) · 3D 방치형 생태계 육성 시뮬레이션 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81a5-81d5-f6fb53985b6f": {
+   "repo": "sand-blast",
+   "name": "샌드 블라스트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/sand-blast/",
+   "desc": "(퍼즐) · 블록 물리 퍼즐 게임",
+   "category": "실험"
+  },
+  "3c976f2e-9097-810a-92c4-e09c1ddd3472": {
+   "repo": "3d-physics-lab",
+   "name": "3D 물리 실험실",
+   "featured": false,
+   "live": "https://sigco3111.github.io/3d-physics-lab/",
+   "desc": "(시뮬) · 3D 물리 시뮬레이션 실험실",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8148-a7d4-d60771062135": {
+   "repo": "world-box",
+   "name": "월드 박스 라이트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/world-box/",
+   "desc": "(시뮬) · 국가 시뮬레이션 샌드박스 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-81f2-9484-f0cd274481ec": {
+   "repo": "gostop",
+   "name": "토너먼트 맞고",
+   "featured": false,
+   "live": "https://sigco3111.github.io/gostop/",
+   "desc": "(보드) · 토너먼트 고스톱 카드 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-811c-a99e-fce3bcef75d7": {
+   "repo": "diablock",
+   "name": "디아블록",
+   "featured": false,
+   "live": "https://sigco3111.github.io/diablock/",
+   "desc": "(디펜스) · 디아블로 스타일 자동 전투 디펜스 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81b6-9b7a-c2cb27221010": {
+   "repo": "World_War_Simulator",
+   "name": "World War Simulator (세계 대전 시뮬레이터)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/World_War_Simulator/",
+   "desc": "(시뮬) · 월드워 시뮬레이터 웹 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8129-a789-eee991bb7cd0": {
+   "repo": "stonks-9800",
+   "name": "트레이더: STONKS-9800",
+   "featured": true,
+   "live": "https://sigco3111.github.io/stonks-9800/",
+   "screenshot": "https://github.com/sigco3111/stonks-9800/raw/HEAD/favicon.png",
+   "type": "original",
+   "desc": "(시뮬) · 레트로 터미널 스타일 주식 거래 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-8163-ac3b-e24af67717b1": {
+   "repo": "air-management",
+   "name": "에어 매니지먼트",
+   "featured": true,
+   "live": "https://sigco3111.github.io/air-management/",
+   "screenshot": "https://github.com/sigco3111/air-management/raw/HEAD/2-air-management.jpg",
+   "type": "original",
+   "desc": "(시뮬) · 항공사 경영 시뮬레이션 게임",
+   "category": "2D게임"
+  },
+  "3c976f2e-9097-813b-ae2b-c1f623b28c10": {
+   "repo": "iron-dome",
+   "name": "아이언 돔",
+   "featured": true,
+   "live": "https://sigco3111.github.io/iron-dome/",
+   "screenshot": "https://github.com/sigco3111/iron-dome/raw/HEAD/5-iron-dome.jpg",
+   "type": "original",
+   "desc": "(시뮬) · 3D 미사일 방어 시뮬레이션 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8167-a978-dd9ee43a1b65": {
+   "repo": "maplibre-fullstack-demo",
+   "name": "MapLibre GL JS 풀스택 데모",
+   "featured": false,
+   "live": "https://maplibre-fullstack-demo.vercel.app/",
+   "desc": "(시각화) · MapLibre GL JS 풀스택 데모 - 20+ 공식 예제 + 15+ 무료 공개 데이터 통합. 3D 깊이·구도·재질·조명·인터랙티브 비주얼.",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-81f2-9906-d8ed2ed3f6c8": {
+   "repo": "NameWriterThreeJS",
+   "name": "NameWriterThreeJS — 풍선 이름",
+   "featured": false,
+   "live": "https://sigco3111.github.io/NameWriterThreeJS/",
+   "desc": "(시각화) · 인터랙티브 이름/문자 풍선 — Three.js + React + cannon-es + gsap",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8139-a41b-e419cefe56f5": {
+   "repo": "MilkyWayThreeJS",
+   "name": "MilkyWayThreeJS — 인터랙티브 은하수",
+   "featured": false,
+   "live": "https://sigco3111.github.io/MilkyWayThreeJS/",
+   "desc": "(시뮬) · 시네마틱 은하 시뮬레이터 — React Three Fiber + GLSL 셰이더 + 150K 별 + 나선팔 + 시네마틱 카메라 + 포스트프로세싱",
+   "category": "3D"
+  },
+  "3c976f2e-9097-812c-bfe3-c69a14f79c83": {
+   "repo": "EarthThreeJS",
+   "name": "EarthThreeJS — 인터랙티브 지구",
+   "featured": false,
+   "live": "https://sigco3111.github.io/EarthThreeJS/",
+   "desc": "(시뮬) · 인터랙티브 지구 시뮬레이터 — React Three Fiber + GLSL 셰이더 + GSAP + 시네마틱 카메라 + 포스트프로세싱",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8179-abbc-e760bf4465be": {
+   "repo": "WaterThreeJS",
+   "name": "WaterThreeJS — 사실적인 3D 바다",
+   "featured": false,
+   "live": "https://sigco3111.github.io/WaterThreeJS",
+   "desc": "· 사실적 3D 바다 — Three.js + Gerstner 파도 + 수중 환경",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81f4-95ec-e0871a1ee879": {
+   "repo": "SnowSystemThreeJS",
+   "name": "SnowSystemThreeJS — 눈 스튜디오",
+   "featured": false,
+   "live": "https://sigco3111.github.io/SnowSystemThreeJS/",
+   "desc": "(시뮬) · 절차적 눈 시뮬레이터 — Three.js + GPU 인스턴싱 눈송이 + 누적 셰이더 + 시네마틱 스튜디오",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81c4-91fd-c91d1e0ddade": {
+   "repo": "RainSystemThreeJS",
+   "name": "RainSystemThreeJS — 비 스튜디오",
+   "featured": false,
+   "live": "https://sigco3111.github.io/RainSystemThreeJS",
+   "desc": "· 비 시뮬레이션 — Three.js + 빗줄기 + 젖음 + 번개 + 사운드 + 풀 모델 임포트",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8156-aa00-e0f7dbd1e31a": {
+   "repo": "hermes-knowledge-shelf",
+   "name": "헤르메스 지식 선반",
+   "featured": false,
+   "live": "https://sigco3111.github.io/hermes-knowledge-shelf/",
+   "desc": "· 에르메스 지식 서재 — 공개 가능한 익명 샘플 데이터 6권을 3D 책장과 HTML 리더로 탐색하는 클린룸 MVP. MengTo/complete-shelf의 단일-파일 experience를 한국어 6권 카탈로그로 clone·수정한 결과물입니다.",
+   "category": "시각화"
+  },
+  "3c976f2e-9097-8198-868b-da340f6854f5": {
+   "repo": "regl-scatterplot-korea",
+   "name": "regl-scatterplot-korea",
+   "featured": false,
+   "live": "https://sigco3111.github.io/regl-scatterplot-korea/",
+   "desc": "· regl-scatterplot 한국어 인터랙티브 데모",
+   "category": "3D"
+  },
+  "3c976f2e-9097-818f-a3bd-f257bc71d41a": {
+   "repo": "PoleGeneratorThreeJS",
+   "name": "PoleGeneratorThreeJS — 폴 배치 스튜디오",
+   "featured": false,
+   "live": "https://sigco3111.github.io/PoleGeneratorThreeJS",
+   "desc": "(시뮬) · 전봇대 배치 시뮬레이터 — React + Three.js + R3F + 스튜디오 조명",
+   "category": "3D"
+  },
+  "3c976f2e-9097-819d-a192-c15a60f82fb5": {
+   "repo": "BookcaseThreeJS",
+   "name": "BookcaseThreeJS — 절차적 책장 스튜디오",
+   "featured": false,
+   "live": "https://sigco3111.github.io/BookcaseThreeJS",
+   "desc": "(에디터) · 절차적 책장 컨피규레이터 — Three.js + cannon-es + 시네마틱 스튜디오",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8108-9c4d-e0976588bc66": {
+   "repo": "BasicProceduralBuilding",
+   "name": "BasicProceduralBuilding — 절차적 빌딩 컨피규레이터",
+   "featured": false,
+   "live": "https://sigco3111.github.io/BasicProceduralBuilding",
+   "desc": "(에디터) · 절차적 빌딩 컨피규레이터 — Three.js + TypeScript + Diorama 디테일",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8180-8c14-cb23ecad44f4": {
+   "repo": "GrassSystemThreeJS",
+   "name": "GrassSystemThreeJS — 토양 스튜디오",
+   "featured": false,
+   "live": "https://sigco3111.github.io/GrassSystemThreeJS",
+   "desc": "(시뮬) · 토양 / 잔디 시뮬레이터 — Three.js + GPU 인스턴싱 잔디 + 이끼 + 볼류메트릭 구름 + 시네마틱",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8153-a681-c0bc18ddfeb0": {
+   "repo": "BuildingGeneratorThreeJS",
+   "name": "BuildingGeneratorThreeJS — 홍콩 빌딩 생성기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/BuildingGeneratorThreeJS",
+   "desc": "(생성기) · 홍콩 빌딩 생성기 — Three.js + TypeScript + Blender 노드 그래프 포팅 + 풀 날씨",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81dc-8bc7-ca06dc75d442": {
+   "repo": "VegetationGeneratorThreeJS",
+   "name": "VegetationGeneratorThreeJS",
+   "featured": true,
+   "live": "https://sigco3111.github.io/VegetationGeneratorThreeJS",
+   "screenshot": "https://github.com/sigco3111/VegetationGeneratorThreeJS/raw/HEAD/6-VegetationGeneratorThreeJS.jpg",
+   "type": "fork",
+   "desc": "(생성기) · 절차적 식물 생성기 — Three.js WebGPU + Ivy/Tree 페인터 + 시네마틱",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8156-b510-eab51a8f21d7": {
+   "repo": "GeometryPainterThreeJS-korea",
+   "name": "지오메트리 페인터 — three.js WebGPU (한국어판)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/GeometryPainterThreeJS-korea/",
+   "desc": "(에디터) · 검은 광택 구체 위에 브러시를 드래그하면, 결정·용암·오로라·산호가 살아 움직입니다. 브라우저에서 바로 실행되는 WebGPU 3D 페인터",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81ac-be9b-d84d12bc9dbd": {
+   "repo": "AvatarCastingAbilitiesThreeJS-korea",
+   "name": "원소 조형 샌드박스",
+   "featured": false,
+   "live": "https://sigco3111.github.io/AvatarCastingAbilitiesThreeJS-korea",
+   "desc": "(에디터) · Avatar 스타일 4원소 벤딩 샌드박스 — Three.js + GLSL VFX 에디터",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8178-bd8c-dd19f984d3d7": {
+   "repo": "starfall",
+   "name": "스타폴 — 한국어 fork",
+   "featured": true,
+   "live": "https://sigco3111.github.io/starfall/",
+   "screenshot": "https://sigco3111.github.io/starfall/og.jpg",
+   "type": "fork",
+   "desc": "(전략) · Starfall 한국어 fork. e01-ai/starfall에서 파생된 독립 포크. Three.js 절차적 함선·행성·이펙트, 13종 함선 클래스, WebGL 2 브라우저 RTS.",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8171-b321-d7d5fadfd4d4": {
+   "repo": "kart-royale",
+   "name": "카트 로얄 — Kart Royale (한글 포크)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/kart-royale/",
+   "screenshot": "https://github.com/sigco3111/kart-royale/raw/HEAD/docs/hero-drift.png",
+   "type": "fork",
+   "desc": "(레이싱) · Kart Royale 카트 레이싱 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-811d-a6d7-f5c69492bbdf": {
+   "repo": "pallet-town-3d",
+   "name": "팔레트 타운 3D — Pallet Town 3D (한글 포크)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/pallet-town-3d/",
+   "desc": "(액션) · 포켓몬스터 LeafGreen 1인칭 3D 재해석",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8121-9d59-c1303fd08e65": {
+   "repo": "cel-thunder",
+   "name": "셀 썬더",
+   "featured": false,
+   "live": "https://sigco3111.github.io/cel-thunder/",
+   "desc": "(슈팅)  · 셀셰이딩 WWII 항공전 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8174-b76f-d1aa65b11966": {
+   "repo": "der-koloss-ce",
+   "name": "1. 클론",
+   "featured": false,
+   "live": "https://sigco3111.github.io/der-koloss-ce/",
+   "desc": "(FPS)· 더 콜로스 — 좀비 웨이브 서바이벌 게임",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8169-920f-cf7070a49697": {
+   "repo": "SamuraiThirdPersonTemplateThreeJS",
+   "name": "SamuraiThirdPersonTemplateThreeJS",
+   "featured": true,
+   "live": "https://sigco3111.github.io/SamuraiThirdPersonTemplateThreeJS/",
+   "screenshot": "https://github.com/sigco3111/SamuraiThirdPersonTemplateThreeJS/raw/HEAD/7-SamuraiThirdPersonTemplateThreeJS.jpg",
+   "type": "fork",
+   "desc": "(액션) · Three.js 무장 사무라이 3인칭 템플릿 — 모션 워프된 근접전, 소환, 비행, 래그돌 사망, 장비 스튜디오",
+   "category": "3D"
+  },
+  "3c976f2e-9097-817f-b59e-f56b70141807": {
+   "repo": "sigco3111",
+   "name": "ICBM의 실험실",
+   "featured": false,
+   "live": null,
+   "desc": "· GitHub profile README for sigco3111",
+   "category": "기타"
+  },
+  "3c976f2e-9097-817a-b03d-cd98fe546d54": {
+   "repo": "ProceduralTerrains",
+   "name": "프로시저럴 테레인",
+   "featured": true,
+   "live": "https://sigco3111.github.io/ProceduralTerrains/",
+   "screenshot": null,
+   "type": "fork",
+   "desc": "(생성기) · Procedural Terrains - GPU 셰이더 기반 절차적 지형 생성기/에디터 — React+Vite+Three.js+WebGL2",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8100-ac67-d9b17f5411d6": {
+   "repo": "ez-tree",
+   "name": "EZ-Tree (한글판) — 절차적 3D 나무 생성기",
+   "featured": false,
+   "live": "https://sigco3111.github.io/ez-tree/",
+   "desc": "(생성기) · 절차적 3D 나무 생성기 — Three.js+Vite, GLB/PNG/LOD 내보내기",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8141-8d14-df2d47e33e84": {
+   "repo": "simcity-threejs",
+   "name": "시티심.js — 한글화",
+   "featured": false,
+   "live": "https://sigco3111.github.io/simcity-threejs/",
+   "desc": "(시뮬) · 브라우저 도시 건설 게임 — Three.js+Vite+WebGL",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81ba-87ca-cd670f370f79": {
+   "repo": "Crystal-Bird",
+   "name": "크리스탈 버드",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Crystal-Bird/",
+   "desc": "(시각화) · 결정체 새 GPGPU 플로우필드 시각화 — Three.js+Vite+GLSL+WebGL",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8107-a206-cec308015191": {
+   "repo": "The-Erdtree",
+   "name": "세계수",
+   "featured": false,
+   "live": "https://sigco3111.github.io/The-Erdtree/",
+   "desc": "(시각화) · 엘든링 세계수 — Three.js+WebGL2+GLSL",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8183-a614-d8efdd30fd6a": {
+   "repo": "Lightning-VFX",
+   "name": "번개 VFX — Three.js 데모",
+   "featured": false,
+   "live": "https://sigco3111.github.io/Lightning-VFX/",
+   "desc": "(시각화) · 절차적 번개 VFX 인터랙티브 데모 — Three.js+GLSL+lil-gui+Vite",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8175-b280-cf33a03f790f": {
+   "repo": "sylva",
+   "name": "실바 — 살아 있는 세계로",
+   "featured": false,
+   "live": "https://sigco3111.github.io/sylva/",
+   "desc": "(시각화) · 살아 있는 세계로 안내하는 인터랙티브 Three.js 풍경 — HTML+CSS+Three.js r149+WebGL2",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81b8-b38e-c5be55e87ef6": {
+   "repo": "SeedThree",
+   "name": "SeedThree — 절차적 식물 생성기 (한글판)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/SeedThree/",
+   "screenshot": "https://github.com/sigco3111/SeedThree/raw/HEAD/docs/media/hero_temperate.png",
+   "type": "fork",
+   "desc": "(생성기) · WebGPU 절차적 식물·나무 생성기 — Three.js+WebGPU+Vite",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8128-875e-f1a807951b80": {
+   "repo": "dontstarve-bear",
+   "name": "굶지마 — 야생의 곰",
+   "featured": false,
+   "live": "https://sigco3111.github.io/dontstarve-bear/",
+   "desc": "(시뮬) · 시베리아 흑곰 무한 절차적 생존 — Three.js+WebGL2+GLSL",
+   "category": "3D"
+  },
+  "3c976f2e-9097-81ba-ac75-f32b1b064b4a": {
+   "repo": "luminous-lake",
+   "name": "빛나는 호수",
+   "featured": false,
+   "live": "https://sigco3111.github.io/luminous-lake/",
+   "desc": "(시각화) · 시네마틱 3D 호수 시뮬레이션 — Three.js+WebGPU+Vite",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8174-8db5-e09a34e9873d": {
+   "repo": "sakura-idle",
+   "name": "桜 Sakura — 영원한 꽃의 꽃잎",
+   "featured": true,
+   "live": "https://sigco3111.github.io/sakura-idle/",
+   "screenshot": "https://github.com/sigco3111/sakura-idle/raw/HEAD/docs/hero.png",
+   "type": "fork",
+   "desc": "(시뮬) · 벚꽃 키우기 인크리멘털 아이들 — Three.js+Vite+WebGL2+셰이더",
+   "category": "3D"
+  },
+  "3c976f2e-9097-817c-8891-fb73626013ab": {
+   "repo": "three-gpu-pathtracer",
+   "name": "three-gpu-pathtracer (한글판)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/three-gpu-pathtracer/",
+   "desc": "(시각화) · Three.js GPU 경로 추적 렌더러 한국어판 — Three.js+WebGL2+three-mesh-bvh",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8162-a0c7-d6668470a384": {
+   "repo": "poseidon",
+   "name": "포세이돈",
+   "featured": true,
+   "live": "https://sigco3111.github.io/poseidon/",
+   "screenshot": "https://github.com/sigco3111/poseidon/raw/HEAD/docs/img/sun-glitter.jpg",
+   "type": "fork",
+   "desc": "(시뮬) · GPU FFT 바다 한국어판 — Three.js+WebGPU",
+   "category": "3D"
+  },
+  "3c976f2e-9097-8106-a8e9-c3bab5b98091": {
+   "repo": "inkField",
+   "name": "inkField | 디지털 수묵화",
+   "featured": true,
+   "live": "https://sigco3111.github.io/inkField/landing.html",
+   "screenshot": "https://github.com/sigco3111/inkField/raw/HEAD/assets/recordvideo.png",
+   "type": "fork",
