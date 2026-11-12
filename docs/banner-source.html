@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1280px; height:320px; overflow:hidden; }
+  body {
+    font-family:'Noto Sans KR', sans-serif;
+    background:
+      radial-gradient(900px 500px at 88% -20%, rgba(46,160,67,.28), transparent 60%),
+      radial-gradient(700px 500px at 70% 130%, rgba(56,120,190,.20), transparent 60%),
+      linear-gradient(115deg, #0d1117 0%, #121a26 55%, #0e1720 100%);
+    color:#fff; position:relative;
+  }
+  .dots {
+    position:absolute; inset:0;
+    background-image: radial-gradient(rgba(255,255,255,.055) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .wrap { position:relative; display:flex; height:100%; align-items:center; padding:0 56px; }
+  .left { width:600px; flex:none; }
+  .label {
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:15px; letter-spacing:.22em; color:#7ee2a8; font-weight:700;
+    margin-bottom:14px;
+  }
+  .label .dot { width:9px; height:9px; border-radius:50%; background:#2ea043; box-shadow:0 0 10px #2ea043; }
+  h1 { font-size:62px; font-weight:700; letter-spacing:-.02em; line-height:1.08; }
+  h1 em { font-style:normal; color:#7ee2a8; }
+  .sub { margin-top:14px; font-size:21px; color:#b9c4d0; font-weight:400; }
+  .cta {
+    margin-top:22px; display:inline-flex; align-items:center; gap:10px;
+    background:#2ea043; color:#fff; font-size:19px; font-weight:700;
+    padding:11px 22px; border-radius:999px;
+    box-shadow:0 6px 24px rgba(46,160,67,.45);
+  }
+  .cta span { font-size:21px; }
+  .right { position:relative; flex:1; height:100%; }
+  .shot {
+    position:absolute; width:300px; aspect-ratio:16/9; border-radius:12px; overflow:hidden;
+    box-shadow:0 14px 40px rgba(0,0,0,.55); border:1px solid rgba(255,255,255,.14);
+    background:#000;
+  }
+  .shot img { width:100%; height:100%; object-fit:cover; display:block; }
+  .s1 { top:18px;  right:350px; transform:rotate(-7deg); z-index:1; }
+  .s2 { top:96px;  right:300px; transform:rotate(3deg);  z-index:3; }
+  .s3 { top:170px; right:380px; transform:rotate(-3deg); z-index:2; }
+  .s4 { top:36px;  right:36px;  transform:rotate(5deg);  z-index:2; }
+  .s5 { top:150px; right:8px;   transform:rotate(-5deg); z-index:4; width:320px; }
+</style>
+</head>
+<body>
+<div class="dots"></div>
+<div class="wrap">
+  <div class="left">
+    <div class="label"><span class="dot"></span>SIGCO3111 · GITHUB</div>
+    <h1>대표 저장소 <em>쇼케이스</em></h1>
+    <div class="sub">원작 21 · 포크 75 — 웹 게임 · 시뮬레이션 · 도구 모음</div>
+    <div class="cta">쇼케이스에서 전체 보기 <span>→</span></div>
+  </div>
+  <div class="right">
+    <div class="shot s1"><img src="https://github.com/sigco3111/order-of-powers/raw/HEAD/docs/screenshots/01-title.png" alt=""></div>
+    <div class="shot s2"><img src="https://github.com/sigco3111/boom-critters/raw/HEAD/docs/screenshots/02-battle.png" alt=""></div>
+    <div class="shot s3"><img src="https://github.com/sigco3111/gostop2026/raw/HEAD/docs/screenshots/title.webp" alt=""></div>
+    <div class="shot s4"><img src="https://github.com/sigco3111/fortune-duo/raw/HEAD/docs/screenshot.png" alt=""></div>
+    <div class="shot s5"><img src="https://github.com/sigco3111/shape-legion/raw/HEAD/docs/screenshots/04-battle.webp" alt=""></div>
+  </div>
+</div>
+</body>
+</html>
