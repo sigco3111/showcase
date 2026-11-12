@@ -226,6 +226,21 @@
     .hero::before { background: linear-gradient(90deg, rgba(17,22,45,.78) 0%, rgba(17,22,45,.45) 100%); }
     .hero h1 { font-size: 26px; }
   }
+
+  /* --- 에셋 도서관 바로가기 스트립 (옵션1) --- */
+  .asset-strip { display:flex; align-items:center; gap:14px; margin:14px 0 18px; padding:14px 18px; border-radius:14px; text-decoration:none;
+    background: linear-gradient(100deg, var(--night) 0%, var(--night-2) 58%, #1f4d3a 100%);
+    border: 1px solid rgba(99,230,164,.35);
+    box-shadow: 0 6px 18px rgba(17,22,45,.25), inset 0 0 24px rgba(99,230,164,.06);
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+  .asset-strip:hover { transform: translateY(-2px); border-color: rgba(99,230,164,.7);
+    box-shadow: 0 10px 26px rgba(17,22,45,.35), 0 0 18px rgba(99,230,164,.25); }
+  .asset-cube { width:20px; height:20px; background:#63e6a4; box-shadow: 4px 4px 0 #1e9e5f, 8px 8px 0 rgba(99,230,164,.22); flex:none; }
+  .asset-text { flex:1; display:flex; flex-direction:column; gap:2px; color:#eafff3; }
+  .asset-text strong { font-size:16px; letter-spacing:-.01em; }
+  .asset-text small { color:#9fdcbb; font-size:12px; }
+  .asset-cta { flex:none; background:#63e6a4; color:#0e2c1e; font-weight:800; font-size:14px; padding:9px 16px; border-radius:9px; box-shadow: 0 3px 0 #1e9e5f; }
+  @media (max-width:640px){ .asset-strip{gap:10px;padding:12px 14px;margin:12px 0 14px} .asset-text strong{font-size:14px} .asset-text small{display:none} .asset-cta{font-size:13px;padding:8px 12px} }
 </style>
 </head>
 <body>
@@ -239,6 +254,11 @@
       <div class="voxel-strip" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
     </div>
   </header>
+  <a class="asset-strip" href="https://sigco3111.github.io/game-asset-catalog/" target="_blank" rel="noopener">
+    <span class="asset-cube" aria-hidden="true"></span>
+    <span class="asset-text"><strong>🎮 게임 에셋 도서관</strong><small>에셋 검색 · 필터 · 미리보기</small></span>
+    <span class="asset-cta">바로가기 →</span>
+  </a>
   <div class="toolbar">
     <div class="search-box">
       <span class="search-icon">🔍</span>
@@ -572,4 +592,4 @@ render();
 })();
 </script>
 </body>
-</html>
+  </html>
