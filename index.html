@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>대표 저장소 · sigco3111</title>
+<meta name="description" content="sigco3111의 대표 저장소와 공개 프로젝트 모음">
+<style>
+  :root {
+    --ink: #251f21;
+    --ink-2: #585254;
+    --hairline: #eae9ea;
+    --bg: #fbfaf9;
+    --orig: #2e7d52;
+    --orig-bg: #eef6f1;
+    --fork: #7a4fa3;
+    --fork-bg: #f5f0fa;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, 'Pretendard', 'Noto Sans KR', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 48px 20px 64px; }
+  header { margin-bottom: 40px; }
+  h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
+  .sub { color: var(--ink-2); margin-top: 6px; font-size: 15px; }
+  .section-label {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 17px; font-weight: 700;
+    margin: 36px 0 16px; padding-bottom: 8px;
+    border-bottom: 2px solid;
+  }
+  .section-label.orig { color: var(--orig); border-color: var(--orig); }
+  .section-label.fork { color: var(--fork); border-color: var(--fork); }
+  .section-label.exp { color: var(--ink-2); border-color: var(--hairline); }
+  .section-label .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .section-label.orig .dot { background: var(--orig); }
+  .section-label.fork .dot { background: var(--fork); }
+  .section-label.exp .dot { background: var(--ink-2); }
+  .section-label .count { font-size: 13px; font-weight: 400; color: var(--ink-2); }
+  .section-desc { font-size: 13px; color: var(--ink-2); margin: -8px 0 16px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .card .thumb {
+    aspect-ratio: 16 / 9;
+    background: var(--orig-bg);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--ink-2); font-size: 13px;
+  }
+  .card.fork .thumb { background: var(--fork-bg); }
+  .card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .card .name { font-weight: 700; font-size: 16px; word-break: break-all; }
+  .card .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .badge {
+    font-size: 11px; padding: 2px 8px; border-radius: 999px;
+    border: 1px solid var(--hairline); color: var(--ink-2);
+  }
+  .badge.kind-orig { color: var(--orig); border-color: var(--orig); }
+  .badge.kind-fork { color: var(--fork); border-color: var(--fork); }
+  .card .desc { font-size: 13px; color: var(--ink-2); flex: 1; }
+  .card .links { display: flex; gap: 8px; margin-top: 4px; }
+  .card .links a {
+    font-size: 13px; font-weight: 600; text-decoration: none;
+    padding: 6px 12px; border-radius: 6px; border: 1px solid var(--hairline);
+    color: var(--ink);
+  }
+  .card .links a.demo { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .exp-list {
+    background: #fff; border: 1px solid var(--hairline); border-radius: 12px;
+    overflow: hidden;
+  }
+  .exp-row {
+    display: flex; align-items: baseline; gap: 10px;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--hairline);
+    flex-wrap: wrap;
+  }
+  .exp-row:last-child { border-bottom: none; }
+  .exp-row .exp-name { font-weight: 600; font-size: 14px; word-break: break-all; }
+  .exp-row .exp-name a { color: var(--ink); text-decoration: none; }
+  .exp-row .exp-name a:hover { text-decoration: underline; }
+  .exp-row .exp-desc { font-size: 12px; color: var(--ink-2); flex: 1; min-width: 140px; }
+  .exp-row .badge { flex-shrink: 0; }
+  .exp-row .exp-live { font-size: 12px; color: var(--ink-2); text-decoration: none; flex-shrink: 0; }
+  .exp-row .exp-live:hover { text-decoration: underline; }
+  .empty {
+    border: 1px dashed var(--hairline); border-radius: 12px;
+    padding: 24px 20px; text-align: center; color: var(--ink-2);
+    background: #fff; font-size: 14px; margin-bottom: 8px;
+  }
+  footer { margin-top: 48px; color: var(--ink-2); font-size: 13px; text-align: center; }
+  footer a { color: var(--ink-2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>대표 저장소</h1>
+    <p class="sub">sigco3111의 대표 프로젝트와 공개 저장소 모음</p>
+  </header>
+  <main id="app"></main>
+  <footer>
+    <a href="https://github.com/sigco3111">github.com/sigco3111</a>
+  </footer>
+</div>
+<script>
+// 노션 '깃허브 관리' DB에서 생성. 비공개 저장소는 제외됨.
+// featured=true: '대표' 체크 항목 (썸네일 카드). featured=false: 나머지 공개 저장소 (실험 리스트).
+// type: 'original' | 'fork', screenshot: 선택 (없으면 null)
+const REPOS = [];
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function kindOf(r) {
+  return r.type === 'original' ? '원작' : '포크·한글화';
+}
+function kindClass(r) {
+  return r.type === 'original' ? 'kind-orig' : 'kind-fork';
+}
+
+function card(r) {
+  const thumb = r.screenshot
+    ? `<div class="thumb"><img src="${esc(r.screenshot)}" alt="${esc(r.name)} 스크린샷" loading="lazy"></div>`
+    : `<div class="thumb">스크린샷 없음</div>`;
+  const demo = r.live ? `<a class="demo" href="${esc(r.live)}" target="_blank" rel="noopener">라이브 데모</a>` : '';
+  return `<article class="card ${r.type === 'original' ? 'orig' : 'fork'}">
+    ${thumb}
+    <div class="body">
+      <div class="name">${esc(r.name)}</div>
+      <div class="badges"><span class="badge ${kindClass(r)}">${kindOf(r)}</span>${r.category ? `<span class="badge">${esc(r.category)}</span>` : ''}</div>
+      <div class="desc">${esc(r.desc || '')}</div>
+      <div class="links">${demo}<a href="${esc(r.repo)}" target="_blank" rel="noopener">저장소</a></div>
+    </div>
+  </article>`;
+}
+
+function expRow(r) {
+  const live = r.live ? `<a class="exp-live" href="${esc(r.live)}" target="_blank" rel="noopener">데모</a>` : '';
+  return `<div class="exp-row">
+    <span class="exp-name"><a href="${esc(r.repo)}" target="_blank" rel="noopener">${esc(r.name)}</a></span>
+    <span class="badge ${kindClass(r)}">${kindOf(r)}</span>
+    <span class="exp-desc">${esc(r.desc || '')}</span>
+    ${live}
+  </div>`;
+}
+
+function featuredSection(cls, label, items) {
+  const body = items.length
+    ? `<div class="grid">${items.map(card).join('')}</div>`
+    : `<div class="empty">아직 선정된 저장소가 없습니다.</div>`;
+  return `<h2 class="section-label ${cls}"><span class="dot"></span>${label}<span class="count">${items.length}개</span></h2>${body}`;
+}
+
+const originals = REPOS.filter(r => r.featured && r.type === 'original');
+const forks = REPOS.filter(r => r.featured && r.type === 'fork');
+const experiments = REPOS.filter(r => !r.featured);
+
+const expBody = experiments.length
+  ? `<h2 class="section-label exp"><span class="dot"></span>실험<span class="count">${experiments.length}개</span></h2>
+     <p class="section-desc">대표로 선정하지 않은 나머지 공개 프로젝트입니다.</p>
+     <div class="exp-list">${experiments.map(expRow).join('')}</div>`
+  : '';
+
+document.getElementById('app').innerHTML =
+  featuredSection('orig', '대표', originals)
+  + featuredSection('fork', '포크', forks)
+  + expBody
+  + (!REPOS.length ? `<div class="empty">노션 '깃허브 관리' DB에서 대표로 표시된 저장소가 카드로, 나머지 공개 저장소가 실험 목록으로 여기에 모입니다.</div>` : '');
+</script>
+</body>
+</html>
