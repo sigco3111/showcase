@@ -105,6 +105,65 @@
   }
   footer { margin-top: 48px; color: var(--ink-2); font-size: 13px; text-align: center; }
   footer a { color: var(--ink-2); }
+
+  /* --- 검색/필터 툴바 --- */
+  .toolbar {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(251,250,249,.92); backdrop-filter: blur(8px);
+    padding: 12px 0 10px; margin: -8px 0 8px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .search-box {
+    display: flex; align-items: center; gap: 8px;
+    background: #fff; border: 1px solid var(--hairline); border-radius: 10px;
+    padding: 10px 14px; transition: border-color .15s, box-shadow .15s;
+  }
+  .search-box:focus-within { border-color: var(--ink); box-shadow: 0 0 0 3px rgba(37,31,33,.06); }
+  .search-icon { font-size: 14px; opacity: .55; }
+  #q {
+    border: none; outline: none; flex: 1; font-size: 15px;
+    font-family: inherit; background: transparent; color: var(--ink);
+  }
+  .filters { display: flex; align-items: center; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+  .kind-filter { display: flex; gap: 0; border: 1px solid var(--hairline); border-radius: 999px; overflow: hidden; background: #fff; flex-shrink: 0; }
+  .kind-filter button {
+    border: none; background: transparent; padding: 6px 14px; font-size: 13px;
+    font-family: inherit; color: var(--ink-2); cursor: pointer; transition: background .15s, color .15s;
+  }
+  .kind-filter button.on { background: var(--ink); color: #fff; }
+  .chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; flex: 1; }
+  .chip {
+    border: 1px solid var(--hairline); background: #fff; border-radius: 999px;
+    padding: 5px 12px; font-size: 12px; font-family: inherit; color: var(--ink-2);
+    cursor: pointer; white-space: nowrap; transition: all .15s;
+  }
+  .chip.on { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .result-count { margin-top: 8px; font-size: 12px; color: var(--ink-2); }
+  /* --- 카드/행 폴리시 --- */
+  .card { transition: transform .18s ease, box-shadow .18s ease; }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(37,31,33,.09); }
+  .card .thumb img { transition: transform .3s ease; }
+  .card:hover .thumb img { transform: scale(1.03); }
+  .card .links a { transition: background .15s, color .15s, border-color .15s; }
+  .card .links a:hover { border-color: var(--ink); }
+  .card .links a.demo:hover { background: #000; }
+  .exp-row { transition: background .12s; }
+  .exp-row:hover { background: #faf7f5; }
+  /* --- 맨 위로 --- */
+  #toTop {
+    position: fixed; right: 24px; bottom: 24px; z-index: 60;
+    width: 44px; height: 44px; border-radius: 50%;
+    border: 1px solid var(--hairline); background: #fff; color: var(--ink);
+    font-size: 18px; cursor: pointer; box-shadow: 0 4px 14px rgba(37,31,33,.12);
+    opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s;
+    transform: translateY(6px);
+  }
+  #toTop.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
+  #toTop:hover { border-color: var(--ink); }
+  @media (max-width: 640px) {
+    .filters { flex-direction: column; align-items: stretch; }
+    .chips { order: 2; }
+  }
 </style>
 </head>
 <body>
@@ -113,6 +172,22 @@
     <h1>대표 저장소</h1>
     <p class="sub">sigco3111의 대표 프로젝트와 공개 저장소 모음</p>
   </header>
+  <div class="toolbar">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input id="q" type="search" placeholder="이름, 설명, 카테고리로 검색..." autocomplete="off" aria-label="저장소 검색">
+    </div>
+    <div class="filters">
+      <div class="kind-filter" id="kindFilter" role="group" aria-label="원작/포크 필터">
+        <button type="button" data-kind="all" class="on">전체</button>
+        <button type="button" data-kind="original">원작</button>
+        <button type="button" data-kind="fork">포크·한글화</button>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="카테고리 필터"></div>
+    </div>
+    <div class="result-count" id="resultCount"></div>
+  </div>
+
   <main id="app"></main>
   <footer>
     <a href="https://github.com/sigco3111">github.com/sigco3111</a>
@@ -168,21 +243,90 @@ function featuredSection(cls, label, items) {
   return `<h2 class="section-label ${cls}"><span class="dot"></span>${label}<span class="count">${items.length}개</span></h2>${body}`;
 }
 
-const originals = REPOS.filter(r => r.featured && r.type === 'original');
-const forks = REPOS.filter(r => r.featured && r.type === 'fork');
-const experiments = REPOS.filter(r => !r.featured);
+const state = { q: '', kind: 'all', cat: '전체' };
 
-const expBody = experiments.length
-  ? `<h2 class="section-label exp"><span class="dot"></span>실험<span class="count">${experiments.length}개</span></h2>
+const catOrder = [...new Set(REPOS.map(r => r.category).filter(Boolean))];
+const chipsEl = document.getElementById('chips');
+chipsEl.innerHTML = ['전체', ...catOrder]
+  .map(c => `<button type="button" class="chip${c === '전체' ? ' on' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
+
+function matches(r) {
+  if (state.kind !== 'all' && r.type !== state.kind) return false;
+  if (state.cat !== '전체' && r.category !== state.cat) return false;
+  if (state.q) {
+    const hay = (r.name + ' ' + (r.desc || '') + ' ' + (r.category || '')).toLowerCase();
+    if (!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+
+function isFiltering() {
+  return state.q !== '' || state.kind !== 'all' || state.cat !== '전체';
+}
+
+function render() {
+  const filtered = REPOS.filter(matches);
+  const originals = filtered.filter(r => r.featured && r.type === 'original');
+  const forks = filtered.filter(r => r.featured && r.type === 'fork');
+  const experiments = filtered.filter(r => !r.featured);
+  const filtering = isFiltering();
+
+  let out = '';
+  if (originals.length || !filtering) out += featuredSection('orig', '대표', originals);
+  if (forks.length || !filtering) out += featuredSection('fork', '포크', forks);
+  if (experiments.length) {
+    out += `<h2 class="section-label exp"><span class="dot"></span>실험<span class="count">${experiments.length}개</span></h2>
      <p class="section-desc">대표로 선정하지 않은 나머지 공개 프로젝트입니다.</p>
-     <div class="exp-list">${experiments.map(expRow).join('')}</div>`
-  : '';
+     <div class="exp-list">${experiments.map(expRow).join('')}</div>`;
+  }
+  if (filtering && !filtered.length) {
+    out = `<div class="empty">"${esc(state.q)}" 조건에 맞는 프로젝트가 없습니다. <a href="#" id="resetFilters">필터 초기화</a></div>`;
+  }
+  if (!REPOS.length) {
+    out = `<div class="empty">노션 '깃허브 관리' DB에서 대표로 표시된 저장소가 카드로, 나머지 공개 저장소가 실험 목록으로 여기에 모입니다.</div>`;
+  }
+  document.getElementById('app').innerHTML = out;
 
-document.getElementById('app').innerHTML =
-  featuredSection('orig', '대표', originals)
-  + featuredSection('fork', '포크', forks)
-  + expBody
-  + (!REPOS.length ? `<div class="empty">노션 '깃허브 관리' DB에서 대표로 표시된 저장소가 카드로, 나머지 공개 저장소가 실험 목록으로 여기에 모입니다.</div>` : '');
+  document.getElementById('resultCount').textContent = filtering
+    ? `전체 ${REPOS.length}개 중 ${filtered.length}개 표시`
+    : `전체 ${REPOS.length}개 · 대표 ${originals.length + forks.length} · 실험 ${experiments.length}`;
+
+  const reset = document.getElementById('resetFilters');
+  if (reset) reset.addEventListener('click', e => { e.preventDefault(); resetAll(); });
+}
+
+function resetAll() {
+  state.q = ''; state.kind = 'all'; state.cat = '전체';
+  document.getElementById('q').value = '';
+  document.querySelectorAll('#kindFilter button').forEach(b => b.classList.toggle('on', b.dataset.kind === 'all'));
+  document.querySelectorAll('.chip').forEach(c => c.classList.toggle('on', c.dataset.cat === '전체'));
+  render();
+}
+
+document.getElementById('q').addEventListener('input', e => {
+  state.q = e.target.value.trim().toLowerCase();
+  render();
+});
+document.getElementById('kindFilter').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  state.kind = b.dataset.kind;
+  document.querySelectorAll('#kindFilter button').forEach(x => x.classList.toggle('on', x === b));
+  render();
+});
+chipsEl.addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  state.cat = (state.cat === b.dataset.cat && b.dataset.cat !== '전체') ? '전체' : b.dataset.cat;
+  document.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x.dataset.cat === state.cat));
+  render();
+});
+
+const toTop = document.createElement('button');
+toTop.id = 'toTop'; toTop.type = 'button'; toTop.title = '맨 위로'; toTop.textContent = '↑';
+document.body.appendChild(toTop);
+window.addEventListener('scroll', () => toTop.classList.toggle('show', window.scrollY > 600), { passive: true });
+toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+render();
 </script>
 </body>
   </html>
