@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-17T15:30:00+09:00",
+ "synced_at": "2026-11-18T04:05:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -220,7 +220,7 @@
    "desc": "눈대중으로 물체를 정확히 반으로 자르는 웹 퍼즐 — 21종 오브젝트, 3D 미리보기 선택, 연습 모드, 오브젝트별 로컬 기록·배지 (참고 원작: itland half-cut)",
    "category": "3D",
    "date": "2026-11-04",
-   "score": 8
+   "score": 7.5
   },
   "40e76f2e-9097-8111-90db-cdaf9504ace2": {
    "repo": "prism-currents",
@@ -4519,7 +4519,9 @@
    "name": "선슬라이드 (Sunslide)",
    "repo": "sunslide-ko",
    "screenshot": null,
-   "type": "fork"
+   "type": "fork",
+   "date": "2026-11-17",
+   "score": 7.5
   },
   "41b76f2e-9097-80e8-9274-ddb71de7f44f": {
    "category": "2D게임",
@@ -4529,8 +4531,10 @@
    "name": "깃바나 (Gitvana)",
    "repo": "gitvana-ko",
    "screenshot": null,
-   "type": "fork"
+   "type": "fork",
+   "date": "2026-11-17",
+   "score": 7
   }
  },
- "_gate_hash": "eea9085f46fce1457703d4f288eff4b4a1800ed2feda94e6be5593775acc62a5"
+ "_gate_hash": "96f44919be8d833d1c3608c3b66028f6db6a4a32174dd7e3c1f1058ba1550831"
 }
