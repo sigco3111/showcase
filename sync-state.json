@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-18T04:05:00+09:00",
+ "synced_at": "2026-11-19T04:05:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -1224,7 +1224,7 @@
   "3d076f2e-9097-819d-b763-ee089303e651": {
    "repo": "Rotten-Soup",
    "name": "로텐 수프",
-   "featured": true,
+   "featured": false,
    "live": "https://sigco3111.github.io/Rotten-Soup/",
    "screenshot": "https://github.com/sigco3111/Rotten-Soup/raw/HEAD/docs/screenshot.png",
    "type": "fork",
@@ -1432,18 +1432,6 @@
    "category": "3D",
    "date": "2026-08-31",
    "score": 7
-  },
-  "3cd76f2e-9097-81f6-8e1a-d16a2b49b380": {
-   "repo": "Shadow-of-the-Watchers",
-   "name": "감시자의 그림자",
-   "featured": true,
-   "live": "https://sigco3111.github.io/Shadow-of-the-Watchers/",
-   "screenshot": "https://github.com/sigco3111/Shadow-of-the-Watchers/raw/HEAD/docs/screenshot-game.png",
-   "type": "fork",
-   "desc": "(전략) · 신화시대 종말론 RTS 한국어판 — Three.js+Vite",
-   "category": "3D",
-   "date": "2026-08-31",
-   "score": 8
   },
   "3cc76f2e-9097-8118-86e2-e5756af6c15e": {
    "repo": "aeon",
@@ -4534,7 +4522,31 @@
    "type": "fork",
    "date": "2026-11-17",
    "score": 7
+  },
+  "41c76f2e-9097-81bd-b0ad-e50963c231df": {
+   "category": "3D",
+   "desc": "대홍수 이전 시대를 배경으로 한 three.js 3D RTS 「Shadow of the Watchers」 한국어판 (원작 atxgreene/Ugh-Guys-, CC0-1.0)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/ugh-guys-ko/",
+   "name": "감시자들의 그림자",
+   "repo": "ugh-guys-ko",
+   "screenshot": "https://github.com/sigco3111/ugh-guys-ko/raw/HEAD/docs/screenshots/screenshot-game.png",
+   "type": "fork",
+   "date": "2026-08-30",
+   "score": 8
+  },
+  "41c76f2e-9097-8153-b2ba-da80b7ddb986": {
+   "category": "2D게임",
+   "desc": "문명 클리커·방치형 웹게임 「아세사 (Ascesa)」 한국어판 (원작 andrearufo/ascesa). Vanilla JavaScript 기반.",
+   "featured": true,
+   "live": "https://sigco3111.github.io/ascesa/",
+   "name": "아세사 (Ascesa)",
+   "repo": "ascesa",
+   "screenshot": "https://github.com/sigco3111/ascesa/raw/HEAD/assets/screenshot.png",
+   "type": "fork",
+   "date": "2026-11-18",
+   "score": 7.5
   }
  },
- "_gate_hash": "96f44919be8d833d1c3608c3b66028f6db6a4a32174dd7e3c1f1058ba1550831"
+ "_gate_hash": "1925105d9924b122b2ff90325c55d759c697ef2c81c6308326e18685ff2c10e9"
 }
