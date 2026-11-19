@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-19T04:05:00+09:00",
+ "synced_at": "2026-11-19T10:58:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -4546,7 +4546,79 @@
    "type": "fork",
    "date": "2026-11-18",
    "score": 7.5
+  },
+  "41c76f2e-9097-8129-994b-e383190a612a": {
+   "repo": "muse-spark-1.3-benchmarks",
+   "name": "뮤즈 스파크 1.3 벤치마크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/muse-spark-1.3-benchmarks/",
+   "screenshot": "https://github.com/sigco3111/muse-spark-1.3-benchmarks/raw/HEAD/1-palace2.png",
+   "type": "original",
+   "desc": "muse-spark-1.3이 같은 다섯 과제(근정전 브릭 모션·한강시 게임·모델 소개 페이지·단편 소설·USB OBS 컨트롤러)를 구현한 비교 기록 (과제 원문: 유튜버 코드팩토리 메타프롬프트, 원본 저장소 instinct-benchmarks)",
+   "category": "실험",
+   "date": "2026-11-19",
+   "score": 3
+  },
+  "41c76f2e-9097-81c7-9ab8-c65cb69cbbea": {
+   "repo": "instinct-benchmarks",
+   "name": "인스팅트 벤치마크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/instinct-benchmarks/",
+   "screenshot": "https://github.com/sigco3111/instinct-benchmarks/raw/HEAD/1-palace-v2-hero.png",
+   "type": "original",
+   "desc": "Instinct가 같은 다섯 과제(근정전 브릭 모션·한강시 게임·모델 소개 페이지·단편 소설·USB OBS 컨트롤러)를 구현한 비교 기록 (과제 원문: 유튜버 코드팩토리 메타프롬프트, 사용자 제공)",
+   "category": "실험",
+   "date": "2026-11-19",
+   "score": 8
+  },
+  "41d76f2e-9097-818b-afb8-f483f6f0382f": {
+   "repo": "vooy-benchmarks",
+   "name": "Vooy 벤치마크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/vooy-benchmarks/",
+   "screenshot": "https://github.com/sigco3111/vooy-benchmarks/raw/HEAD/screenshots/palace-exploded.png",
+   "type": "original",
+   "desc": "Vooy(AI 비서, 세부 모델명·effort 미지정)가 같은 다섯 과제(근정전 브릭 모션·한강시 게임·모델 소개 페이지·단편 소설·USB OBS 컨트롤러)를 구현한 비교 기록 (과제 원문: 유튜버 코드팩토리 메타프롬프트, 사용자 제공)",
+   "category": "실험",
+   "date": "2026-11-19",
+   "score": 6
+  },
+  "41d76f2e-9097-81a5-8235-fec4644a3866": {
+   "repo": "minimax-m3.1-flash-benchmarks",
+   "name": "미니맥스 M3.1 플래시 벤치마크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/minimax-m3.1-flash-benchmarks/",
+   "screenshot": "https://github.com/sigco3111/minimax-m3.1-flash-benchmarks/raw/HEAD/screenshots/index.png",
+   "type": "original",
+   "desc": "MiniMax-M3.1-Flash(OpenCode, effort max)가 같은 다섯 과제(근정전 브릭 모션·한강시 게임·모델 소개 페이지·단편 소설·USB OBS 컨트롤러)를 구현한 비교 기록 (과제 원문: 유튜버 코드팩토리 메타프롬프트, 원본 저장소 instinct-benchmark",
+   "category": "실험",
+   "date": "2026-11-19",
+   "score": 4
+  },
+  "41d76f2e-9097-81da-8301-e7f7d8acfe74": {
+   "repo": "pickle-benchmarks",
+   "name": "피클 벤치마크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/pickle-benchmarks/",
+   "screenshot": "https://github.com/sigco3111/pickle-benchmarks/raw/HEAD/screenshots/1-index.png",
+   "type": "original",
+   "desc": "Pickle이 같은 다섯 과제(근정전 브릭 모션·한강시 게임·모델 소개 페이지·단편 소설·USB OBS 컨트롤러)를 구현한 비교 기록 (과제 원문: 유튜버 코드팩토리 메타프롬프트, 원본 저장소 instinct-benchmarks)",
+   "category": "실험",
+   "date": "2026-11-19",
+   "score": 7
+  },
+  "41d76f2e-9097-81e2-94e5-c46f956c4060": {
+   "repo": "abyssal-garden-ko",
+   "name": "심해 정원",
+   "featured": true,
+   "live": "https://sigco3111.github.io/abyssal-garden-ko/",
+   "screenshot": "https://github.com/sigco3111/abyssal-garden-ko/raw/HEAD/.github/screenshots/ko-menu.png",
+   "type": "fork",
+   "desc": "코드만으로 생성하는 WebGPU 수중 세계 「Abyssal Garden」 한국어판 — 단일 97KB HTML, 이미지·모델·음원 없이 다시마 숲·난파선·쥐가오리·보라 동굴을 절차적으로 생성. 한글화 원본: Noniv/abyssal-garden (MIT)",
+   "category": "3D",
+   "date": "2026-11-19",
+   "score": 8
   }
  },
- "_gate_hash": "1925105d9924b122b2ff90325c55d759c697ef2c81c6308326e18685ff2c10e9"
+ "_gate_hash": "d39e9961a9e339396d58565c395bbc4a6974760a4f378c424733fa2473c4d5dd"
 }
