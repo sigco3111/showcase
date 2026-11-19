@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-19T10:58:00+09:00",
+ "synced_at": "2026-11-20T04:02:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -254,7 +254,7 @@
    "desc": "삼국지11 방식의 비공식 독립 팬 제작 웹 시뮬레이션 (3D 지도, 위임/세력전환, 독자 데이터)",
    "category": "2D게임",
    "date": "2026-10-30",
-   "score": 9
+   "score": 7.5
   },
   "40c76f2e-9097-8160-82f1-c4fcb23140b2": {
    "repo": "Waveshare_ESP32_RLCD",
@@ -4618,7 +4618,102 @@
    "category": "3D",
    "date": "2026-11-19",
    "score": 8
+  },
+  "41d76f2e-9097-80d4-892e-d268acba3ce6": {
+   "repo": "papertrails-ko",
+   "name": "페이퍼트레일",
+   "featured": true,
+   "live": "https://sigco3111.github.io/papertrails-ko/",
+   "screenshot": "https://github.com/sigco3111/papertrails-ko/raw/HEAD/screenshots/1-ko-play.jpg",
+   "type": "fork",
+   "desc": "손으로 오려 만든 듯한 팝업북 종이 세계를 랜턴을 들고 걷는 Three.js 3D 산책 게임 한글화 (원본 xikhar/papertrails, MIT)",
+   "category": "3D",
+   "date": "2026-11-19",
+   "score": 8
+  },
+  "41d76f2e-9097-8103-a046-eb666c464194": {
+   "repo": "cold-boot-ko",
+   "name": "콜드부트",
+   "featured": false,
+   "live": "https://sigco3111.github.io/cold-boot-ko/",
+   "screenshot": "https://github.com/sigco3111/cold-boot-ko/raw/HEAD/docs/1-screenshot-title-ko.png",
+   "type": "fork",
+   "desc": "Doom 3에서 영감을 받은 심해 기지 배경 브라우저 FPS 호러 게임 한글화. 음성은 원작 영어 유지, 한국어 자막 표시 (원본 rossinek/cold-boot, 코드 라이선스 없음)",
+   "category": "3D",
+   "date": "2026-11-19"
+  },
+  "41d76f2e-9097-812b-8181-f72038e6b06a": {
+   "repo": "tria-prima-ko",
+   "name": "트리아 프리마",
+   "featured": true,
+   "live": "https://sigco3111.github.io/tria-prima-ko/",
+   "screenshot": "https://github.com/sigco3111/tria-prima-ko/raw/HEAD/media/ko-title.jpg",
+   "type": "fork",
+   "desc": "1인칭 다크판타지 연금술 어드벤처 「Tria Prima」 한국어판 winchxyz/tria-prima (MIT)",
+   "category": "3D",
+   "date": "2026-11-19",
+   "score": 8
+  },
+  "41d76f2e-9097-814b-a4e8-f38b1ed7bcaf": {
+   "repo": "wildlife-odyssey-3d-ko",
+   "name": "와일드라이프 오딧세이 3D (Wildlife Odyssey 3D)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/wildlife-odyssey-3d-ko/",
+   "screenshot": "https://github.com/sigco3111/wildlife-odyssey-3d-ko/raw/HEAD/docs/media/screenshot-menu.png",
+   "type": "fork",
+   "desc": "절차적 생성 오픈월드에서 동남아 실제 동식물 36종을 관찰·촬영하는 3D 야생 탐험 게임 한글화 (원본 quanap5/wildlife-odyssey-3d, MIT)",
+   "category": "3D",
+   "date": "2026-11-19",
+   "score": 7.5
+  },
+  "41d76f2e-9097-814d-aeb3-db2aac578e73": {
+   "repo": "fable-5.2-potatobench-ko",
+   "name": "더 카운티 (The County)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/fable-5.2-potatobench-ko/",
+   "screenshot": "https://github.com/sigco3111/fable-5.2-potatobench-ko/raw/HEAD/docs/ko/title.png",
+   "type": "fork",
+   "desc": "메인 북부에서 감자 농장을 5년간 꾸리는 전략 농사 게임 한글화 (원본 TheMizeGuy/fable-5.2-potatobench, MIT)",
+   "category": "3D",
+   "date": "2026-11-19",
+   "score": 9
+  },
+  "41d76f2e-9097-817b-b697-c24ad8b587ed": {
+   "repo": "last-return-ko",
+   "name": "라스트 리턴",
+   "featured": true,
+   "live": "https://sigco3111.github.io/last-return-ko/",
+   "screenshot": "https://github.com/sigco3111/last-return-ko/raw/HEAD/screenshots/title.png",
+   "type": "fork",
+   "desc": "LiDAR 스캔 호러 「Last Return」 한국어판: 포인트 클라우드만으로 보이는 지하 스테이션 탐색, 소리로 움직이는 할로우. 한글화 원본: StefanKnol/Last-Return (MIT)",
+   "category": "3D",
+   "date": "2026-11-19",
+   "score": 9
+  },
+  "41d76f2e-9097-81a5-b6d8-e7ef990922b5": {
+   "repo": "worm-rider-ko",
+   "name": "웜 라이더",
+   "featured": true,
+   "live": "https://sigco3111.github.io/worm-rider-ko/",
+   "screenshot": "https://github.com/sigco3111/worm-rider-ko/raw/HEAD/shots/01-title.png",
+   "type": "fork",
+   "desc": "거대 샌드웜을 타고 운반대를 먹어치우는 프로토타입. amirmushichge/worm-rider(MIT) 비공식 한국어판",
+   "category": "3D",
+   "date": "2026-11-19",
+   "score": 8
+  },
+  "41d76f2e-9097-81fd-973f-eefc481c409a": {
+   "repo": "zombies-ko",
+   "name": "그레이브야드 시프트",
+   "featured": true,
+   "live": "https://sigco3111.github.io/zombies-ko/",
+   "screenshot": "https://github.com/sigco3111/zombies-ko/raw/HEAD/screenshots/title.png",
+   "type": "fork",
+   "desc": "라운드제 좀비 슈터 「Graveyard Shift」 한국어판 — 밤새 길가 식당과 주유소를 지키는 WebGL 생존 슈터. 메뉴·HUD·힌트·목표 안내·설정 전면 한글화, 한글 타이틀 워드마크, 모바일 터치 UI 대응. 한글화 원본: ethanplusai/zombies (MIT)",
+   "category": "3D",
+   "date": "2026-11-19",
+   "score": 10
   }
  },
- "_gate_hash": "d39e9961a9e339396d58565c395bbc4a6974760a4f378c424733fa2473c4d5dd"
+ "_gate_hash": "d6e09587135017fe83df02f6733c854cdc39007afea9fd8adb59879119a80f62"
 }
