@@ -373,6 +373,9 @@ function cmp(a, b) {
   }
   const da = a.date || '', db = b.date || '';
   if (da !== db) return da < db ? 1 : -1;
+  const sa = typeof a.score === 'number' ? a.score : -1;
+  const sb = typeof b.score === 'number' ? b.score : -1;
+  if (sa !== sb) return sb - sa;
   return collator.compare(a.name, b.name);
 }
 
