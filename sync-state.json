@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-20T04:02:00+09:00",
+ "synced_at": "2026-11-21T04:03:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -4634,13 +4634,14 @@
   "41d76f2e-9097-8103-a046-eb666c464194": {
    "repo": "cold-boot-ko",
    "name": "콜드부트",
-   "featured": false,
+   "featured": true,
    "live": "https://sigco3111.github.io/cold-boot-ko/",
    "screenshot": "https://github.com/sigco3111/cold-boot-ko/raw/HEAD/docs/1-screenshot-title-ko.png",
    "type": "fork",
    "desc": "Doom 3에서 영감을 받은 심해 기지 배경 브라우저 FPS 호러 게임 한글화. 음성은 원작 영어 유지, 한국어 자막 표시 (원본 rossinek/cold-boot, 코드 라이선스 없음)",
    "category": "3D",
-   "date": "2026-11-19"
+   "date": "2026-11-19",
+   "score": 10
   },
   "41d76f2e-9097-812b-8181-f72038e6b06a": {
    "repo": "tria-prima-ko",
@@ -4713,7 +4714,112 @@
    "category": "3D",
    "date": "2026-11-19",
    "score": 10
+  },
+  "41d76f2e-9097-815f-b61a-f13e564c9f93": {
+   "repo": "santa-game-ko",
+   "name": "산타 익스프레스: 굴뚝 대소동!",
+   "featured": false,
+   "live": "https://sigco3111.github.io/santa-game-ko/",
+   "type": "fork",
+   "desc": "60초 안에 산타의 썰매를 몰아 북유럽 마을 굴뚝에 선물을 떨어뜨리는 크리스마스 아케이드 게임 한글화 (원본 thestringtheories/Santa-Game)",
+   "category": "3D",
+   "date": "2026-11-20",
+   "screenshot": "https://github.com/sigco3111/santa-game-ko/raw/HEAD/screenshots/3-title.png",
+   "score": 7
+  },
+  "41d76f2e-9097-81e6-85d1-ec059df62b52": {
+   "repo": "concrete-echo-ko",
+   "name": "콘크리트 에코 (CONCRETE ECHO)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/concrete-echo-ko/",
+   "type": "fork",
+   "desc": "바디캠(신체 착용 카메라) 시점으로 2층 폐건물에 숨어든 무장 적 11명을 소탕하는 브라우저 FPS 「CONCRETE ECHO」 한국어판 (원본 Rikinshah787/Game-Fable-5.2)",
+   "category": "3D",
+   "date": "2026-11-20",
+   "screenshot": "https://github.com/sigco3111/concrete-echo-ko/raw/HEAD/docs/5-screenshot-menu-ko.png",
+   "score": 10
+  },
+  "41e76f2e-9097-8100-b85c-d4987af4ba86": {
+   "repo": "rookie-nine",
+   "name": "루키나인",
+   "featured": true,
+   "live": "https://sigco3111.github.io/rookie-nine/",
+   "type": "original",
+   "desc": "고교 3년 육성과 졸업 선수의 프로 입단·편성·8팀 정규 시즌을 잇는 세로형 3D 야구 게임. (파워풀프로야구 오마주)",
+   "category": "3D",
+   "date": "2026-11-20",
+   "screenshot": "https://github.com/sigco3111/rookie-nine/raw/HEAD/docs/screenshots/school-career.png",
+   "score": 8
+  },
+  "41e76f2e-9097-814b-9c8b-cbf162c9d092": {
+   "repo": "gamedemo-by-fable5.2-ko",
+   "name": "별잿빛 들판 (가칭, gamedemo_by_Fable5.2 한국어판)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/gamedemo-by-fable5.2-ko/",
+   "type": "fork",
+   "desc": "오픈 월드 액션 데모 gamedemo_by_Fable5.2 한글화 (원본 weit0529/gamedemo_by_Fable5.2, MIT)",
+   "category": "3D",
+   "date": "2026-11-20",
+   "screenshot": "https://github.com/sigco3111/gamedemo-by-fable5.2-ko/raw/HEAD/docs/screenshots/title-ko.webp",
+   "score": 8.5
+  },
+  "41e76f2e-9097-8167-b771-c1fad1009e5d": {
+   "repo": "the-lost-storm-ko",
+   "name": "폭풍의 잔향 (The Lost Storm 한국어판)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/the-lost-storm-ko/",
+   "type": "fork",
+   "desc": "오픈월드 액션 RPG The Lost Storm 한글화 (원본 marginsystems/the-lost-storm)",
+   "category": "3D",
+   "date": "2026-11-20",
+   "screenshot": "https://github.com/sigco3111/the-lost-storm-ko/raw/HEAD/docs/images/title.webp",
+   "score": 10
+  },
+  "41e76f2e-9097-8178-b25d-e1c5fd2a96be": {
+   "repo": "everyday-game",
+   "name": "메아리 게임장",
+   "featured": false,
+   "live": "https://sigco3111.github.io/everyday-game/",
+   "type": "fork",
+   "desc": "매일 하나씩 열리는 13개 미니게임 모음(바닐라 JS+Three.js) 한글화. 원작 중국어 음성은 사용자 선택으로 OFF (원본 zhgarylu/everyday-game)",
+   "category": "3D",
+   "date": "2026-11-20",
+   "score": 8.5
+  },
+  "41e76f2e-9097-818d-a5f7-dd5f0fa9a749": {
+   "repo": "ashen-oath",
+   "name": "잿빛 서약",
+   "featured": true,
+   "live": "https://sigco3111.github.io/ashen-oath/",
+   "type": "original",
+   "desc": "세 직업으로 고정 9지역을 탐험하는 쿼터뷰 액션 RPG. 수동·자동 전투, 귀환 전리품 비교, 경로별 재도전 기록을 제공하는 v0.3.0-preview.",
+   "category": "3D",
+   "date": "2026-11-20",
+   "screenshot": "https://github.com/sigco3111/ashen-oath/raw/HEAD/1-ashen-oath-public-preview.jpg",
+   "score": 8
+  },
+  "41e76f2e-9097-81d6-bb5a-e0ffebdc939d": {
+   "repo": "assets-3d-polyfork",
+   "name": "3D 에셋 (Polyfork)",
+   "featured": false,
+   "live": "",
+   "type": "original",
+   "desc": "Polyfork CC BY 4.0 로우폴리 3D 모델 자동 수집 저장소 (원본 polyfork.dev, CC BY 4.0)",
+   "category": "기타",
+   "date": "2026-11-20",
+   "score": 10
+  },
+  "41e76f2e-9097-81d7-80d4-efb367b473a9": {
+   "repo": "codexofconquest",
+   "name": "코덱스 오브 컨퀘스트 (Codex of Conquest)",
+   "featured": false,
+   "live": "https://sigco3111.github.io/codexofconquest/play.html",
+   "type": "fork",
+   "desc": "싱글파일 텍스트 어드벤처 RPG 「Codex of Conquest」 한국어판. 8막 캠페인, d20 주사위 전투, 400+ 지역·2,800+ 퀘스트·400+ 몬스터 (원본 vonglurt/codexofconquest, MIT)",
+   "category": "2D게임",
+   "date": "2026-11-20",
+   "screenshot": "https://github.com/sigco3111/codexofconquest/raw/HEAD/assets/screenshots/1-kr-story.png"
   }
  },
- "_gate_hash": "d6e09587135017fe83df02f6733c854cdc39007afea9fd8adb59879119a80f62"
+ "_gate_hash": "6fc0d689676993e24b7cf1b0038f2a12e94d1b56e536806487618900a479168c"
 }
