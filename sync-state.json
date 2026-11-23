@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-21T04:03:00+09:00",
+ "synced_at": "2026-11-24T04:15:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -4476,7 +4476,7 @@
    "score": 7.5
   },
   "41b76f2e-9097-816a-8bdc-e10110cc77dc": {
-   "category": "3D",
+   "category": "시각화",
    "desc": "실제 AlphaFold 예측 구조로 만든 단백질 우주 탐험·박물관·퀴즈 통합 웹앱. 24종 별 지도·6성단, Mol* 3D 뷰어, 발견 수집 연출, 60초 타임어택·목숨 3 서바이벌 도전. JavaScript 기반.",
    "featured": false,
    "live": "https://sigco3111.github.io/protein-universe/",
@@ -4812,14 +4812,195 @@
   "41e76f2e-9097-81d7-80d4-efb367b473a9": {
    "repo": "codexofconquest",
    "name": "코덱스 오브 컨퀘스트 (Codex of Conquest)",
-   "featured": false,
+   "featured": true,
    "live": "https://sigco3111.github.io/codexofconquest/play.html",
    "type": "fork",
    "desc": "싱글파일 텍스트 어드벤처 RPG 「Codex of Conquest」 한국어판. 8막 캠페인, d20 주사위 전투, 400+ 지역·2,800+ 퀘스트·400+ 몬스터 (원본 vonglurt/codexofconquest, MIT)",
    "category": "2D게임",
-   "date": "2026-11-20",
-   "screenshot": "https://github.com/sigco3111/codexofconquest/raw/HEAD/assets/screenshots/1-kr-story.png"
+   "date": "2026-11-21",
+   "screenshot": "https://github.com/sigco3111/codexofconquest/raw/HEAD/assets/screenshots/1-kr-story.png",
+   "score": 9
+  },
+  "42076f2e-9097-81cc-a05e-fe3360707f97": {
+   "repo": "brickfall-ko",
+   "name": "브릭폴 (Brickfall)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/brickfall-ko/",
+   "type": "fork",
+   "desc": "1인칭 복셀 철거 게임 「Brickfall」 한국어판. 모든 벽돌이 GPU 강체로 시뮬레이션되는 철거 시뮬레이션. 모드 4종(러시·블로우다운·샐비지·샌드박스), 부지 11곳, 도구 9종 (원본 Patch blendi/brickfall, MIT)",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/brickfall-ko/raw/HEAD/docs/gameplay-frame.jpg",
+   "score": 9
+  },
+  "42176f2e-9097-810d-947d-e29d971dda73": {
+   "repo": "threejs-particle-fluids",
+   "name": "Three.js 파티클 플루이드",
+   "featured": true,
+   "live": "https://sigco3111.github.io/threejs-particle-fluids/",
+   "type": "fork",
+   "desc": "Three.js용 GPU 입자 물리 라이브러리 「Three.js Particle Fluids」 한국어판. 액체·소프트 바디·천·연기를 WebGPU로 실시간 시뮬레이션하는 13개 인터랙티브 프리셋 데모 UI 전면 한글화. WebGPU 지원 브라우저 필요(WebGL 폴백 없음). 한글 UI",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/threejs-particle-fluids/raw/HEAD/public/previews/cover.png",
+   "score": 8
+  },
+  "42176f2e-9097-810d-9eb5-e9c1b28cfed8": {
+   "repo": "cinder-tide",
+   "name": "신더 타이드 (Cinder Tide)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/cinder-tide/",
+   "type": "fork",
+   "desc": "모든 픽셀이 실제 물질로 시뮬레이션되는 2D 슈퍼히어로 샌드박스 「Cinder Tide」 한국어판. 셀 단위 열 전도·물 순환(증기→구름→비)·용암→흑요석, Rapier 강체 물리, 능력 6종, 모드 4종+다단계 보스 2종 (원본 git.patch.gg/blendi/cinder-tide",
+   "category": "2D게임",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/cinder-tide/raw/HEAD/screenshots/01-title.png",
+   "score": 9
+  },
+  "42176f2e-9097-8127-92dc-c593f0806d11": {
+   "repo": "inkwave-ko",
+   "name": "잉크웨이브 (INKWAVE)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/inkwave-ko/",
+   "type": "fork",
+   "desc": "4 대 4 터프 워 잉크 슈터 「INKWAVE」 한국어판. 오징어 변신·잉크 수영, 스테이지 3종(타이드워터 광장·켈프라인 터미널·홀리야드 마리나)×낮/황혼, 봇 난이도 3단계, XP/레벨 성장 (원본 DevFrancois/inkwave, MIT)",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/inkwave-ko/raw/HEAD/docs/screenshots/title.png",
+   "score": 10
+  },
+  "42176f2e-9097-813c-9234-d72e5034adcc": {
+   "repo": "slice-anything-ko",
+   "name": "슬라이스 애니씽",
+   "featured": true,
+   "live": "https://sigco3111.github.io/slice-anything-ko/",
+   "type": "fork",
+   "desc": "three.js 씬 안의 어떤 메시든 원하는 평면으로 몇 번이고 잘라낼 수 있는 1인칭 절단 데모의 한글판.",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/slice-anything-ko/raw/HEAD/docs/screenshots/01-start.png",
+   "score": 8
+  },
+  "42176f2e-9097-8167-9384-d04b937d31f4": {
+   "repo": "wigglewild-ko",
+   "name": "위글와일드 (Wigglewild)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/wigglewild-ko/",
+   "type": "fork",
+   "desc": "직접 만든 크리터가 되어 살아있는 섬을 누비는 크리처 시뮬레이션 「Wigglewild」 한국어판. 부위 조립 에디터와 절차적 다리 애니메이션, 종족 5종+떠돌이 거인, 노래·춤·매력·포즈 인사 교환, 연구소·도감·초원 샌드박스 (원본 Patch blendi/wigglewild, MIT)",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/wigglewild-ko/raw/HEAD/docs/1-screenshot-title-ko.png",
+   "score": 7.5
+  },
+  "42176f2e-9097-8173-a4e4-e15d48db78dc": {
+   "repo": "dungeon-forge-ko",
+   "name": "던전 포지 한글판 (Dungeon Forge KO)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/dungeon-forge-ko/",
+   "type": "fork",
+   "desc": "시드로 던전을 만들고 위에서 보다가 1인칭으로 걸어 다니는 절차적 던전 생성기 「던전 포지 한글판」. Patch Dungeons(원작 Dungeon Forge 기반, MIT)를 한글화하고 설정 패널·난이도 히트맵·개별 표시/숨김·생성 통계를 추가. Three.js 기반.",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/dungeon-forge-ko/raw/HEAD/screenshots/01-map-molten.png",
+   "score": 10
+  },
+  "42176f2e-9097-818d-a5c8-e0f1c6d5ebba": {
+   "repo": "crowds-ko",
+   "name": "크라우즈 (Crowds)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/crowds-ko/",
+   "type": "fork",
+   "desc": "three.js 디오라마 위에서 마네킹 군중이 벽과 서로를 피해 길을 찾아 흘러가는 군중 길찾기 데모 「Crowds and navigation」 한국어판. 클릭으로 군중 이동 지시·돌 블록 설치, 실시간 내비메시 재계산과 우회, 레벨 3종(장터·성벽·생울타리 미로) (원본 Patch p",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/crowds-ko/raw/HEAD/docs/screenshots/1-%EC%9E%A5%ED%84%B0.png",
+   "score": 8
+  },
+  "42176f2e-9097-8199-a892-d37c01889bd1": {
+   "repo": "realistic-car-ko",
+   "name": "리얼리스틱 카 (Realistic Car KO)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/realistic-car-ko/",
+   "type": "fork",
+   "desc": "three.js+Rapier 물리 랠리 카 주행 데모 「리얼리스틱 카 한글판」. Patch Car를 한글화하고 한글 설정 패널(시점·맵·주행보조·그립·고급 물리), 노면 표시, 「노르드비크 랠리」「오를라 타이어」 배너로 현지화. 스테이지/드라이버 시점, 기어·시속 HUD.",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/realistic-car-ko/raw/HEAD/screenshots/01-stage.webp",
+   "score": 8
+  },
+  "42176f2e-9097-81b2-b729-f0ccfc6ea606": {
+   "repo": "claude-opus-5.5-zombies-game",
+   "name": "데드 시그널: 엑스클루전 존",
+   "featured": false,
+   "live": "https://sigco3111.github.io/claude-opus-5.5-zombies-game/",
+   "type": "fork",
+   "desc": "Three.js 익스트랙션 좀비 FPS 「Dead Signal: Exclusion Zone」 한국어판. 오염된 산업 지역(제9구역)에서 업링크 중계기 방어·WARDEN-9 추적 2개 계약을 완수한 뒤 헬기로 탈출. 보급소 상점·무기 강화·전술 지도·위협 등급 시스템, 메뉴·HUD·월드",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/claude-opus-5.5-zombies-game/raw/HEAD/docs/screenshots/title.jpg",
+   "score": 7.5
+  },
+  "42176f2e-9097-81cb-b354-e18e297f6625": {
+   "repo": "elements-ko",
+   "name": "엘리먼츠 (Elements)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/elements-ko/",
+   "type": "fork",
+   "desc": "three.js·WebGL2로 그리는 원소 주문 VFX 데모 「Elements」 한국어판. 원소 그룹 10종·주문 39종, 클릭 시전, 크기·강도·속도·하늘·모양을 바꾸는 설정 패널, 주문별 미리보기 썸네일 (원본 Patch patch/elements, Ultra Elements by",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/elements-ko/raw/HEAD/cover.jpg",
+   "score": 10
+  },
+  "42176f2e-9097-81d3-9b91-c593df420556": {
+   "repo": "effekseer-ko",
+   "name": "Effekseer 이펙트 모음",
+   "featured": true,
+   "live": "https://sigco3111.github.io/effekseer-ko/",
+   "type": "fork",
+   "desc": "Effekseer 이펙트 33종을 3D 장면에서 재생해 보는 three.js 데모 한국어판 (원본 patch.gg/patch/effekseer, 코드 MIT · 이펙트 CC0)",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/effekseer-ko/raw/HEAD/docs/1-ui-panel-ko.png",
+   "score": 10
+  },
+  "42176f2e-9097-81e8-a07c-e29a43fe6493": {
+   "repo": "procedural-animals-ko",
+   "name": "절차형 동물 (Three.js Procedural Animals)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/procedural-animals-ko/",
+   "type": "fork",
+   "desc": "three.js용 완전 절차적 동물 생성기 「Three.js Procedural Animals」 한국어판. SDF 몸 조각·자동 리그/스킨·털/깃털·IK 보행으로 24종 동물을 모델·텍스처·애니메이션 클립 없이 코드만으로 생성. 쇼케이스 UI·행동/걸음 조작·코드 패널 설명 전면 한글화",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/procedural-animals-ko/raw/HEAD/docs/screenshot-main.png",
+   "score": 8.5
+  },
+  "42176f2e-9097-81f1-bdbc-de0767d1fdc2": {
+   "repo": "stylised-sky-ko",
+   "name": "Stylised Sky (그림 같은 하늘)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/stylised-sky-ko/",
+   "type": "fork",
+   "desc": "patch.gg의 three.js용 그림체 하늘 블록 「Stylised sky」 한국어판. 분위기 7종 프리셋과 시간대·구름량·바람·비 조절, 단독 실행용 한글 조작 패널, 로딩·오류 문구 전면 한글화. WebGPU/WebGL2 지원 브라우저 필요. (원본 patch.gg/patch/s",
+   "category": "3D",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/stylised-sky-ko/raw/HEAD/docs/screenshots/main.png",
+   "score": 7.5
+  },
+  "42176f2e-9097-81f2-9f3f-f05b7d53ff88": {
+   "repo": "pixelfx-ko",
+   "name": "픽셀FX 한글판",
+   "featured": true,
+   "live": "https://sigco3111.github.io/pixelfx-ko/",
+   "type": "fork",
+   "desc": "픽셀FX (pixelfx) 한글판 - 244가지 픽셀 아트 효과 갤러리 한국어 로컬라이즈",
+   "category": "시각화",
+   "date": "2026-11-23",
+   "screenshot": "https://github.com/sigco3111/pixelfx-ko/raw/HEAD/docs/screenshots/3-gallery-grid.png",
+   "score": 10
   }
  },
- "_gate_hash": "ce6f2742b52f2b786640ad490940d20a57edb1f540b65ebd49abefa1f410e883"
+ "_gate_hash": "3c2daf4e9d05740015444b9b3c91c7ad43e050f50c143ba2e7c8f667f43ab159"
 }
