@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-24T04:15:00+09:00",
+ "synced_at": "2026-11-25T04:15:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -4657,7 +4657,7 @@
   },
   "41d76f2e-9097-814b-a4e8-f38b1ed7bcaf": {
    "repo": "wildlife-odyssey-3d-ko",
-   "name": "와일드라이프 오딧세이 3D (Wildlife Odyssey 3D)",
+   "name": "와일드라이프 오딧세이 3D",
    "featured": true,
    "live": "https://sigco3111.github.io/wildlife-odyssey-3d-ko/",
    "screenshot": "https://github.com/sigco3111/wildlife-odyssey-3d-ko/raw/HEAD/docs/media/screenshot-menu.png",
@@ -4669,7 +4669,7 @@
   },
   "41d76f2e-9097-814d-aeb3-db2aac578e73": {
    "repo": "fable-5.2-potatobench-ko",
-   "name": "더 카운티 (The County)",
+   "name": "더 카운티",
    "featured": true,
    "live": "https://sigco3111.github.io/fable-5.2-potatobench-ko/",
    "screenshot": "https://github.com/sigco3111/fable-5.2-potatobench-ko/raw/HEAD/docs/ko/title.png",
@@ -4729,7 +4729,7 @@
   },
   "41d76f2e-9097-81e6-85d1-ec059df62b52": {
    "repo": "concrete-echo-ko",
-   "name": "콘크리트 에코 (CONCRETE ECHO)",
+   "name": "콘크리트 에코",
    "featured": true,
    "live": "https://sigco3111.github.io/concrete-echo-ko/",
    "type": "fork",
@@ -4753,7 +4753,7 @@
   },
   "41e76f2e-9097-814b-9c8b-cbf162c9d092": {
    "repo": "gamedemo-by-fable5.2-ko",
-   "name": "별잿빛 들판 (가칭, gamedemo_by_Fable5.2 한국어판)",
+   "name": "별잿빛 들판",
    "featured": true,
    "live": "https://sigco3111.github.io/gamedemo-by-fable5.2-ko/",
    "type": "fork",
@@ -4811,7 +4811,7 @@
   },
   "41e76f2e-9097-81d7-80d4-efb367b473a9": {
    "repo": "codexofconquest",
-   "name": "코덱스 오브 컨퀘스트 (Codex of Conquest)",
+   "name": "코덱스 오브 컨퀘스트",
    "featured": true,
    "live": "https://sigco3111.github.io/codexofconquest/play.html",
    "type": "fork",
@@ -4823,7 +4823,7 @@
   },
   "42076f2e-9097-81cc-a05e-fe3360707f97": {
    "repo": "brickfall-ko",
-   "name": "브릭폴 (Brickfall)",
+   "name": "브릭폴",
    "featured": true,
    "live": "https://sigco3111.github.io/brickfall-ko/",
    "type": "fork",
@@ -4847,7 +4847,7 @@
   },
   "42176f2e-9097-810d-9eb5-e9c1b28cfed8": {
    "repo": "cinder-tide",
-   "name": "신더 타이드 (Cinder Tide)",
+   "name": "신더 타이드",
    "featured": true,
    "live": "https://sigco3111.github.io/cinder-tide/",
    "type": "fork",
@@ -4859,7 +4859,7 @@
   },
   "42176f2e-9097-8127-92dc-c593f0806d11": {
    "repo": "inkwave-ko",
-   "name": "잉크웨이브 (INKWAVE)",
+   "name": "잉크웨이브",
    "featured": true,
    "live": "https://sigco3111.github.io/inkwave-ko/",
    "type": "fork",
@@ -4883,7 +4883,7 @@
   },
   "42176f2e-9097-8167-9384-d04b937d31f4": {
    "repo": "wigglewild-ko",
-   "name": "위글와일드 (Wigglewild)",
+   "name": "위글와일드",
    "featured": true,
    "live": "https://sigco3111.github.io/wigglewild-ko/",
    "type": "fork",
@@ -4895,7 +4895,7 @@
   },
   "42176f2e-9097-8173-a4e4-e15d48db78dc": {
    "repo": "dungeon-forge-ko",
-   "name": "던전 포지 한글판 (Dungeon Forge KO)",
+   "name": "던전 포지",
    "featured": true,
    "live": "https://sigco3111.github.io/dungeon-forge-ko/",
    "type": "fork",
@@ -4907,7 +4907,7 @@
   },
   "42176f2e-9097-818d-a5c8-e0f1c6d5ebba": {
    "repo": "crowds-ko",
-   "name": "크라우즈 (Crowds)",
+   "name": "크라우즈",
    "featured": true,
    "live": "https://sigco3111.github.io/crowds-ko/",
    "type": "fork",
@@ -4919,7 +4919,7 @@
   },
   "42176f2e-9097-8199-a892-d37c01889bd1": {
    "repo": "realistic-car-ko",
-   "name": "리얼리스틱 카 (Realistic Car KO)",
+   "name": "리얼리스틱 카",
    "featured": true,
    "live": "https://sigco3111.github.io/realistic-car-ko/",
    "type": "fork",
@@ -4943,7 +4943,7 @@
   },
   "42176f2e-9097-81cb-b354-e18e297f6625": {
    "repo": "elements-ko",
-   "name": "엘리먼츠 (Elements)",
+   "name": "엘리먼츠",
    "featured": true,
    "live": "https://sigco3111.github.io/elements-ko/",
    "type": "fork",
@@ -4967,7 +4967,7 @@
   },
   "42176f2e-9097-81e8-a07c-e29a43fe6493": {
    "repo": "procedural-animals-ko",
-   "name": "절차형 동물 (Three.js Procedural Animals)",
+   "name": "절차형 동물생성기",
    "featured": true,
    "live": "https://sigco3111.github.io/procedural-animals-ko/",
    "type": "fork",
@@ -4979,7 +4979,7 @@
   },
   "42176f2e-9097-81f1-bdbc-de0767d1fdc2": {
    "repo": "stylised-sky-ko",
-   "name": "Stylised Sky (그림 같은 하늘)",
+   "name": "Stylised Sky",
    "featured": true,
    "live": "https://sigco3111.github.io/stylised-sky-ko/",
    "type": "fork",
@@ -4991,7 +4991,7 @@
   },
   "42176f2e-9097-81f2-9f3f-f05b7d53ff88": {
    "repo": "pixelfx-ko",
-   "name": "픽셀FX 한글판",
+   "name": "픽셀FX",
    "featured": true,
    "live": "https://sigco3111.github.io/pixelfx-ko/",
    "type": "fork",
@@ -5000,7 +5000,187 @@
    "date": "2026-11-23",
    "screenshot": "https://github.com/sigco3111/pixelfx-ko/raw/HEAD/docs/screenshots/3-gallery-grid.png",
    "score": 10
+  },
+  "42176f2e-9097-8145-b650-e46bf3ef0ce2": {
+   "repo": "coloured-pencil-ko",
+   "name": "색연필",
+   "featured": true,
+   "live": "https://sigco3111.github.io/coloured-pencil-ko/",
+   "type": "fork",
+   "desc": "three.js 세계를 색연필화처럼 그려 내는 렌더링 데모 「색연필 한글판」. 아침 항구 마을을 걷는 장면의 한국어 UI·손글씨 글꼴, 실행 안내와 스크린샷을 담은 README를 제공.",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/coloured-pencil-ko/raw/HEAD/shots/ko-harbour.jpg",
+   "score": 7.5
+  },
+  "42176f2e-9097-8180-956f-e5ebedb64be0": {
+   "repo": "oil-paint-ko",
+   "name": "오일 페인트",
+   "featured": true,
+   "live": "https://sigco3111.github.io/oil-paint-ko/",
+   "type": "fork",
+   "desc": "three.js 기반 유화 렌더 데모 「오일 페인트 한글판」. 오로라와 가을 숲 장면의 한국어 UI와 글꼴, 실행 안내를 담은 README를 제공.",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/oil-paint-ko/raw/HEAD/docs/scene-aurora.png",
+   "score": 7.5
+  },
+  "42176f2e-9097-8199-86f3-e7e9312aa2b4": {
+   "repo": "rookie-fc",
+   "name": "루키FC",
+   "featured": true,
+   "live": "https://sigco3111.github.io/rookie-fc/",
+   "type": "original",
+   "desc": "구단 유스 3시즌 육성에서 승격 평가·1군 리그까지 잇는 세로형 7대7 3D 축구 게임. 루키나인(야구)의 축구 스핀오프",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/rookie-fc/raw/HEAD/docs/screenshots/play-pc-wide.png",
+   "score": 8
+  },
+  "42176f2e-9097-81c2-b5a3-c323e3734908": {
+   "repo": "watercolour-ko",
+   "name": "수채화",
+   "featured": true,
+   "live": "https://sigco3111.github.io/watercolour-ko/",
+   "type": "fork",
+   "desc": "WebGL 수채화 렌더 워킹 데모 「수채화 한글판」. 걸으며 연필 스케치가 수채화로 채색되는 장면의 한국어 UI·설정 패널, 실행 안내를 담은 README를 제공.",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/watercolour-ko/raw/HEAD/screenshots/cover.jpg",
+   "score": 7.5
+  },
+  "42276f2e-9097-8100-ab65-e6d8c2cc7b74": {
+   "repo": "painted-valley-ko",
+   "name": "경외 (Painted Valley)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/painted-valley-ko/",
+   "type": "fork",
+   "desc": "손으로 그린 애니메이션 배경 같은 여름 계곡을 밀짚모자 방랑자로 걷는 three.js 데모 「경외(敬畏)」 한글판. 영화 같은 타이틀 연출·시간대 변경·카타나 발도 등 조작 안내 한국어화, 실제 실행 캡처 포함 한글 README 제공. (원본 patch.gg/majveia/painted",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/painted-valley-ko/raw/HEAD/ko-title.jpg",
+   "score": 7.5
+  },
+  "42276f2e-9097-8104-ae90-fcc629262829": {
+   "repo": "long-wind",
+   "name": "장풍 (Long Wind)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/long-wind/",
+   "type": "fork",
+   "desc": "외로운 검객이 세 개의 장(초원·죽림·마을)을 누비는 실시간 무협 액션 「장풍(長風)」 한글판. 순수 three.js/WebGL로 설치 없이 브라우저에서 바로 플레이. 메뉴·조작 안내·웨이브 부제·보스 소개·로딩 문구 한국어화, 붓글씨 한자 글리프와 고전시 원문은 유지하고 한글 병기.",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/long-wind/raw/HEAD/docs/media/steppe.jpg",
+   "score": 10
+  },
+  "42276f2e-9097-8115-ab6e-d9c150d810d5": {
+   "repo": "kaiju-dokan-ko",
+   "name": "괴수 도칸! (KAIJU DOKAN!)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/kaiju-dokan-ko/",
+   "type": "fork",
+   "desc": "거대 괴수로 도시를 부수는 Three.js 브라우저 게임 한글화 (원본 tanuu5/kaiju-dokan)",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/kaiju-dokan-ko/raw/HEAD/docs/images/title.jpg",
+   "score": 8
+  },
+  "42276f2e-9097-8139-8959-d9f3fb29e5a6": {
+   "repo": "pixel-village-ko",
+   "name": "픽셀 빌리지",
+   "featured": true,
+   "live": "https://sigco3111.github.io/pixel-village-ko/",
+   "type": "fork",
+   "desc": "코드로 그린 픽셀 아트 절벽 마을 산책 데모. 한국어 조작 안내·제목·음악 출처 안내와 스크린샷 포함 README 제공.",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/pixel-village-ko/raw/HEAD/shots-ko/start.png",
+   "score": 7.5
+  },
+  "42276f2e-9097-814e-afe4-dfbb2172b317": {
+   "repo": "tiny-planet-ko",
+   "name": "타이니 플래닛 (Tiny Planet)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/tiny-planet-ko/",
+   "type": "fork",
+   "desc": "작은 행성을 걷고·날고·헤엄치며 탐험하는 three.js 샌드박스 「타이니 플래닛」 한글판. 타이틀·일시정지·조작 안내·모드 칩·시간대 라벨 한국어화, 실제 실행 캡처 4장 포함 한글 README 제공. (원작 StarKnightt/tiny-planet, MIT)",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/tiny-planet-ko/raw/HEAD/screenshots/01-title.jpg",
+   "score": 7.5
+  },
+  "42276f2e-9097-818d-b6ef-e41738d0793c": {
+   "repo": "cold-smoke",
+   "name": "콜드스모크",
+   "featured": true,
+   "live": "https://sigco3111.github.io/cold-smoke/",
+   "type": "fork",
+   "desc": "화면·소리 전부를 코드로 생성하는 밤 산 무한 활강 스키 게임 한글화 (원본 huiskylabs/cold-smoke)",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/cold-smoke/raw/HEAD/docs/media/7-title-ko.png",
+   "score": 10
+  },
+  "42276f2e-9097-8191-b64d-d5b3de2edd63": {
+   "repo": "kervan-ko",
+   "name": "케르반 (Kervan)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/kervan-ko/",
+   "type": "fork",
+   "desc": "케르반(Kervan) 한국어판 - 아나톨리아 실크로드 3D 무역 전략 게임 (원작: Furkiozknn/kervan, MIT)",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/kervan-ko/raw/HEAD/docs/ko-title.jpg",
+   "score": 7.5
+  },
+  "42276f2e-9097-8199-bdf5-c624c96070ee": {
+   "repo": "dead-precinct-ko",
+   "name": "죽은 도시의 경찰서 (DEAD PRECINCT)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/dead-precinct-ko/",
+   "type": "fork",
+   "desc": "PS1 스타일 레트로 서바이벌 호러 데모 한글화 (원본 Bao5ye/dead-precinct)",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/dead-precinct-ko/raw/HEAD/screenshots-ko/title.png",
+   "score": 9
+  },
+  "42276f2e-9097-81cc-bb7f-e7a4113508d7": {
+   "repo": "patchwork-quilt-ko",
+   "name": "패치워크 퀼트",
+   "featured": true,
+   "live": "https://sigco3111.github.io/patchwork-quilt-ko/",
+   "type": "fork",
+   "desc": "천 조각을 한 땀 한 땀 바느질해 만든 세계를 봉제 인형으로 걸어 다니는 데모 「패치워크 퀼트 한글판」. 로딩 문구·조작 안내·포즈 속도 표시 한국어화, 실행 안내를 담은 한글 README 제공.",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/patchwork-quilt-ko/raw/HEAD/docs/screenshots/main.jpg",
+   "score": 7.5
+  },
+  "42276f2e-9097-81f9-9225-e937c5cc30e4": {
+   "repo": "simit-firini",
+   "name": "시밋 베이커리",
+   "featured": true,
+   "live": "https://sigco3111.github.io/simit-firini/",
+   "type": "fork",
+   "desc": "이스탄불 배경 시밋 베이커리 경영 게임 한국어판. 342개 문구 번역, 한국어 기본 설정, 기존 English/Türkçe 유지. 원작: Furkiozknn/simit-firini (MIT).",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/simit-firini/raw/HEAD/docs/screenshots/ko-title.jpg",
+   "score": 7
+  },
+  "42276f2e-9097-81fe-9d0a-fb270f5d7594": {
+   "repo": "nova-lancer-ko",
+   "name": "노바 랜서",
+   "featured": true,
+   "live": "https://sigco3111.github.io/nova-lancer-ko/",
+   "type": "fork",
+   "desc": "스타폭스풍 3D 레일 슈팅 「NOVA LANCER」 한국어판. 석양의 바다·붉은 협곡·밤의 요새·보스 미즈치(미션 1)와 사르가소 우주·가샤도쿠로(미션 2). 지형·모델·BGM·효과음 모두 코드로 생성, 키보드·게임패드·터치 지원 (원본 tanuu5/nova-lancer, MIT)",
+   "category": "3D",
+   "date": "2026-11-24",
+   "screenshot": "https://github.com/sigco3111/nova-lancer-ko/raw/HEAD/docs/screenshots/ocean.jpg",
+   "score": 8.5
   }
  },
- "_gate_hash": "3c2daf4e9d05740015444b9b3c91c7ad43e050f50c143ba2e7c8f667f43ab159"
+ "_gate_hash": "ed9a154b65dcd1b35551cd6f25dd2e23528fff4188f3390324ae7fdc2d9df7c8"
 }
