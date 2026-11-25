@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-25T04:15:00+09:00",
+ "synced_at": "2026-11-26T04:15:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -5180,7 +5180,43 @@
    "date": "2026-11-24",
    "screenshot": "https://github.com/sigco3111/nova-lancer-ko/raw/HEAD/docs/screenshots/ocean.jpg",
    "score": 8.5
+  },
+  "42276f2e-9097-8120-8850-cc080645f236": {
+   "repo": "cowboys-vs-wizards",
+   "name": "카우보이 대 마법사",
+   "featured": true,
+   "live": "https://sigco3111.github.io/cowboys-vs-wizards/",
+   "type": "fork",
+   "desc": "카우보이와 마법사의 유령 서부극 카드 듀얼. UI·게임 로그·보상·저장 화면을 한국어화하고, 포커 및 구버전 대결 화면도 한글로 제공. 원작: alejandro-publius/cowboys-vs-wizards.",
+   "category": "3D",
+   "date": "2026-11-25",
+   "screenshot": "https://github.com/sigco3111/cowboys-vs-wizards/raw/HEAD/docs/screenshots/title.jpg",
+   "score": 7.5
+  },
+  "42376f2e-9097-81d7-bc5a-cdff29a69b29": {
+   "repo": "grid-breach",
+   "name": "그리드 브리치",
+   "featured": true,
+   "live": "https://sigco3111.github.io/grid-breach/",
+   "type": "original",
+   "desc": "Three.js 3D 던전 크롤러 슈터 — 5개 던전, 총기 부위 부착·강화, 스킬 트리, 보관함, 자동 사냥 지원",
+   "category": "3D",
+   "date": "2026-11-25",
+   "screenshot": "https://github.com/sigco3111/grid-breach/raw/HEAD/docs/screenshots/dungeon-start.png",
+   "score": 8
+  },
+  "42376f2e-9097-81de-bc97-fe0644fd3437": {
+   "repo": "thanes-quest-ko",
+   "name": "테인의 모험 (Thane's Quest)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/thanes-quest-ko/",
+   "type": "fork",
+   "desc": "눈 덮인 북녘을 걷는 텍스트 명령 어드벤처 한글화 — 지문·대화·메뉴·HUD 전 문자열 한국어화, 한글 명령 입력+영어 명령 호환, Galmuri7 한글 웹폰트 번들 (원본 rdhelms/thanes-quest, MIT)",
+   "category": "2D게임",
+   "date": "2026-11-25",
+   "screenshot": "https://github.com/sigco3111/thanes-quest-ko/raw/HEAD/shots/village.png",
+   "score": 7.5
   }
  },
- "_gate_hash": "ed9a154b65dcd1b35551cd6f25dd2e23528fff4188f3390324ae7fdc2d9df7c8"
+ "_gate_hash": "a86b7da749cdc62e9826f04ec61ab4c5a0f0dfeeefe2b79bc87b1d450bd70db3"
 }
