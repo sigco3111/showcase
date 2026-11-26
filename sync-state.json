@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-26T04:15:00+09:00",
+ "synced_at": "2026-11-27T04:15:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -5216,7 +5216,67 @@
    "date": "2026-11-25",
    "screenshot": "https://github.com/sigco3111/thanes-quest-ko/raw/HEAD/shots/village.png",
    "score": 7.5
+  },
+  "42376f2e-9097-817e-bc1a-f3397e87b380": {
+   "repo": "lighthouse-cup-ko",
+   "name": "라이트하우스 컵 (Lighthouse Cup)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/lighthouse-cup-ko/",
+   "type": "fork",
+   "desc": "3D 배구 매치 시뮬레이션 한글화 — UI·이벤트 자막·중계 문장·비디오 판독·전광판·통계/로스터 표 한국어화, Noto Sans KR 적용 (원본 itsLucas02/lighthouse-cup, MIT)",
+   "category": "3D",
+   "date": "2026-11-26",
+   "screenshot": "https://github.com/sigco3111/lighthouse-cup-ko/raw/HEAD/docs/ko/thumbnail.png",
+   "score": 8
+  },
+  "42376f2e-9097-819c-8d26-d6a860652809": {
+   "repo": "summon-knights",
+   "name": "소환 기사단 (Summon Knights)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/summon-knights/",
+   "type": "original",
+   "desc": "3x3 슬롯 소환 + 자동전투 성장 모바일 웹 게임. 흡수·승급·각인 성장, 다회차와 통계 대시보드.",
+   "category": "2D게임",
+   "date": "2026-11-26",
+   "screenshot": "https://github.com/sigco3111/summon-knights/raw/HEAD/screenshots/01-main.png",
+   "score": 8
+  },
+  "42476f2e-9097-8190-bf9f-da79a7e4d9fb": {
+   "repo": "tackle-tactics",
+   "name": "태클 택틱스 (Tackle Tactics)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/tackle-tactics/",
+   "type": "fork",
+   "desc": "22명이 한 명씩 움직이는 턴제 위치 선점 축구 전술 게임 한글화. 클럽·선수·지명·중계진·구장명까지 한글 표기, 대한민국(실제 지역명, 가상 클럽) 추가, 선수·경기장 그래픽 직접 제작판 (원본 IamSebastianDev/tackle-tactics, 코드 MIT)",
+   "category": "2D게임",
+   "date": "2026-11-26",
+   "screenshot": "https://github.com/sigco3111/tackle-tactics/raw/HEAD/docs/screenshots/title.png",
+   "score": 9
+  },
+  "42476f2e-9097-81be-80b0-f2d1cfa86dba": {
+   "repo": "dangpu-ko",
+   "name": "마문 전당포",
+   "featured": true,
+   "live": "https://sigco3111.github.io/dangpu-ko/",
+   "type": "fork",
+   "desc": "마문 세계관 전당포 경영 시뮬레이션 RPG 한글화 (원본 lqszhsp/dangpu, MIT)",
+   "category": "2D게임",
+   "date": "2026-11-26",
+   "screenshot": "https://github.com/sigco3111/dangpu-ko/raw/HEAD/docs/readme/title.webp",
+   "score": 9
+  },
+  "42476f2e-9097-81c3-a105-fb2ff1535506": {
+   "repo": "renying-ko",
+   "name": "인영 (RenYing)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/renying-ko/",
+   "type": "fork",
+   "desc": "중국 무협풍 2D 격투 게임 인영(RenYing) 한글화. (원본 BigBrainDevBros/RenYing, MIT)",
+   "category": "2D게임",
+   "date": "2026-11-26",
+   "screenshot": "https://github.com/sigco3111/renying-ko/raw/HEAD/docs/shots/menu.png",
+   "score": 9
   }
  },
- "_gate_hash": "a86b7da749cdc62e9826f04ec61ab4c5a0f0dfeeefe2b79bc87b1d450bd70db3"
+ "_gate_hash": "872515fa5b2fbfb37a466b203dece36f3a25251e0e15941a6ce1ddde91935a07"
 }
