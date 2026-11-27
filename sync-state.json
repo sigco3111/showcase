@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-11-27T04:15:00+09:00",
+ "synced_at": "2026-11-28T04:15:00+09:00",
  "source": "notion:3c976f2e-9097-815f-9601-c34e47d30334",
  "entries": {
   "41676f2e-9097-8048-a3d4-e8c6a08d780a": {
@@ -5276,7 +5276,67 @@
    "date": "2026-11-26",
    "screenshot": "https://github.com/sigco3111/renying-ko/raw/HEAD/docs/shots/menu.png",
    "score": 9
+  },
+  "42576f2e-9097-8100-a20a-d6859098a830": {
+   "repo": "cinderwatch",
+   "name": "신더워치 (Cinderwatch)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/cinderwatch/",
+   "type": "fork",
+   "desc": "황혼의 메사 위 감시탑에서 밀려오는 몬스터 웨이브를 막는 단일 HTML 3D 타워 디펜스 한글화 (원본 kevintngo/cinderwatch, MIT)",
+   "category": "3D",
+   "date": "2026-11-27",
+   "screenshot": "https://github.com/sigco3111/cinderwatch/raw/HEAD/media/screenshot-ko-intro.png",
+   "score": 9
+  },
+  "42576f2e-9097-813d-a1d7-d378473e8a69": {
+   "repo": "italyciv-ko",
+   "name": "이탈리아 시빌 (italyciv)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/italyciv-ko/",
+   "type": "fork",
+   "desc": "ISTAT 등 공개 데이터로 그린 전략 게임풍 이탈리아 지도 한글화. 도시·지역 한글 검색 지원 (원본 linker81/italyciv, 코드 MIT)",
+   "category": "2D게임",
+   "date": "2026-11-27",
+   "screenshot": "https://github.com/sigco3111/italyciv-ko/raw/HEAD/screenshots/map.png",
+   "score": 8
+  },
+  "42576f2e-9097-8146-9c48-dcac532d30bd": {
+   "repo": "timberfall-ko",
+   "name": "Timberfall (목골조 철거)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/timberfall-ko/",
+   "type": "fork",
+   "desc": "WebGPU 강체 물리로 목골조 방앗간과 돌다리를 무너뜨리는 1인칭 철거 게임 한글화 (원본 blendi/timberfall, Patch, 코드 MIT·아트 CC0)",
+   "category": "3D",
+   "date": "2026-11-27",
+   "screenshot": "https://github.com/sigco3111/timberfall-ko/raw/HEAD/screenshots/title.png",
+   "score": 8.5
+  },
+  "42576f2e-9097-817d-97f3-c7d5c7328de2": {
+   "repo": "corebreaker2-dungeon",
+   "name": "코어브레이커2 : 와장창 던전",
+   "featured": true,
+   "live": "https://sigco3111.github.io/corebreaker2-dungeon/",
+   "type": "original",
+   "desc": "던전의 방을 통째로 부수는 복셀 파괴 슈터. 소품을 부숴 소환 게이지를 채우고, 나타난 수호자 3체의 장비를 부숴 드러난 코어를 맞혀 붕괴시키는 1인칭 고정 시점 슈터. (원작 sigco3111/everyday-game의 smash)",
+   "category": "3D",
+   "date": "2026-11-27",
+   "screenshot": "https://github.com/sigco3111/corebreaker2-dungeon/raw/HEAD/docs/thumb.png",
+   "score": 7
+  },
+  "42576f2e-9097-81de-999f-fb1fccf7c968": {
+   "repo": "cold-embers-ko",
+   "name": "차가운 잔불의 북행 (Cold Embers)",
+   "featured": true,
+   "live": "https://sigco3111.github.io/cold-embers-ko/",
+   "type": "fork",
+   "desc": "영원한 겨울 속 모닥불을 이어가며 북쪽으로 나아가는 로우폴리 Three.js 도시건설·생존 게임 한글화 (원본 worldv4nquisher-cyber/Cold-Embers, GPL-3.0)",
+   "category": "3D",
+   "date": "2026-11-27",
+   "screenshot": "https://github.com/sigco3111/cold-embers-ko/raw/HEAD/docs/ko-title.png",
+   "score": 8.5
   }
  },
- "_gate_hash": "872515fa5b2fbfb37a466b203dece36f3a25251e0e15941a6ce1ddde91935a07"
+ "_gate_hash": "2ffbc23fae5213445fe95a9a382912e0438b5a93faf5c36f052b0508cf28160b"
 }
